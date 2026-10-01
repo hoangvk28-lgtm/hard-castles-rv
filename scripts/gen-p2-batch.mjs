@@ -52,7 +52,7 @@ for (const m of mods) {
   m.criteria.forEach((c) => { if (c.explanation.split(/(?<=[.!?])\s+/).length < 3) err(s, `criterion too short: ${c.criterion}`); });
   if (m.faq.length < 5 || m.faq.length > 6) err(s, `faq count ${m.faq.length}`);
   if (m.howToChoose.length !== 6) err(s, `howToChoose sections ${m.howToChoose.length} != 6`);
-  if (m.products.length < 5) err(s, "products < 5");
+  if (m.products.length < (Number(process.env.MINP) || 5)) err(s, "products too few");
   if (m.intro.length < 2) err(s, "intro < 2 paragraphs");
   if (m.howWeEvaluated.length < 4) err(s, "howWeEvaluated < 4");
 

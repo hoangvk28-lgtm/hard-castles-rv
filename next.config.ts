@@ -37,6 +37,15 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       { source: "/author", destination: "/about", permanent: true },
+      // P2 keywords merged into a sibling guide (not enough genuine products for a standalone page).
+      { source: "/guide/best-50-amp-rv-converter", destination: "/power-electrical/best-55-amp-rv-converter", permanent: true },
+      { source: "/power-electrical/best-50-amp-rv-converter", destination: "/power-electrical/best-55-amp-rv-converter", permanent: true },
+      { source: "/guide/best-5500-watt-rv-generator", destination: "/power-electrical/best-rv-generator", permanent: true },
+      { source: "/power-electrical/best-5500-watt-rv-generator", destination: "/power-electrical/best-rv-generator", permanent: true },
+      { source: "/guide/best-generator-for-50-amp-rv", destination: "/power-electrical/best-inverter-generator-with-50-amp-rv-plug", permanent: true },
+      { source: "/power-electrical/best-generator-for-50-amp-rv", destination: "/power-electrical/best-inverter-generator-with-50-amp-rv-plug", permanent: true },
+      { source: "/guide/best-30-amp-rv-inverter-charger", destination: "/power-electrical/best-rv-inverter-charger", permanent: true },
+      { source: "/power-electrical/best-30-amp-rv-inverter-charger", destination: "/power-electrical/best-rv-inverter-charger", permanent: true },
       // Routes inherited from the template that this site does not use.
       { source: "/categories/:slug", destination: "/:slug", permanent: false },
       { source: "/categories", destination: "/", permanent: false },

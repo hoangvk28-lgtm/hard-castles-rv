@@ -17,7 +17,9 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 - Consider sulfation, heat damage and BMS protection events
 - Replace a battery only after confirming the charging system
 
-![Why an RV Battery Will Not Hold a Charge diagram 1](/images/informational/rv-batteries/rv-battery-wont-hold-charge-1.svg)
+![Motorhome using roof-mounted and portable solar panels](https://cdn-blog-backend.tiendanube.com/blogs/019/d67/af9/0de7008a1b49e5bd655a427/covers/019e08e5-5645-7552-bb55-5334adaea06c.jpg)
+
+*Motorhome using roof-mounted and portable solar panels. Photo source: [Atacadão de Baterias](https://www.atacadaodebaterias.com.br/blog/posts/energia-solar-para-motorhome-75dcc2c40e54/).*
 
 ![A swollen AGM battery, a sign of overcharging or heat damage](/images/informational/rv-photos/photo-l.webp)
 
@@ -31,7 +33,9 @@ The practical reason to focus on separate self-discharge from an RV parasitic lo
 
 For an RV owner, inspect connections before condemning the battery is not an abstract electrical detail. Use the battery and equipment manuals as the controlling specifications. Generic voltage charts and rules of thumb are useful for orientation, but they cannot override a manufacturer’s limits for charge voltage, temperature, current, cable protection, or storage. If the installation is undocumented, photograph labels and trace conductors before disconnecting anything.
 
-![Why an RV Battery Will Not Hold a Charge diagram 2](/images/informational/rv-batteries/rv-battery-wont-hold-charge-2.svg)
+![RV electrical system with batteries, inverter and solar equipment](https://media.www.mortonsonthemove.com/2023/01/PXL_20220420_153039221-1920x1440.jpg)
+
+*RV electrical system with batteries, inverter and solar equipment. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## The measurements that matter
 
@@ -41,7 +45,9 @@ The safest way to approach this part of RV battery will not hold a charge is to 
 
 In day-to-day camping, check resting voltage after a full charge often separates a clear diagnosis from an expensive guess. Stop if a cable becomes hot, insulation is damaged, a flooded battery is actively gassing in an enclosed space, a lithium battery is swollen, or the battery management system repeatedly disconnects. These are not conditions to bypass for the sake of completing a test. Remove the energy source and use a qualified RV technician when the safe next step is uncertain.
 
-![Why an RV Battery Will Not Hold a Charge diagram 3](/images/informational/rv-batteries/rv-battery-wont-hold-charge-3.svg)
+![Programmable inverter installed for an RV power system](https://media.www.mortonsonthemove.com/2021/01/20181203_182259-1024x576.jpg)
+
+*Programmable inverter installed for an RV power system. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## A safe step-by-step field method
 

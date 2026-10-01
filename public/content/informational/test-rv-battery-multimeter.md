@@ -17,7 +17,9 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 - Recognize when voltage testing cannot prove capacity
 - Use a controlled load test or professional test when needed
 
-![How to Test an RV Battery With a Multimeter diagram 1](/images/informational/rv-batteries/test-rv-battery-multimeter-1.svg)
+![Motorhome using roof-mounted and portable solar panels](https://cdn-blog-backend.tiendanube.com/blogs/019/d67/af9/0de7008a1b49e5bd655a427/covers/019e08e5-5645-7552-bb55-5334adaea06c.jpg)
+
+*Motorhome using roof-mounted and portable solar panels. Photo source: [Atacadão de Baterias](https://www.atacadaodebaterias.com.br/blog/posts/energia-solar-para-motorhome-75dcc2c40e54/).*
 
 ![Checking battery voltage with a digital multimeter](/images/informational/rv-photos/photo-f.webp)
 
@@ -31,7 +33,9 @@ The practical reason to focus on measure at the posts rather than only at cable 
 
 For an RV owner, compare open-circuit voltage with voltage under load is not an abstract electrical detail. Use the battery and equipment manuals as the controlling specifications. Generic voltage charts and rules of thumb are useful for orientation, but they cannot override a manufacturer’s limits for charge voltage, temperature, current, cable protection, or storage. If the installation is undocumented, photograph labels and trace conductors before disconnecting anything.
 
-![How to Test an RV Battery With a Multimeter diagram 2](/images/informational/rv-batteries/test-rv-battery-multimeter-2.svg)
+![RV electrical system with batteries, inverter and solar equipment](https://media.www.mortonsonthemove.com/2023/01/PXL_20220420_153039221-1920x1440.jpg)
+
+*RV electrical system with batteries, inverter and solar equipment. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## The measurements that matter
 
@@ -41,7 +45,9 @@ The safest way to approach this part of test an RV battery with a multimeter is 
 
 In day-to-day camping, allow surface charge to dissipate before interpretation often separates a clear diagnosis from an expensive guess. Stop if a cable becomes hot, insulation is damaged, a flooded battery is actively gassing in an enclosed space, a lithium battery is swollen, or the battery management system repeatedly disconnects. These are not conditions to bypass for the sake of completing a test. Remove the energy source and use a qualified RV technician when the safe next step is uncertain.
 
-![How to Test an RV Battery With a Multimeter diagram 3](/images/informational/rv-batteries/test-rv-battery-multimeter-3.svg)
+![Programmable inverter installed for an RV power system](https://media.www.mortonsonthemove.com/2021/01/20181203_182259-1024x576.jpg)
+
+*Programmable inverter installed for an RV power system. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## A safe step-by-step field method
 

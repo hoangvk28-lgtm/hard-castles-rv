@@ -17,7 +17,9 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 - Use repeatable tests rather than calendar age alone
 - Plan replacement before a remote trip
 
-![How Long RV Batteries Last in Real Use diagram 1](/images/informational/rv-batteries/how-long-rv-batteries-last-1.svg)
+![Motorhome using roof-mounted and portable solar panels](https://cdn-blog-backend.tiendanube.com/blogs/019/d67/af9/0de7008a1b49e5bd655a427/covers/019e08e5-5645-7552-bb55-5334adaea06c.jpg)
+
+*Motorhome using roof-mounted and portable solar panels. Photo source: [Atacadão de Baterias](https://www.atacadaodebaterias.com.br/blog/posts/energia-solar-para-motorhome-75dcc2c40e54/).*
 
 ![A swollen AGM battery, a sign of overcharging or heat damage](/images/informational/rv-photos/photo-l.webp)
 
@@ -31,7 +33,9 @@ In day-to-day camping, track depth of discharge and time spent partly charged of
 
 The practical reason to focus on consider heat, vibration and storage conditions is reliability. Record the starting condition, change only one variable, and then repeat the same measurement. That simple discipline matters because an RV battery system is rarely at rest: a refrigerator board, detector, router, furnace fan, solar controller, converter, or inverter may be changing the reading while you work. A number without operating context can look precise and still lead to the wrong conclusion.
 
-![How Long RV Batteries Last in Real Use diagram 2](/images/informational/rv-batteries/how-long-rv-batteries-last-2.svg)
+![RV electrical system with batteries, inverter and solar equipment](https://media.www.mortonsonthemove.com/2023/01/PXL_20220420_153039221-1920x1440.jpg)
+
+*RV electrical system with batteries, inverter and solar equipment. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## The measurements that matter
 
@@ -41,7 +45,9 @@ A useful field check begins when you consider heat, vibration and storage condit
 
 The safest way to approach this part of how long RV batteries last is to recognize the effect of chronic undercharging on lead-acid batteries. The goal is not to force every system toward a universal number. The goal is to learn what normal looks like for this RV and notice meaningful change. Keep a short log with date, ambient temperature, state of charge, active loads and charging source. That baseline makes later troubleshooting faster and more defensible.
 
-![How Long RV Batteries Last in Real Use diagram 3](/images/informational/rv-batteries/how-long-rv-batteries-last-3.svg)
+![Programmable inverter installed for an RV power system](https://media.www.mortonsonthemove.com/2021/01/20181203_182259-1024x576.jpg)
+
+*Programmable inverter installed for an RV power system. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## A safe step-by-step field method
 

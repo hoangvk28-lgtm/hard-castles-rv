@@ -17,7 +17,9 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 - Keep batteries matched in chemistry, capacity and age
 - Use individual protection where the design requires it
 
-![How to Balance a Multi-Battery RV Bank diagram 1](/images/informational/rv-batteries/balance-multi-battery-rv-bank-1.svg)
+![Motorhome using roof-mounted and portable solar panels](https://cdn-blog-backend.tiendanube.com/blogs/019/d67/af9/0de7008a1b49e5bd655a427/covers/019e08e5-5645-7552-bb55-5334adaea06c.jpg)
+
+*Motorhome using roof-mounted and portable solar panels. Photo source: [Atacadão de Baterias](https://www.atacadaodebaterias.com.br/blog/posts/energia-solar-para-motorhome-75dcc2c40e54/).*
 
 ![LiFePO4 cells joined with busbars in a series and parallel layout](/images/informational/rv-photos/photo-e.webp)
 
@@ -31,7 +33,9 @@ For an RV owner, use equal cable lengths and conductor sizes is not an abstract 
 
 A useful field check begins when you take system positive and negative from opposite ends or busbars. Think in terms of the complete circuit rather than a single component. Energy must travel through conductors, connections, fuses, switches and return paths. A loose lug or undersized cable can imitate a weak battery because voltage collapses only when current rises. Measure at more than one point and compare the results under the same load.
 
-![How to Balance a Multi-Battery RV Bank diagram 2](/images/informational/rv-batteries/balance-multi-battery-rv-bank-2.svg)
+![RV electrical system with batteries, inverter and solar equipment](https://media.www.mortonsonthemove.com/2023/01/PXL_20220420_153039221-1920x1440.jpg)
+
+*RV electrical system with batteries, inverter and solar equipment. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## The measurements that matter
 
@@ -41,7 +45,9 @@ In day-to-day camping, take system positive and negative from opposite ends or b
 
 The practical reason to focus on avoid stacking many lugs on battery posts is reliability. Record the starting condition, change only one variable, and then repeat the same measurement. That simple discipline matters because an RV battery system is rarely at rest: a refrigerator board, detector, router, furnace fan, solar controller, converter, or inverter may be changing the reading while you work. A number without operating context can look precise and still lead to the wrong conclusion.
 
-![How to Balance a Multi-Battery RV Bank diagram 3](/images/informational/rv-batteries/balance-multi-battery-rv-bank-3.svg)
+![Programmable inverter installed for an RV power system](https://media.www.mortonsonthemove.com/2021/01/20181203_182259-1024x576.jpg)
+
+*Programmable inverter installed for an RV power system. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## A safe step-by-step field method
 

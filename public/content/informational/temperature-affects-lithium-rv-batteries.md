@@ -17,7 +17,9 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 - Reduce exposure to sustained high temperatures
 - Follow the exact battery manufacturer temperature limits
 
-![How Temperature Affects Lithium RV Batteries diagram 1](/images/informational/rv-batteries/temperature-affects-lithium-rv-batteries-1.svg)
+![Motorhome using roof-mounted and portable solar panels](https://cdn-blog-backend.tiendanube.com/blogs/019/d67/af9/0de7008a1b49e5bd655a427/covers/019e08e5-5645-7552-bb55-5334adaea06c.jpg)
+
+*Motorhome using roof-mounted and portable solar panels. Photo source: [Atacadão de Baterias](https://www.atacadaodebaterias.com.br/blog/posts/energia-solar-para-motorhome-75dcc2c40e54/).*
 
 ![A motorhome on an open highway](/images/informational/rv-photos/photo-x.webp)
 
@@ -31,7 +33,9 @@ The safest way to approach this part of temperature effects on lithium RV batter
 
 In day-to-day camping, use a BMS with low-temperature charge cutoff often separates a clear diagnosis from an expensive guess. Stop if a cable becomes hot, insulation is damaged, a flooded battery is actively gassing in an enclosed space, a lithium battery is swollen, or the battery management system repeatedly disconnects. These are not conditions to bypass for the sake of completing a test. Remove the energy source and use a qualified RV technician when the safe next step is uncertain.
 
-![How Temperature Affects Lithium RV Batteries diagram 2](/images/informational/rv-batteries/temperature-affects-lithium-rv-batteries-2.svg)
+![RV electrical system with batteries, inverter and solar equipment](https://media.www.mortonsonthemove.com/2023/01/PXL_20220420_153039221-1920x1440.jpg)
+
+*RV electrical system with batteries, inverter and solar equipment. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## The measurements that matter
 
@@ -41,7 +45,9 @@ For an RV owner, use a BMS with low-temperature charge cutoff is not an abstract
 
 A useful field check begins when you place batteries in a protected but ventilated compartment. Think in terms of the complete circuit rather than a single component. Energy must travel through conductors, connections, fuses, switches and return paths. A loose lug or undersized cable can imitate a weak battery because voltage collapses only when current rises. Measure at more than one point and compare the results under the same load.
 
-![How Temperature Affects Lithium RV Batteries diagram 3](/images/informational/rv-batteries/temperature-affects-lithium-rv-batteries-3.svg)
+![Programmable inverter installed for an RV power system](https://media.www.mortonsonthemove.com/2021/01/20181203_182259-1024x576.jpg)
+
+*Programmable inverter installed for an RV power system. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## A safe step-by-step field method
 

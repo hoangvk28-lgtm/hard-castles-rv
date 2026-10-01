@@ -17,7 +17,9 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 - Configure chemistry and temperature limits
 - Verify ignition triggering and shutdown behavior
 
-![DC-to-DC Chargers Explained for RV Owners diagram 1](/images/informational/rv-batteries/dc-to-dc-chargers-rv-1.svg)
+![Motorhome using roof-mounted and portable solar panels](https://cdn-blog-backend.tiendanube.com/blogs/019/d67/af9/0de7008a1b49e5bd655a427/covers/019e08e5-5645-7552-bb55-5334adaea06c.jpg)
+
+*Motorhome using roof-mounted and portable solar panels. Photo source: [Atacadão de Baterias](https://www.atacadaodebaterias.com.br/blog/posts/energia-solar-para-motorhome-75dcc2c40e54/).*
 
 ![An auxiliary battery wired to a smart charger in a vehicle](/images/informational/rv-photos/photo-b.webp)
 
@@ -31,7 +33,9 @@ A useful field check begins when you limit current to protect wiring and the alt
 
 The safest way to approach this part of RV DC-to-DC chargers is to support smart alternators that reduce output voltage. The goal is not to force every system toward a universal number. The goal is to learn what normal looks like for this RV and notice meaningful change. Keep a short log with date, ambient temperature, state of charge, active loads and charging source. That baseline makes later troubleshooting faster and more defensible.
 
-![DC-to-DC Chargers Explained for RV Owners diagram 2](/images/informational/rv-batteries/dc-to-dc-chargers-rv-2.svg)
+![RV electrical system with batteries, inverter and solar equipment](https://media.www.mortonsonthemove.com/2023/01/PXL_20220420_153039221-1920x1440.jpg)
+
+*RV electrical system with batteries, inverter and solar equipment. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## The measurements that matter
 
@@ -41,7 +45,9 @@ The practical reason to focus on support smart alternators that reduce output vo
 
 For an RV owner, select an output current the vehicle can sustain is not an abstract electrical detail. Use the battery and equipment manuals as the controlling specifications. Generic voltage charts and rules of thumb are useful for orientation, but they cannot override a manufacturer’s limits for charge voltage, temperature, current, cable protection, or storage. If the installation is undocumented, photograph labels and trace conductors before disconnecting anything.
 
-![DC-to-DC Chargers Explained for RV Owners diagram 3](/images/informational/rv-batteries/dc-to-dc-chargers-rv-3.svg)
+![Programmable inverter installed for an RV power system](https://media.www.mortonsonthemove.com/2021/01/20181203_182259-1024x576.jpg)
+
+*Programmable inverter installed for an RV power system. Photo source: [Mortons on the Move](https://www.mortonsonthemove.com/how-to-switch-to-lithium-rv-batteries/).*
 
 ## A safe step-by-step field method
 

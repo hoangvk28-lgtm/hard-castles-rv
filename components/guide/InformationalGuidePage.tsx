@@ -20,7 +20,7 @@ function plainText(value: string) {
   return value
     .replace(/!\[[^\]]*\]\([^)]+\)/g, "")
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-    .replace(/[*_`>#-]/g, "")
+    .replace(/[*_`>#]/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -157,7 +157,7 @@ export function InformationalGuidePage({ guide }: { guide: InformationalGuide })
               <p className="eyebrow">Continue reading</p>
               <h2 id="related-heading" className="mt-2 text-[1.5rem]">Related Hardcastle’s RV guides</h2>
               <ul className="mt-4 space-y-3">
-                {guide.related.map((item) => <li key={item.href}><Link href={item.href} className="font-semibold underline decoration-brand/40 underline-offset-4 hover:decoration-brand">{item.title} →</Link></li>)}
+                {guide.related.map((item) => <li key={item.href}><Link prefetch={false} href={item.href} className="font-semibold underline decoration-brand/40 underline-offset-4 hover:decoration-brand">{item.title} →</Link></li>)}
               </ul>
             </section>
               </>

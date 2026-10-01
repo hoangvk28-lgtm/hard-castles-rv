@@ -73,14 +73,14 @@ export function guideSectionHeadings(
     ? {
         howWeChose: "How We Built This Shortlist",
         whatToLookFor: `What Matters Before You Choose ${indefiniteArticle(singular)} ${singular}`,
-        howToChoose: `Match ${indefiniteArticle(singular)} ${singular} to Your Garden or Yard`,
+        howToChoose: `Match ${indefiniteArticle(singular)} ${singular} to Your RV`,
       }
     : plural
     ? {
         howWeChose: "How We Built This Shortlist",
         whatToLookFor: `What Matters When Comparing ${plural}`,
-        howToChoose: `Match ${plural} to Your Garden or Yard`,
+        howToChoose: `Match ${plural} to Your RV`,
       }
-    : { howWeChose: "How We Built This Shortlist", whatToLookFor: "What Matters Before You Choose", howToChoose: "Match the Tool to the Job" };
+    : { howWeChose: "How We Built This Shortlist", whatToLookFor: "What Matters Before You Choose", howToChoose: "Match the Gear to Your RV" };
   return { ...defaults, ...overrides };
 }

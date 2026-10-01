@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![RV Battery State of Charge Explained diagram 1](/images/informational/rv-batteries/rv-battery-state-of-charge-1.svg)
 
+![A 500A battery-monitor shunt of the kind used with Victron BMV monitors](/images/informational/rv-photos/photo-g.webp)
+
+*A 500A battery-monitor shunt of the kind used with Victron BMV monitors. Photo: S.J. de Waard, [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:SHUNT_-_500A_50mV_-_VICTRON_TYPE_(ISSUED_WITH_BMV602S_and_BMV702_Battery_Monitors)_(500A50MV).JPG) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 A useful field check begins when you distinguish state of charge from state of health. Think in terms of the complete circuit rather than a single component. Energy must travel through conductors, connections, fuses, switches and return paths. A loose lug or undersized cable can imitate a weak battery because voltage collapses only when current rises. Measure at more than one point and compare the results under the same load.
@@ -69,6 +73,10 @@ The safest way to approach this part of RV battery state of charge is to underst
 ![How to interpret what you find diagram for RV battery state of charge](/images/informational/rv-batteries/rv-battery-state-of-charge-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A 12-volt 200Ah lithium iron phosphate (LiFePO4) battery](/images/informational/rv-photos/photo-d.webp)
+
+*A 12-volt 200Ah lithium iron phosphate (LiFePO4) battery. Photo: HasanAbuarja, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:12V_200Ah_lithium_iron_phosphate_battery.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

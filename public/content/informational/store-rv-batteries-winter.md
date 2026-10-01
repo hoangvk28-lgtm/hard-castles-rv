@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![Safe RV Battery Storage for Winter diagram 1](/images/informational/rv-batteries/store-rv-batteries-winter-1.svg)
 
+![Caravans parked together for winter storage](/images/informational/rv-photos/photo-w.webp)
+
+*Caravans parked together for winter storage. Photo: Geoff Charles, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Caravans_parked_together_for_the_winter_(1516371).jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 For an RV owner, fully charge lead-acid batteries before storage is not an abstract electrical detail. Use the battery and equipment manuals as the controlling specifications. Generic voltage charts and rules of thumb are useful for orientation, but they cannot override a manufacturer’s limits for charge voltage, temperature, current, cable protection, or storage. If the installation is undocumented, photograph labels and trace conductors before disconnecting anything.
@@ -69,6 +73,10 @@ A useful field check begins when you keep terminals clean and protected. Think i
 ![How to interpret what you find diagram for store RV batteries for winter](/images/informational/rv-batteries/store-rv-batteries-winter-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![An auxiliary battery wired to a smart charger in a vehicle](/images/informational/rv-photos/photo-b.webp)
+
+*An auxiliary battery wired to a smart charger in a vehicle. Photo: Stephan Ridgway from Brisbane, Australia, [CC BY 2.0](https://commons.wikimedia.org/wiki/File:Auxiliary_Battery_%26_CTEK_charger.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

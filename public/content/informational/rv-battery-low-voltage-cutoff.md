@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![RV Battery Low-Voltage Cutoffs Explained diagram 1](/images/informational/rv-batteries/rv-battery-low-voltage-cutoff-1.svg)
 
+![A small 12-volt power inverter with a USB port](/images/informational/rv-photos/photo-k.webp)
+
+*A small 12-volt power inverter with a USB port. Photo: Zuzu, [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:Xantrex_175w_power_inverter_with_USB.jpeg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 The safest way to approach this part of RV battery low-voltage cutoff is to distinguish an inverter cutoff from a battery BMS shutdown. The goal is not to force every system toward a universal number. The goal is to learn what normal looks like for this RV and notice meaningful change. Keep a short log with date, ambient temperature, state of charge, active loads and charging source. That baseline makes later troubleshooting faster and more defensible.
@@ -69,6 +73,10 @@ In day-to-day camping, protect lead-acid batteries from damaging deep discharge 
 ![How to interpret what you find diagram for RV battery low-voltage cutoff](/images/informational/rv-batteries/rv-battery-low-voltage-cutoff-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A 500A battery-monitor shunt of the kind used with Victron BMV monitors](/images/informational/rv-photos/photo-g.webp)
+
+*A 500A battery-monitor shunt of the kind used with Victron BMV monitors. Photo: S.J. de Waard, [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:SHUNT_-_500A_50mV_-_VICTRON_TYPE_(ISSUED_WITH_BMV602S_and_BMV702_Battery_Monitors)_(500A50MV).JPG) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

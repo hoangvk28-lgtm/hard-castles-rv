@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How to Find Parasitic Draw in an RV diagram 1](/images/informational/rv-batteries/find-parasitic-draw-rv-1.svg)
 
+![Checking battery voltage with a digital multimeter](/images/informational/rv-photos/photo-f.webp)
+
+*Checking battery voltage with a digital multimeter. Photo: Jiazheng0609, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Testing_voltage_of_a_battery_using_a_digital_multimeter.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 For an RV owner, use a shunt or clamp meter before opening circuits is not an abstract electrical detail. Use the battery and equipment manuals as the controlling specifications. Generic voltage charts and rules of thumb are useful for orientation, but they cannot override a manufacturer’s limits for charge voltage, temperature, current, cable protection, or storage. If the installation is undocumented, photograph labels and trace conductors before disconnecting anything.
@@ -69,6 +73,10 @@ A useful field check begins when you allow electronic modules time to go to slee
 ![How to interpret what you find diagram for find parasitic draw in an RV](/images/informational/rv-batteries/find-parasitic-draw-rv-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A 500A battery-monitor shunt of the kind used with Victron BMV monitors](/images/informational/rv-photos/photo-g.webp)
+
+*A 500A battery-monitor shunt of the kind used with Victron BMV monitors. Photo: S.J. de Waard, [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:SHUNT_-_500A_50mV_-_VICTRON_TYPE_(ISSUED_WITH_BMV602S_and_BMV702_Battery_Monitors)_(500A50MV).JPG) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

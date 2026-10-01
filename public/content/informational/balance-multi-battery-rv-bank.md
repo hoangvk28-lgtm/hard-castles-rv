@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How to Balance a Multi-Battery RV Bank diagram 1](/images/informational/rv-batteries/balance-multi-battery-rv-bank-1.svg)
 
+![LiFePO4 cells joined with busbars in a series and parallel layout](/images/informational/rv-photos/photo-e.webp)
+
+*LiFePO4 cells joined with busbars in a series and parallel layout. Photo: Yo-Co-Man, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Lithium_Iron_Phosphate_LiFePO4_Cells_700Ah_in_Parallel_and_Series_and_Busbar_-_1.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 The practical reason to focus on make resistance similar across parallel battery paths is reliability. Record the starting condition, change only one variable, and then repeat the same measurement. That simple discipline matters because an RV battery system is rarely at rest: a refrigerator board, detector, router, furnace fan, solar controller, converter, or inverter may be changing the reading while you work. A number without operating context can look precise and still lead to the wrong conclusion.
@@ -69,6 +73,10 @@ For an RV owner, check connections for heat and voltage drop is not an abstract 
 ![How to interpret what you find diagram for balance a multi-battery RV bank](/images/informational/rv-batteries/balance-multi-battery-rv-bank-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A 12-volt deep-cycle battery of the type used for RV house power](/images/informational/rv-photos/photo-a.webp)
+
+*A 12-volt deep-cycle battery of the type used for RV house power. Photo: TaurusEmerald, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Super_Start_Marine_RV_Deep_Cycle_Battery.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

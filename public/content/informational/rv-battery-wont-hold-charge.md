@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![Why an RV Battery Will Not Hold a Charge diagram 1](/images/informational/rv-batteries/rv-battery-wont-hold-charge-1.svg)
 
+![A swollen AGM battery, a sign of overcharging or heat damage](/images/informational/rv-photos/photo-l.webp)
+
+*A swollen AGM battery, a sign of overcharging or heat damage. Photo: User:Bullenwächter, [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:Puffed_up_AGM_battery.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 In day-to-day camping, verify that the charger reaches the battery often separates a clear diagnosis from an expensive guess. Stop if a cable becomes hot, insulation is damaged, a flooded battery is actively gassing in an enclosed space, a lithium battery is swollen, or the battery management system repeatedly disconnects. These are not conditions to bypass for the sake of completing a test. Remove the energy source and use a qualified RV technician when the safe next step is uncertain.
@@ -69,6 +73,10 @@ The practical reason to focus on look for one weak battery in a multi-battery ba
 ![How to interpret what you find diagram for RV battery will not hold a charge](/images/informational/rv-batteries/rv-battery-wont-hold-charge-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![Corrosion built up on a battery terminal](/images/informational/rv-photos/photo-h.webp)
+
+*Corrosion built up on a battery terminal. Photo: MarkBuckawicki, [CC0](https://commons.wikimedia.org/wiki/File:Battery_Terminal_Corrision.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

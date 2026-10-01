@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![RV Battery Types Explained: Flooded, AGM and Lithium diagram 1](/images/informational/rv-batteries/rv-battery-types-explained-1.svg)
 
+![A sealed 12-volt VRLA gel battery](/images/informational/rv-photos/photo-m.webp)
+
+*A sealed 12-volt VRLA gel battery. Photo: Paxtonphan, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:12V_VRLA_Gel_Battery.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 For an RV owner, compare usable capacity instead of the label alone is not an abstract electrical detail. Use the battery and equipment manuals as the controlling specifications. Generic voltage charts and rules of thumb are useful for orientation, but they cannot override a manufacturer’s limits for charge voltage, temperature, current, cable protection, or storage. If the installation is undocumented, photograph labels and trace conductors before disconnecting anything.
@@ -69,6 +73,10 @@ A useful field check begins when you avoid mixing different ages, capacities or 
 ![How to interpret what you find diagram for RV battery types](/images/informational/rv-batteries/rv-battery-types-explained-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A 12-volt 200Ah lithium iron phosphate (LiFePO4) battery](/images/informational/rv-photos/photo-d.webp)
+
+*A 12-volt 200Ah lithium iron phosphate (LiFePO4) battery. Photo: HasanAbuarja, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:12V_200Ah_lithium_iron_phosphate_battery.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

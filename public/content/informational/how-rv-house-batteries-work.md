@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How RV House Batteries Work diagram 1](/images/informational/rv-batteries/how-rv-house-batteries-work-1.svg)
 
+![A 12-volt deep-cycle battery of the type used for RV house power](/images/informational/rv-photos/photo-a.webp)
+
+*A 12-volt deep-cycle battery of the type used for RV house power. Photo: TaurusEmerald, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Super_Start_Marine_RV_Deep_Cycle_Battery.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 The practical reason to focus on separate the house bank from the chassis battery is reliability. Record the starting condition, change only one variable, and then repeat the same measurement. That simple discipline matters because an RV battery system is rarely at rest: a refrigerator board, detector, router, furnace fan, solar controller, converter, or inverter may be changing the reading while you work. A number without operating context can look precise and still lead to the wrong conclusion.
@@ -69,6 +73,10 @@ For an RV owner, distinguish charging voltage from resting voltage is not an abs
 ![How to interpret what you find diagram for rv house batteries](/images/informational/rv-batteries/how-rv-house-batteries-work-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A combined inverter-charger installation](/images/informational/rv-photos/photo-j.webp)
+
+*A combined inverter-charger installation. Photo: Asurnipal, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Alberschwende-Inverter_and_Charger_victron_energy_Quattro_10000-01ASD.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

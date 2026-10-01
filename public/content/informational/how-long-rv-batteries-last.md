@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How Long RV Batteries Last in Real Use diagram 1](/images/informational/rv-batteries/how-long-rv-batteries-last-1.svg)
 
+![A swollen AGM battery, a sign of overcharging or heat damage](/images/informational/rv-photos/photo-l.webp)
+
+*A swollen AGM battery, a sign of overcharging or heat damage. Photo: User:Bullenwächter, [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:Puffed_up_AGM_battery.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 The safest way to approach this part of how long RV batteries last is to separate runtime per trip from total service life. The goal is not to force every system toward a universal number. The goal is to learn what normal looks like for this RV and notice meaningful change. Keep a short log with date, ambient temperature, state of charge, active loads and charging source. That baseline makes later troubleshooting faster and more defensible.
@@ -69,6 +73,10 @@ In day-to-day camping, compare remaining capacity with the demands of the RV oft
 ![How to interpret what you find diagram for how long RV batteries last](/images/informational/rv-batteries/how-long-rv-batteries-last-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A 12-volt deep-cycle battery of the type used for RV house power](/images/informational/rv-photos/photo-a.webp)
+
+*A 12-volt deep-cycle battery of the type used for RV house power. Photo: TaurusEmerald, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Super_Start_Marine_RV_Deep_Cycle_Battery.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

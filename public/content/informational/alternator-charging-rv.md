@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How Alternator Charging Works in an RV diagram 1](/images/informational/rv-batteries/alternator-charging-rv-1.svg)
 
+![A vehicle engine bay, where the belt-driven alternator charges the batteries](/images/informational/rv-photos/photo-i.webp)
+
+*A vehicle engine bay, where the belt-driven alternator charges the batteries. Photo: simonov, [CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:Alternator_in.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 The practical reason to focus on distinguish motorhome charging from seven-pin trailer charging is reliability. Record the starting condition, change only one variable, and then repeat the same measurement. That simple discipline matters because an RV battery system is rarely at rest: a refrigerator board, detector, router, furnace fan, solar controller, converter, or inverter may be changing the reading while you work. A number without operating context can look precise and still lead to the wrong conclusion.
@@ -69,6 +73,10 @@ For an RV owner, understand heat as the practical alternator limit is not an abs
 ![How to interpret what you find diagram for RV alternator charging](/images/informational/rv-batteries/alternator-charging-rv-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![An auxiliary battery wired to a smart charger in a vehicle](/images/informational/rv-photos/photo-b.webp)
+
+*An auxiliary battery wired to a smart charger in a vehicle. Photo: Stephan Ridgway from Brisbane, Australia, [CC BY 2.0](https://commons.wikimedia.org/wiki/File:Auxiliary_Battery_%26_CTEK_charger.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

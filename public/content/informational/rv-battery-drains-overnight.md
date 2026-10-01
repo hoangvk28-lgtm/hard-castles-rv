@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![Why an RV Battery Drains Overnight diagram 1](/images/informational/rv-batteries/rv-battery-drains-overnight-1.svg)
 
+![A 500A battery-monitor shunt of the kind used with Victron BMV monitors](/images/informational/rv-photos/photo-g.webp)
+
+*A 500A battery-monitor shunt of the kind used with Victron BMV monitors. Photo: S.J. de Waard, [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:SHUNT_-_500A_50mV_-_VICTRON_TYPE_(ISSUED_WITH_BMV602S_and_BMV702_Battery_Monitors)_(500A50MV).JPG) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 The practical reason to focus on confirm the battery was actually full before sunset is reliability. Record the starting condition, change only one variable, and then repeat the same measurement. That simple discipline matters because an RV battery system is rarely at rest: a refrigerator board, detector, router, furnace fan, solar controller, converter, or inverter may be changing the reading while you work. A number without operating context can look precise and still lead to the wrong conclusion.
@@ -69,6 +73,10 @@ For an RV owner, separate parasitic draw from a weak battery is not an abstract 
 ![How to interpret what you find diagram for RV battery drains overnight](/images/informational/rv-batteries/rv-battery-drains-overnight-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A small 12-volt power inverter with a USB port](/images/informational/rv-photos/photo-k.webp)
+
+*A small 12-volt power inverter with a USB port. Photo: Zuzu, [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:Xantrex_175w_power_inverter_with_USB.jpeg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

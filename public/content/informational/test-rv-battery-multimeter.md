@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How to Test an RV Battery With a Multimeter diagram 1](/images/informational/rv-batteries/test-rv-battery-multimeter-1.svg)
 
+![Checking battery voltage with a digital multimeter](/images/informational/rv-photos/photo-f.webp)
+
+*Checking battery voltage with a digital multimeter. Photo: Jiazheng0609, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Testing_voltage_of_a_battery_using_a_digital_multimeter.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 In day-to-day camping, set the meter for DC voltage before touching the probes often separates a clear diagnosis from an expensive guess. Stop if a cable becomes hot, insulation is damaged, a flooded battery is actively gassing in an enclosed space, a lithium battery is swollen, or the battery management system repeatedly disconnects. These are not conditions to bypass for the sake of completing a test. Remove the energy source and use a qualified RV technician when the safe next step is uncertain.
@@ -69,6 +73,10 @@ The practical reason to focus on avoid short circuits around exposed battery ter
 ![How to interpret what you find diagram for test an RV battery with a multimeter](/images/informational/rv-batteries/test-rv-battery-multimeter-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![Corrosion built up on a battery terminal](/images/informational/rv-photos/photo-h.webp)
+
+*Corrosion built up on a battery terminal. Photo: MarkBuckawicki, [CC0](https://commons.wikimedia.org/wiki/File:Battery_Terminal_Corrision.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

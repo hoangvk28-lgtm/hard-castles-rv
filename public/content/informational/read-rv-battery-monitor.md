@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How to Read an RV Battery Monitor diagram 1](/images/informational/rv-batteries/read-rv-battery-monitor-1.svg)
 
+![A 500A battery-monitor shunt of the kind used with Victron BMV monitors](/images/informational/rv-photos/photo-g.webp)
+
+*A 500A battery-monitor shunt of the kind used with Victron BMV monitors. Photo: S.J. de Waard, [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:SHUNT_-_500A_50mV_-_VICTRON_TYPE_(ISSUED_WITH_BMV602S_and_BMV702_Battery_Monitors)_(500A50MV).JPG) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 The safest way to approach this part of read an RV battery monitor is to interpret state of charge without trusting one number blindly. The goal is not to force every system toward a universal number. The goal is to learn what normal looks like for this RV and notice meaningful change. Keep a short log with date, ambient temperature, state of charge, active loads and charging source. That baseline makes later troubleshooting faster and more defensible.
@@ -69,6 +73,10 @@ In day-to-day camping, set battery capacity and charge parameters correctly ofte
 ![How to interpret what you find diagram for read an RV battery monitor](/images/informational/rv-batteries/read-rv-battery-monitor-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![Checking battery voltage with a digital multimeter](/images/informational/rv-photos/photo-f.webp)
+
+*Checking battery voltage with a digital multimeter. Photo: Jiazheng0609, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Testing_voltage_of_a_battery_using_a_digital_multimeter.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

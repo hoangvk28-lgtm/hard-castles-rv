@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How Temperature Affects Lithium RV Batteries diagram 1](/images/informational/rv-batteries/temperature-affects-lithium-rv-batteries-1.svg)
 
+![A motorhome on an open highway](/images/informational/rv-photos/photo-x.webp)
+
+*A motorhome on an open highway. Photo: Mohamed ISSE ABDULLAHI, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Caravan_in_winter.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 A useful field check begins when you separate discharge limits from charge limits. Think in terms of the complete circuit rather than a single component. Energy must travel through conductors, connections, fuses, switches and return paths. A loose lug or undersized cable can imitate a weak battery because voltage collapses only when current rises. Measure at more than one point and compare the results under the same load.
@@ -69,6 +73,10 @@ The safest way to approach this part of temperature effects on lithium RV batter
 ![How to interpret what you find diagram for temperature effects on lithium RV batteries](/images/informational/rv-batteries/temperature-affects-lithium-rv-batteries-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A 12-volt 200Ah lithium iron phosphate (LiFePO4) battery](/images/informational/rv-photos/photo-d.webp)
+
+*A 12-volt 200Ah lithium iron phosphate (LiFePO4) battery. Photo: HasanAbuarja, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:12V_200Ah_lithium_iron_phosphate_battery.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

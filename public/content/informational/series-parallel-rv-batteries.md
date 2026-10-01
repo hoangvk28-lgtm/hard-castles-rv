@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How to Connect RV Batteries in Series and Parallel diagram 1](/images/informational/rv-batteries/series-parallel-rv-batteries-1.svg)
 
+![LiFePO4 cells joined with busbars in a series and parallel layout](/images/informational/rv-photos/photo-e.webp)
+
+*LiFePO4 cells joined with busbars in a series and parallel layout. Photo: Yo-Co-Man, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Lithium_Iron_Phosphate_LiFePO4_Cells_700Ah_in_Parallel_and_Series_and_Busbar_-_1.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 In day-to-day camping, use series connections to increase voltage often separates a clear diagnosis from an expensive guess. Stop if a cable becomes hot, insulation is damaged, a flooded battery is actively gassing in an enclosed space, a lithium battery is swollen, or the battery management system repeatedly disconnects. These are not conditions to bypass for the sake of completing a test. Remove the energy source and use a qualified RV technician when the safe next step is uncertain.
@@ -69,6 +73,10 @@ The practical reason to focus on keep parallel paths electrically symmetrical is
 ![How to interpret what you find diagram for connect RV batteries in series and parallel](/images/informational/rv-batteries/series-parallel-rv-batteries-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A 12-volt 200Ah lithium iron phosphate (LiFePO4) battery](/images/informational/rv-photos/photo-d.webp)
+
+*A 12-volt 200Ah lithium iron phosphate (LiFePO4) battery. Photo: HasanAbuarja, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:12V_200Ah_lithium_iron_phosphate_battery.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

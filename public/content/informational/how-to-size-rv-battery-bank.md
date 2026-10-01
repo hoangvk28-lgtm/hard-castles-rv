@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How to Size an RV Battery Bank diagram 1](/images/informational/rv-batteries/how-to-size-rv-battery-bank-1.svg)
 
+![A portable flexible solar panel kit wired to an auxiliary battery](/images/informational/rv-photos/photo-c.webp)
+
+*A portable flexible solar panel kit wired to an auxiliary battery. Photo: Stephan Ridgway from Brisbane, Australia, [CC BY 2.0](https://commons.wikimedia.org/wiki/File:Eco-Camper_125W_Flexible_Solar_Panel.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 A useful field check begins when you list every 12-volt and inverter-powered load. Think in terms of the complete circuit rather than a single component. Energy must travel through conductors, connections, fuses, switches and return paths. A loose lug or undersized cable can imitate a weak battery because voltage collapses only when current rises. Measure at more than one point and compare the results under the same load.
@@ -69,6 +73,10 @@ The safest way to approach this part of size an RV battery bank is to add a rese
 ![How to interpret what you find diagram for size an RV battery bank](/images/informational/rv-batteries/how-to-size-rv-battery-bank-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A 12-volt deep-cycle battery of the type used for RV house power](/images/informational/rv-photos/photo-a.webp)
+
+*A 12-volt deep-cycle battery of the type used for RV house power. Photo: TaurusEmerald, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Super_Start_Marine_RV_Deep_Cycle_Battery.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

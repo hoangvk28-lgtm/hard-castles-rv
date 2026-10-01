@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![RV Battery Cable Size and Voltage Drop Explained diagram 1](/images/informational/rv-batteries/rv-battery-cable-size-1.svg)
 
+![LiFePO4 cells joined with busbars in a series and parallel layout](/images/informational/rv-photos/photo-e.webp)
+
+*LiFePO4 cells joined with busbars in a series and parallel layout. Photo: Yo-Co-Man, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Lithium_Iron_Phosphate_LiFePO4_Cells_700Ah_in_Parallel_and_Series_and_Busbar_-_1.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 The safest way to approach this part of RV battery cable size is to calculate current from the actual load or charger rating. The goal is not to force every system toward a universal number. The goal is to learn what normal looks like for this RV and notice meaningful change. Keep a short log with date, ambient temperature, state of charge, active loads and charging source. That baseline makes later troubleshooting faster and more defensible.
@@ -69,6 +73,10 @@ In day-to-day camping, crimp and protect lugs correctly often separates a clear 
 ![How to interpret what you find diagram for RV battery cable size](/images/informational/rv-batteries/rv-battery-cable-size-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![Corrosion built up on a battery terminal](/images/informational/rv-photos/photo-h.webp)
+
+*Corrosion built up on a battery terminal. Photo: MarkBuckawicki, [CC0](https://commons.wikimedia.org/wiki/File:Battery_Terminal_Corrision.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

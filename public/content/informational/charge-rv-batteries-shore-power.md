@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How to Charge RV Batteries From Shore Power diagram 1](/images/informational/rv-batteries/charge-rv-batteries-shore-power-1.svg)
 
+![A plug-in lead-acid battery charger](/images/informational/rv-photos/photo-n.webp)
+
+*A plug-in lead-acid battery charger. Photo: Raimond Spekking, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Absaar_lead-acid_battery_charger-4586.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 In day-to-day camping, trace shore power through the breaker panel to the converter often separates a clear diagnosis from an expensive guess. Stop if a cable becomes hot, insulation is damaged, a flooded battery is actively gassing in an enclosed space, a lithium battery is swollen, or the battery management system repeatedly disconnects. These are not conditions to bypass for the sake of completing a test. Remove the energy source and use a qualified RV technician when the safe next step is uncertain.
@@ -69,6 +73,10 @@ The practical reason to focus on recognize bulk, absorption and maintenance beha
 ![How to interpret what you find diagram for charge RV batteries from shore power](/images/informational/rv-batteries/charge-rv-batteries-shore-power-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![RVs and trailers parked at a campground with hookups](/images/informational/rv-photos/photo-o.webp)
+
+*RVs and trailers parked at a campground with hookups. Photo: Joe Mabel, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Camping_at_Tolt-MacDonald_Park_01.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

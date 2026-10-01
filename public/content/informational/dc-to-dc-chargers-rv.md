@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![DC-to-DC Chargers Explained for RV Owners diagram 1](/images/informational/rv-batteries/dc-to-dc-chargers-rv-1.svg)
 
+![An auxiliary battery wired to a smart charger in a vehicle](/images/informational/rv-photos/photo-b.webp)
+
+*An auxiliary battery wired to a smart charger in a vehicle. Photo: Stephan Ridgway from Brisbane, Australia, [CC BY 2.0](https://commons.wikimedia.org/wiki/File:Auxiliary_Battery_%26_CTEK_charger.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 For an RV owner, regulate alternator input into a battery-safe charging profile is not an abstract electrical detail. Use the battery and equipment manuals as the controlling specifications. Generic voltage charts and rules of thumb are useful for orientation, but they cannot override a manufacturer’s limits for charge voltage, temperature, current, cable protection, or storage. If the installation is undocumented, photograph labels and trace conductors before disconnecting anything.
@@ -69,6 +73,10 @@ A useful field check begins when you size cables for input current and voltage d
 ![How to interpret what you find diagram for RV DC-to-DC chargers](/images/informational/rv-batteries/dc-to-dc-chargers-rv-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A vehicle engine bay, where the belt-driven alternator charges the batteries](/images/informational/rv-photos/photo-i.webp)
+
+*A vehicle engine bay, where the belt-driven alternator charges the batteries. Photo: simonov, [CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:Alternator_in.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

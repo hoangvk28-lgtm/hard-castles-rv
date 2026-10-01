@@ -19,6 +19,10 @@ Hardcastle's RV reviewed common coverage patterns used by established RV publica
 
 ![How to Upgrade an RV Converter for Lithium Batteries diagram 1](/images/informational/rv-batteries/upgrade-rv-converter-lithium-1.svg)
 
+![A 12-volt 200Ah lithium iron phosphate (LiFePO4) battery](/images/informational/rv-photos/photo-d.webp)
+
+*A 12-volt 200Ah lithium iron phosphate (LiFePO4) battery. Photo: HasanAbuarja, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:12V_200Ah_lithium_iron_phosphate_battery.jpg) via Wikimedia Commons.*
+
 ## Start with the complete RV power path
 
 A useful field check begins when you identify the existing converter model and distribution panel. Think in terms of the complete circuit rather than a single component. Energy must travel through conductors, connections, fuses, switches and return paths. A loose lug or undersized cable can imitate a weak battery because voltage collapses only when current rises. Measure at more than one point and compare the results under the same load.
@@ -69,6 +73,10 @@ The safest way to approach this part of upgrade RV converter for lithium is to d
 ![How to interpret what you find diagram for upgrade RV converter for lithium](/images/informational/rv-batteries/upgrade-rv-converter-lithium-5.svg)
 
 *Maintenance loop for this RV battery task.*
+
+![A combined inverter-charger installation](/images/informational/rv-photos/photo-j.webp)
+
+*A combined inverter-charger installation. Photo: Asurnipal, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Alberschwende-Inverter_and_Charger_victron_energy_Quattro_10000-01ASD.jpg) via Wikimedia Commons.*
 
 ## Common mistakes and misleading symptoms
 

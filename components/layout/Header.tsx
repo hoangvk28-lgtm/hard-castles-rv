@@ -14,7 +14,7 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
       {/* Top bar */}
       <div className="bg-brand text-ink-inverse text-xs py-1.5 px-4 flex items-center justify-center gap-2">
-        <span className="opacity-90 hidden sm:inline">HardcastlesRV earns a commission on qualifying Amazon purchases.</span>
+        <span className="opacity-90 hidden sm:inline">Hardcastle’s RV earns a commission on qualifying Amazon purchases.</span>
         <span className="opacity-90 sm:hidden text-[10px] leading-tight whitespace-nowrap">Amazon affiliate links - we earn a commission.</span>
         <Link prefetch={false}
           href="/affiliate-disclosure"
@@ -31,7 +31,7 @@ export function Header() {
         <Link prefetch={false}
           href="/"
           className="group shrink-0 focus-ring flex items-center gap-2"
-          aria-label="HardcastlesRV - Home"
+          aria-label="Hardcastle’s RV - Home"
         >
           <Image
             src="/logo-icon.png"
@@ -47,7 +47,7 @@ export function Header() {
             className="text-xl font-bold tracking-tight"
             style={{ fontFamily: "var(--font-display)", color: "var(--color-ink)" }}
           >
-            HardcastlesRV
+            Hardcastle’s RV
           </span>
         </Link>
 

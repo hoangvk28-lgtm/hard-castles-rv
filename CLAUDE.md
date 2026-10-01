@@ -1,4 +1,4 @@
-# HardcastlesRV — CLAUDE.md (cloned from The Office Journal template; domain www.hardcastlesrv.com, Amazon tag hardcastlesrv-20)
+# Hardcastle's RV — CLAUDE.md (cloned from The Office Journal template; domain www.hardcastlesrv.com, Amazon tag hardcastlesrv-20)
 
 @AGENTS.md
 

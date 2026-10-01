@@ -1,11 +1,11 @@
-# HardcastlesRV — Editorial Guide
+# Hardcastle's RV — Editorial Guide
 
-Rules for rewriting migrated DeskFinds/WorkCocoon guides into HardcastlesRV's voice.
+Rules for rewriting migrated DeskFinds/WorkCocoon guides into Hardcastle's RV's voice.
 Reference articles: `/desk-setup/best-monitor-arms`, `/chairs/best-office-chair-under-300`.
 Machine-checkable rules are enforced by `scripts/audit-editorial.ts` (see bottom).
 
 ## Positioning and voice
-- **Publication:** HardcastlesRV. Independent ideas, guides and recommendations for better workspaces.
+- **Publication:** Hardcastle's RV. Independent ideas, guides and recommendations for better workspaces.
 - **Voice:** calm, informed, precise, practical, design-aware, skeptical of marketing claims, confident without promotion.
 - **Principle:** reader problem → context → evidence → trade-off → recommendation (never keyword → features → praise → CTA).
 - **Lens:** practical fit, compatibility and trade-offs. DeskFinds is price/deal-led; WorkCocoon is lifestyle/comfort-led.

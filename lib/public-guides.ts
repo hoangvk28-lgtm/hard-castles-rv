@@ -101,7 +101,7 @@ function rowToPublicGuide(row: GuideRow): PublicGuide {
     mainKeyword: row.main_keyword ?? "",
     subKeywords: row.sub_keywords ?? [],
     lastUpdated: row.updated_at?.split("T")[0] ?? row.last_updated ?? new Date().toISOString().split("T")[0],
-    author: row.author || "HardcastlesRV Editors",
+    author: row.author || "Hardcastle's RV Editors",
     readTime: row.read_time || "",
     recommendedProductIds: row.recommended_product_ids ?? [],
     sections: row.sections ?? [],

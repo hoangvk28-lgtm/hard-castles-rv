@@ -70,7 +70,7 @@ function toBreadcrumbTitle(guideTitle: string) {
 
 /**
  * Keep the full search topic intact while giving the on-page headline a
- * HardcastlesRV editorial voice distinct from the source registry.
+ * Hardcastle’s RV editorial voice distinct from the source registry.
  */
 function toEditorialHeadline(guideTitle: string) {
   const clean = guideTitle.replace(/\s*\(2026\)\s*$/i, "").trim();
@@ -283,7 +283,7 @@ export function RichGuidePage(props: RichGuidePageProps) {
 
             {rigFitChecks.length > 0 && (
               <section aria-labelledby="rig-fit-check" className="mt-12 border-y border-border bg-surface px-5 py-6 sm:px-7">
-                <p className="eyebrow">HardcastlesRV field notes</p>
+                <p className="eyebrow">Hardcastle’s RV field notes</p>
                 <h2 id="rig-fit-check" className="mt-2 text-[1.625rem] leading-tight sm:text-[1.875rem]">The Rig Fit Check</h2>
                 <p className="mt-2 max-w-[68ch]">A quick way to connect the shortlist to the space, workload and ownership details that matter after the box arrives.</p>
                 <dl className="mt-5 divide-y divide-border border-y border-border">

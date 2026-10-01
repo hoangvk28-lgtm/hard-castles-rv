@@ -155,7 +155,7 @@ export function InformationalGuidePage({ guide }: { guide: InformationalGuide })
 
             <section className="mt-10 bg-surface p-6" aria-labelledby="related-heading">
               <p className="eyebrow">Continue reading</p>
-              <h2 id="related-heading" className="mt-2 text-[1.5rem]">Related HardcastlesRV guides</h2>
+              <h2 id="related-heading" className="mt-2 text-[1.5rem]">Related Hardcastle’s RV guides</h2>
               <ul className="mt-4 space-y-3">
                 {guide.related.map((item) => <li key={item.href}><Link href={item.href} className="font-semibold underline decoration-brand/40 underline-offset-4 hover:decoration-brand">{item.title} →</Link></li>)}
               </ul>

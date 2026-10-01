@@ -18,12 +18,12 @@ export interface Author {
 export const authors: Author[] = [
   {
     slug: "hardcastlesrv-editors",
-    name: "HardcastlesRV Editors",
+    name: "Hardcastle's RV Editors",
     role: "Editorial team",
     isPerson: false,
-    bio: "The HardcastlesRV editorial team researches RV and camping gear using published specifications, included hardware, compatibility details and warranty terms.",
+    bio: "The Hardcastle's RV editorial team researches RV and camping gear using published specifications, included hardware, compatibility details and warranty terms.",
     longBio:
-      "HardcastlesRV publishes buying guides for RV power and electrical, water and plumbing, towing and leveling, RV care, interior comfort and camping travel.\n\nOur comparisons are based on published specifications, included hardware, compatibility details and warranty terms. We do not claim hands-on testing unless a guide says so explicitly.",
+      "Hardcastle's RV publishes buying guides for RV power and electrical, water and plumbing, towing and leveling, RV care, interior comfort and camping travel.\n\nOur comparisons are based on published specifications, included hardware, compatibility details and warranty terms. We do not claim hands-on testing unless a guide says so explicitly.",
     expertise: ["Portable power and generators", "RV appliances", "Towing and leveling gear", "Camping equipment"],
     credentials: [],
     social: [],

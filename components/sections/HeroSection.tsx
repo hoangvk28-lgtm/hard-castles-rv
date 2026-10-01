@@ -69,7 +69,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
           <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
             <Image
               src="/hero-banner.webp"
-              alt="A calm HardcastlesRV-styled home office nook with a reading chair, desk, and plants"
+              alt="A calm Hardcastle’s RV-styled home office nook with a reading chair, desk, and plants"
               fill
               priority
               fetchPriority="high"

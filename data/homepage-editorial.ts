@@ -1,4 +1,4 @@
-// ── Homepage presentation mapping (HardcastlesRV) ───────────────────────
+// ── Homepage presentation mapping (Hardcastle's RV) ───────────────────────
 // PRESENTATION CONFIG ONLY. Every entry references an EXISTING guide or
 // product by slug — nothing here creates records or content. Missing slugs are
 // skipped at render time, and a guide is never shown twice on the page.
@@ -21,7 +21,7 @@ export const homepageEditorial = {
     eyebrow: "Featured Guide",
     headline: "The Best Power Stations for Your RV",
     dek: "We compare battery capacity, inverter output, 30-amp compatibility and solar charging so you can match a power station to the loads you actually run, from the fridge to the roof AC.",
-    byline: "HardcastlesRV Editors",
+    byline: "Hardcastle's RV Editors",
   },
   latest: [
     { slug: "best-solar-generator-to-run-rv-ac", format: "Buying Guide" },

@@ -2,7 +2,7 @@
 
 /* ─── Design Tokens ─────────────────────────────────────── */
 @theme inline {
-  /* HardcastlesRV — forest green, mustard sun and cream (from the logo).
+  /* Hardcastle's RV — forest green, mustard sun and cream (from the logo).
      Legacy token names (brand/cta/accent) are kept so existing guide/review
      templates re-theme without markup changes. */
   --color-brand: #0b4a2f;        /* forest green — primary accent */

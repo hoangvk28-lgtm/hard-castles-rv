@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const author = getAuthorBySlug(slug);
   if (!author) return {};
   return buildMetadata({
-    title: `${author.name} — ${author.role} | HardcastlesRV`,
+    title: `${author.name} — ${author.role} | Hardcastle's RV`,
     description: author.bio,
     path: `/author/${slug}`,
   });
@@ -53,7 +53,7 @@ export default async function AuthorPage({ params }: Props) {
         ...(author.avatarUrl ? { image: author.avatarUrl } : {}),
         sameAs: author.social.filter((s) => s.url).map((s) => s.url),
         knowsAbout: author.expertise,
-        worksFor: { "@type": "Organization", name: "HardcastlesRV", url: SITE_URL },
+        worksFor: { "@type": "Organization", name: "Hardcastle’s RV", url: SITE_URL },
         publishingPrinciples: `${SITE_URL}/how-we-review`,
       }
     : {

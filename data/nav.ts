@@ -41,7 +41,7 @@ export const footerNav = {
   ],
 };
 
-// ── HardcastlesRV editorial navigation ──────────────────────────────────
+// ── Hardcastle's RV editorial navigation ──────────────────────────────────
 // Primary departments are topical. Reviews / Buying Guides / Deals are content
 // formats and live in the secondary nav only.
 export const departmentNav: { label: string; href: string; description: string }[] = [

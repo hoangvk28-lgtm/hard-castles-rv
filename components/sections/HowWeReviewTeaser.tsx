@@ -41,7 +41,7 @@ export function HowWeReviewTeaser() {
           {/* Left copy */}
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-brand">
-              How HardcastlesRV Chooses Products
+              How Hardcastle’s RV Chooses Products
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-ink mt-3 mb-5 tracking-tight">
               Context first. Trade-offs included. No paid rankings.

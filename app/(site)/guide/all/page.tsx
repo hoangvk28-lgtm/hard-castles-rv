@@ -11,7 +11,7 @@ export const revalidate = 604800;
 export const metadata: Metadata = buildMetadata({
   title: "All Buying Guides – Complete List",
   description:
-    "Browse every HardcastlesRV buying guide across RV power, water, towing, care, interior comfort and camping.",
+    "Browse every Hardcastle’s RV buying guide across RV power, water, towing, care, interior comfort and camping.",
   path: "/guide/all",
 });
 

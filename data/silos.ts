@@ -1,4 +1,4 @@
-// Topic-first top-level sections for HardcastlesRV. Each is a real route
+// Topic-first top-level sections for Hardcastle's RV. Each is a real route
 // (e.g. /power-electrical) that lists its guides and hosts /<section>/<slug> pages.
 
 export interface Silo {

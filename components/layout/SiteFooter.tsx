@@ -48,13 +48,13 @@ export function SiteFooter() {
 
         <div className="mt-10 flex flex-col gap-3 border-t border-border pt-6 text-sm text-ink-secondary sm:flex-row sm:items-start sm:justify-between">
           <p className="max-w-2xl !text-sm">
-            HardcastlesRV is reader-supported. When you buy through links on our site, we may earn an affiliate
+            Hardcastle’s RV is reader-supported. When you buy through links on our site, we may earn an affiliate
             commission at no extra cost to you. This never influences what we recommend.{" "}
             <Link prefetch={false} href="/affiliate-disclosure" className="underline underline-offset-2 focus-ring">
               Affiliate disclosure
             </Link>
           </p>
-          <p className="shrink-0 !text-sm">© {year} HardcastlesRV</p>
+          <p className="shrink-0 !text-sm">© {year} Hardcastle’s RV</p>
         </div>
       </div>
     </footer>

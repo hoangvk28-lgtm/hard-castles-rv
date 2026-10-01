@@ -7,7 +7,7 @@ import { categories } from "@/data/categories";
 export const dynamic = "force-dynamic";
 
 // No fallback key — that would silently ping using another site's IndexNow
-// key. Generate a HardcastlesRV-specific key and set INDEXNOW_KEY + a matching
+// key. Generate a Hardcastle's RV-specific key and set INDEXNOW_KEY + a matching
 // public/<key>.txt verification file before this route is expected to work.
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || "";
 

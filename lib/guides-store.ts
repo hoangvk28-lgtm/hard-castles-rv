@@ -14,7 +14,7 @@ export interface GuideProductPick {
   affiliateUrl: string; // always use rel="nofollow sponsored noopener noreferrer"
   imageUrl: string;
   priceLabel: "Budget" | "Mid-range" | "Premium" | "Check Amazon";
-  fitScore?: number;    // 0–10 editorial score — labeled "HardcastlesRV Fit Score" in UI
+  fitScore?: number;    // 0–10 editorial score — labeled "Hardcastle's RV Fit Score" in UI
   summary: string;      // 1–2 sentence overview
   whyItWins: string;    // key differentiator paragraph
   bestFor?: string;     // one-line ideal user description

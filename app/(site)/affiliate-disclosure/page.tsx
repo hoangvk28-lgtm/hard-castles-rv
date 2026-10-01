@@ -4,9 +4,9 @@ import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Affiliate Disclosure - HardcastlesRV",
+  title: "Affiliate Disclosure - Hardcastle's RV",
   description:
-    "HardcastlesRV participates in the Amazon Associates program. Read our disclosure on how we earn commissions and why it doesn't affect our recommendations.",
+    "Hardcastle’s RV participates in the Amazon Associates program. Read our disclosure on how we earn commissions and why it doesn't affect our recommendations.",
   path: "/affiliate-disclosure",
 });
 
@@ -25,7 +25,7 @@ export default function AffiliateDisclosurePage() {
       <div className="mb-10 p-5 rounded-lg border-2 border-brand-muted bg-brand-light">
         <p className="font-bold text-ink text-sm mb-1">Required Disclosure</p>
         <p className="text-ink leading-relaxed text-sm">
-          As an Amazon Associate, we may earn from qualifying purchases. HardcastlesRV is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
+          As an Amazon Associate, we may earn from qualifying purchases. Hardcastle’s RV is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
         </p>
       </div>
 
@@ -34,7 +34,7 @@ export default function AffiliateDisclosurePage() {
         <section>
           <h2 className="text-xl font-bold text-ink mb-3">How Affiliate Links Work</h2>
           <p className="mb-3">
-            When you click a product link on HardcastlesRV and complete a purchase on Amazon, Amazon may pay us a referral fee. This fee is paid by Amazon and is not added to your order.
+            When you click a product link on Hardcastle’s RV and complete a purchase on Amazon, Amazon may pay us a referral fee. This fee is paid by Amazon and is not added to your order.
           </p>
           <p>
             Our links include an affiliate tag (<code className="font-mono text-xs bg-bg px-1.5 py-0.5 rounded border border-border text-ink">theofficejournal-20</code>) that allows Amazon to attribute the referral to our account. This tag is the only information passed; we do not receive your name, address, or payment details.
@@ -60,7 +60,7 @@ export default function AffiliateDisclosurePage() {
         <section>
           <h2 className="text-xl font-bold text-ink mb-3">Amazon Associates Program</h2>
           <p className="mb-3">
-            HardcastlesRV is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
+            Hardcastle’s RV is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
           </p>
           <p>
             Amazon, the Amazon logo, AmazonSupply, and the AmazonSupply logo are trademarks of Amazon.com, Inc. or its affiliates.

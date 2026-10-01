@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const SITE_NAME = "HardcastlesRV";
+const SITE_NAME = "Hardcastle's RV";
 // Prefer env var so the same build can be deployed to any domain without code changes.
 // Use `||` (not `??`) — Vercel can create an env var that's *set but empty*
 // (e.g. auto-detected from .env.example with no value filled in), and
@@ -28,8 +28,8 @@ export function buildMetadata({
   noIndex?: boolean;
   type?: "website" | "article";
 }): Metadata {
-  // Build the display title once, with "| HardcastlesRV" appended if not already present.
-  // Use { absolute } so the root layout template (%s | HardcastlesRV) never wraps it again.
+  // Build the display title once, with "| Hardcastle's RV" appended if not already present.
+  // Use { absolute } so the root layout template (%s | Hardcastle's RV) never wraps it again.
   const fullTitle = title.includes(SITE_NAME)
     ? title
     : `${title} | ${SITE_NAME}`;

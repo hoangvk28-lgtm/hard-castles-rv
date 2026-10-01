@@ -4,9 +4,9 @@ import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Contact HardcastlesRV",
+  title: "Contact Hardcastle's RV",
   description:
-    "Get in touch with the HardcastlesRV team. Corrections, product suggestions, buying questions, and press inquiries welcome.",
+    "Get in touch with the Hardcastle’s RV team. Corrections, product suggestions, buying questions, and press inquiries welcome.",
   path: "/contact",
 });
 
@@ -104,7 +104,7 @@ export default function ContactPage() {
             <ul className="space-y-1.5 text-sm">
               <li><Link prefetch={false} href="/how-we-review" className="text-brand hover:text-brand-dark transition-colors font-medium">How We Review Products →</Link></li>
               <li><Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:text-brand-dark transition-colors font-medium">Affiliate Disclosure →</Link></li>
-              <li><Link prefetch={false} href="/about" className="text-brand hover:text-brand-dark transition-colors font-medium">About HardcastlesRV →</Link></li>
+              <li><Link prefetch={false} href="/about" className="text-brand hover:text-brand-dark transition-colors font-medium">About Hardcastle’s RV →</Link></li>
               <li><Link prefetch={false} href="/privacy-policy" className="text-brand hover:text-brand-dark transition-colors font-medium">Privacy Policy →</Link></li>
             </ul>
           </div>

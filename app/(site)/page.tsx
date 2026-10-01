@@ -21,7 +21,7 @@ export const revalidate = 86400;
 const OG_IMAGE = publicAsset("images/brand/og.jpg");
 
 export const metadata: Metadata = buildMetadata({
-  title: "HardcastlesRV | RV & Camping Gear Buying Guides",
+  title: "Hardcastle's RV | RV & Camping Gear Buying Guides",
   description:
     "Straight-talking buying guides for RV power, water, towing, upkeep, interior comfort and camping gear, compared on real specs and trade-offs.",
   path: "/",

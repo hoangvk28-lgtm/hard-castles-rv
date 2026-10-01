@@ -58,7 +58,7 @@ export function AmazonBountyBanner({ variant = "prime", className }: AmazonBount
     >
       <Image
         src="/images/banners/banner-deskfinds-v2.webp"
-        alt="HardcastlesRV desk setup with docking station"
+        alt="Hardcastle’s RV desk setup with docking station"
         fill
         priority={false}
         quality={90}

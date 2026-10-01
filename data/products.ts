@@ -40,7 +40,7 @@ export interface Product {
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 
-// HardcastlesRV: product-level review data is added as reviews are written.
+// Hardcastle's RV: product-level review data is added as reviews are written.
 export const products: Product[] = [];
 
 // ─── Type exports ─────────────────────────────────────────────────────────────

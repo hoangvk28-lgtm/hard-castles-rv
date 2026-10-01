@@ -11,7 +11,7 @@ export function NewsletterSignup() {
     <section aria-labelledby="newsletter-heading" className="py-14 lg:py-16">
       <div className="grid gap-8 border-t border-ink pt-10 lg:grid-cols-2 lg:items-end lg:gap-16">
         <div>
-          <p className="eyebrow">The HardcastlesRV Weekly</p>
+          <p className="eyebrow">The Hardcastle’s RV Weekly</p>
           <h2 id="newsletter-heading" className="mt-3 text-[2rem] leading-tight sm:text-[2.5rem]">
             Better trips, fewer surprises.
           </h2>

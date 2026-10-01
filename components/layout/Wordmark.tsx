@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 /**
- * Brand lockup: HardcastlesRV badge + text wordmark (the text stays the primary
+ * Brand lockup: Hardcastle’s RV badge + text wordmark (the text stays the primary
  * element). The whole lockup links home.
  */
 export function Wordmark({ size = "md" }: { size?: "md" | "sm" }) {
   const md = size === "md";
   return (
-    <Link prefetch={false} href="/" aria-label="HardcastlesRV — home" className="group inline-flex items-center gap-2.5 focus-ring sm:gap-3">
+    <Link prefetch={false} href="/" aria-label="Hardcastle’s RV — home" className="group inline-flex items-center gap-2.5 focus-ring sm:gap-3">
       <Image
         src="/images/brand/mark.png"
         alt=""
@@ -24,7 +24,7 @@ export function Wordmark({ size = "md" }: { size?: "md" | "sm" }) {
             md ? "text-[1.0625rem] min-[360px]:text-[1.25rem] sm:text-[1.5rem] lg:text-[1.3125rem] xl:text-[1.625rem]" : "text-lg"
           }`}
         >
-          Hardcastles<span className="text-brand">RV</span>
+          Hardcastle’s <span className="text-brand">RV</span>
         </span>
         {md && (
           <span className="mt-1.5 hidden whitespace-nowrap text-[0.5625rem] font-medium uppercase leading-none tracking-[0.32em] text-ink-secondary sm:block lg:hidden xl:block">

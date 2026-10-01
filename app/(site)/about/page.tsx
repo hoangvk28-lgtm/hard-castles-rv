@@ -4,9 +4,9 @@ import { buildMetadata, SITE_NAME } from "@/lib/seo";
 import { silos } from "@/data/silos";
 
 export const metadata: Metadata = buildMetadata({
-  title: "About HardcastlesRV",
+  title: "About Hardcastle's RV",
   description:
-    "HardcastlesRV publishes straight-talking RV and camping buying guides, comparing gear on published specs, fit and trade-offs so you can buy with confidence.",
+    "Hardcastle’s RV publishes straight-talking RV and camping buying guides, comparing gear on published specs, fit and trade-offs so you can buy with confidence.",
   path: "/about",
 });
 

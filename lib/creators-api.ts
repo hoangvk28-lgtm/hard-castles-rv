@@ -84,7 +84,7 @@ interface GetItemsResponse {
 // tag would misattribute affiliate revenue. Fail loudly instead.
 const PARTNER_TAG = process.env.AMAZON_PAAPI_PARTNER_TAG || "";
 if (!PARTNER_TAG && process.env.NODE_ENV !== "test") {
-  console.warn("[creators-api] AMAZON_PAAPI_PARTNER_TAG is not set — PA-API calls will fail until a HardcastlesRV-specific Associates tag is configured.");
+  console.warn("[creators-api] AMAZON_PAAPI_PARTNER_TAG is not set — PA-API calls will fail until a Hardcastle's RV-specific Associates tag is configured.");
 }
 
 // GetItems accepts at most 10 ASINs per request.

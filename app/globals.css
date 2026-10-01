@@ -2,38 +2,38 @@
 
 /* ─── Design Tokens ─────────────────────────────────────── */
 @theme inline {
-  /* HardcastlesRV — lake teal, campfire orange and canvas cream.
+  /* HardcastlesRV — forest green, mustard sun and cream (from the logo).
      Legacy token names (brand/cta/accent) are kept so existing guide/review
      templates re-theme without markup changes. */
-  --color-brand: #1d5566;        /* lake teal — primary accent */
-  --color-brand-dark: #143e4b;
-  --color-brand-light: #e3eef0;
-  --color-brand-muted: #c3dadf;
+  --color-brand: #0b4a2f;        /* forest green — primary accent */
+  --color-brand-dark: #073821;
+  --color-brand-light: #e6efe8;
+  --color-brand-muted: #c5d9cb;
 
-  --color-olive: #cf7a2b;
-  --color-olive-dark: #a65e1c;
-  --color-olive-light: #f8eadb;
+  --color-olive: #b9801f;
+  --color-olive-dark: #94661a;
+  --color-olive-light: #f8eed8;
 
   /* Commerce CTA — charcoal, deliberately quieter than the editorial accent */
-  --color-cta: #1b2429;
+  --color-cta: #18261e;
   --color-cta-dark: #000000;
   --color-cta-light: #ece9e1;
 
-  --color-accent: #cf7a2b;
-  --color-accent-dark: #a65e1c;
-  --color-accent-light: #f8eadb;
+  --color-accent: #b9801f;
+  --color-accent-dark: #94661a;
+  --color-accent-light: #f8eed8;
 
   --color-surface: #ffffff;
-  --color-bg: #f5f2ea;
+  --color-bg: #f7f4ea;
   --color-border: #d9d3c5;
   --color-border-dark: #c4bdb0;
 
-  --color-ink: #1b2429;
-  --color-ink-secondary: #56606a;
+  --color-ink: #18261e;
+  --color-ink-secondary: #55615a;
   --color-ink-muted: #7d7a72;
   --color-ink-inverse: #f8f6f1;
 
-  --color-score-high: #3f6b5a;
+  --color-score-high: #3f6b4a;
   --color-score-mid: #a8875a;
   --color-score-low: #b5543f;
 

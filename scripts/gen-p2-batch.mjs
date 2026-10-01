@@ -48,12 +48,13 @@ for (const m of mods) {
     if (DASH.test(t)) err(s, `em/en dash in: ${t.slice(0, 60)}`);
     if (/we tested|we tried|in our lab|we measured/i.test(t)) err(s, `forbidden testing claim: ${t.slice(0, 60)}`);
   });
+  const SH = !!m.short;
   if (m.criteria.length < 5) err(s, "criteria < 5");
   m.criteria.forEach((c) => { if (c.explanation.split(/(?<=[.!?])\s+/).length < 3) err(s, `criterion too short: ${c.criterion}`); });
-  if (m.faq.length < 5 || m.faq.length > 6) err(s, `faq count ${m.faq.length}`);
+  if (m.faq.length < (SH ? 4 : 5) || m.faq.length > 6) err(s, `faq count ${m.faq.length}`);
   if (m.howToChoose.length !== 6) err(s, `howToChoose sections ${m.howToChoose.length} != 6`);
   if (m.products.length < (Number(process.env.MINP) || 5)) err(s, "products too few");
-  if (m.intro.length < 2) err(s, "intro < 2 paragraphs");
+  if (m.intro.length < (SH ? 1 : 2)) err(s, "intro too short");
   if (m.howWeEvaluated.length < 4) err(s, "howWeEvaluated < 4");
 
   const shorts = m.products.map((p) => p.short);
@@ -64,7 +65,7 @@ for (const m of mods) {
     if (raw.price == null) err(s, `asin ${p.asin} has no price`);
     if (names.has(p.asin)) err(s, `duplicate asin ${p.asin}`);
     names.add(p.asin);
-    if (p.d.length !== 3) err(s, `${p.short}: description needs 3 paragraphs`);
+    if (p.d.length !== (SH ? 2 : 3)) err(s, `${p.short}: description needs ${SH ? 2 : 3} paragraphs`);
     p.pros.forEach((x) => { if (wc(x) < 6 || wc(x) > 14) err(s, `${p.short} pro ${wc(x)}w: ${x}`); });
     p.cons.forEach((x) => { if (wc(x) < 6 || wc(x) > 14) err(s, `${p.short} con ${wc(x)}w: ${x}`); });
     if (p.pros.length < 3) err(s, `${p.short}: <3 pros`);

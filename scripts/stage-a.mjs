@@ -16,6 +16,10 @@ const tok = (await (await fetch("https://api.amazon.com/auth/o2/token", { method
 if (!tok) { console.error("token failed"); process.exit(1); }
 
 const CL = {
+  "Inverter Generators": { q: (k) => [k, k.replace("inverter generator", "quiet inverter generator RV ready"), k.replace("inverter generator", "portable inverter generator")], must: /generator/i, ban: /adapter|cord|cover|inlet|transfer switch|lock|wheel kit|parallel kit|solar generator|power station|oil|tank/i },
+  "Lithium RV Batteries": { q: (k) => [k, k.replace("lithium rv battery", "LiFePO4 battery 12V RV"), k + " LiFePO4"], must: /lifepo4|lithium/i, ban: /charger only|tester|terminal|cable|cover|monitor|isolator|switch|tray|jump starter|golf cart only/i },
+  "RV Surge Protectors": { q: (k) => [k, k + " 30 amp", k + " 50 amp"], must: /surge|protector|ems|watchdog/i, ban: /cord only|extension cord|power strip|adapter only|dogbone/i },
+  "RV Battery Monitors": { q: (k) => [k, k.replace("battery monitor", "battery monitor shunt"), k.replace("battery monitor", "battery monitor bluetooth")], must: /monitor|shunt|meter/i, ban: /tire|camera|car alarm|blood|heart/i },
   "RV Converters": { q: (k) => [k, k + " 12V deck mount", k.replace(/converter/, "converter charger lithium")], must: /convert|charger|power center|power supply/i, ban: /adapter|cable|fuse|breaker|inverter|extension|cover|panel|solar|generator|wire|plug/i },
   "RV Solar": { q: (k) => [k, k + " kit with charge controller", k + " monocrystalline 12V"], must: /solar|panel|pv/i, ban: /bracket|mount(?!ed)|connector|extension|cable|light|lamp|fan|battery charger only|cleaner|cover/i },
   "RV Generators": { q: (k) => [k, k.replace("rv generator", "inverter generator rv ready"), k + " 30 amp quiet", k.replace("rv generator","portable generator"), k.replace(/for (\d+) amp rv/, "generator $1 amp RV outlet").replace("best ",""), k.replace("rv generator","dual fuel generator")], must: /generator/i, ban: /adapter|cord|cover|inlet|transfer switch|tent|kit only|lock|wheel kit|parallel kit|solar generator|power station|oil|tank/i },
@@ -66,7 +70,7 @@ for (const f of readdirSync("data/guides")) { if (!f.endsWith(".ts")) continue; 
 for (const f of readdirSync("scripts/p2-content")) for (const m of readFileSync("scripts/p2-content/" + f, "utf8").matchAll(/asin: "([A-Z0-9]{10})"/g)) used.add(m[1]);
 
 const gap = readFileSync(GAP, "utf8");
-const p2 = gap.slice(gap.indexOf("# P2 articles"), gap.indexOf("# P3 articles"));
+const p2 = gap.slice(gap.indexOf("# P2 articles"));
 function gapEntry(slug) {
   const i = p2.indexOf("/" + slug + "/");
   if (i < 0) return "";
@@ -74,7 +78,7 @@ function gapEntry(slug) {
   return p2.slice(start, end < 0 ? undefined : end).split("\n").filter((l) => !/Competitor pattern|Evidence to collect|Internal-link parent/.test(l)).join("\n");
 }
 function clusterNote(cluster) {
-  const key = { "RV Converters": "RV Converters", "RV Solar": "RV Solar", "RV Generators": "RV Generators", "Portable Power Stations": "Portable Power Stations", "RV Batteries": "RV Batteries", "RV Inverters": "RV Inverters" }[cluster];
+  const key = cluster;
   const i = gap.indexOf("### " + key + " (");
   return gap.slice(i, gap.indexOf("\n### ", i + 5)).trim();
 }

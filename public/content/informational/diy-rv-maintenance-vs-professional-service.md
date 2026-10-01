@@ -2,7 +2,7 @@
 
 > **Safety note:** Do not let a checklist substitute for the manuals for the exact RV, chassis and installed equipment. Gas, brake, structural and energized electrical work may require a qualified technician.
 
-**Quick answer:** understand and complete diy rv maintenance vs professional service without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Most owners can handle routine jobs like inspecting and resealing roof seams, cleaning AC filters, sanitizing the fresh water system, checking tire pressure, and maintaining batteries. Leave propane system repairs, 120V electrical work, brake and bearing service if you lack experience, and anything under warranty to a qualified technician. Check your warranty terms, since some require authorized service for covered components.
 
 DIY RV Maintenance vs Professional Service is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For diy rv maintenance vs professional service, potentially relevant categories 
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Will DIY work void my warranty?
 
-For diy rv maintenance vs professional service, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Routine owner maintenance generally does not, but unauthorized repairs to a covered component can complicate a claim. Read your warranty, keep receipts for parts used, and contact the dealer before repairing anything covered.
 
-### What should I measure before changing anything?
+### What DIY mistake causes the most damage?
 
-For diy rv maintenance vs professional service, record date, mileage, operating hours, symptom, test result, part number, labor, cost and next-due point. Add photographs and the operating conditions so the result can be compared later.
+Using the wrong sealant on the roof. Roof membranes typically need a compatible self leveling sealant, and silicone over the wrong surface can prevent proper adhesion of future repairs.
 
-### What if the problem is intermittent?
+### Is mobile RV service worth it over a dealer shop?
 
-For diy rv maintenance vs professional service, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+Mobile technicians can save you towing and long dealer wait times for many repairs. Dealers may be required for warranty work and have better access to factory parts, so the right choice depends on the job.
 
-### When should I stop DIY work?
+### How do I learn safe DIY skills?
 
-For diy rv maintenance vs professional service, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Start with your owner's manual and the appliance manufacturers' manuals, which describe owner level maintenance. Hands on RV maintenance classes are also offered through some RV clubs and training providers.
 
-### How do I know the work succeeded?
+### Which jobs should always go to a pro?
 
-For diy rv maintenance vs professional service, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Propane leaks or regulator replacement, furnace and water heater burner repairs, 120V wiring, and structural or frame work. These carry fire, CO, or shock risks that need trained, equipped technicians.
+
 
 ## Owner scenario 1: Under hot or cold weather
 

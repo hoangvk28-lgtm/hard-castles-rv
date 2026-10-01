@@ -2,7 +2,7 @@
 
 > **Safety note:** Do not drill into hidden wiring, plumbing or structure. Keep exits, detectors, vents and required access clear, and verify that additions remain secure under braking and rough-road loads.
 
-**Quick answer:** understand and complete how to secure cabinets for travel without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Check that each cabinet latch fully catches before departure, and add secondary locks such as RV specific cabinet latches, baby proof locks, or tension rods for problem doors. Pack contents so they cannot shift and push against doors, using bins and non slip liner. Inspect and tighten hinge and latch screws periodically, since vibration loosens them.
 
 How to Secure Cabinets for Travel is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For how to secure cabinets for travel, potentially relevant categories include t
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Do I need special locks for RV cabinets?
 
-For how to secure cabinets for travel, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Many factory push latches work if adjusted, but secondary locks add insurance. Choose locks that fit your door and frame style.
 
-### What should I measure before changing anything?
+### What is a common mistake?
 
-For how to secure cabinets for travel, record opening dimensions, clearances, weight, fastener substrate, moisture, noise source, light output, color temperature and travel movement. Add photographs and the operating conditions so the result can be compared later.
+Assuming latches are closed without pushing on each door. A partly closed latch can pop open at the first bump.
 
-### What if the problem is intermittent?
+### Are adhesive child locks worth it vs screw in latches?
 
-For how to secure cabinets for travel, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+Adhesive locks are quick but can lose grip in heat. Screw in latches are more durable for frequent travel.
 
-### When should I stop DIY work?
+### How do I fix a loose latch?
 
-For how to secure cabinets for travel, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Tighten the screws and, if stripped, fill holes with wood toothpicks and glue before redriving screws. Adjust the strike plate so it catches cleanly.
 
-### How do I know the work succeeded?
+### Should I check cabinets during a trip?
 
-For how to secure cabinets for travel, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Yes, check them at fuel or rest stops, especially after rough roads. Shifting contents often push doors open mid trip.
+
 
 ## Owner scenario 1: In practical terms
 

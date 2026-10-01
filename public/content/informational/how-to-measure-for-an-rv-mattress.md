@@ -2,7 +2,7 @@
 
 > **Safety note:** Do not drill into hidden wiring, plumbing or structure. Keep exits, detectors, vents and required access clear, and verify that additions remain secure under braking and rough-road loads.
 
-**Quick answer:** make how to measure for an rv mattress a measured, model-aware process. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Remove the old mattress and measure the bare platform length and width at the widest points, then measure corners for radius cuts and check the height under any overhead cabinets or slide clearance. RV mattresses are often 74 or 75 inches long instead of the home standard 80, so do not assume a size. Compare your numbers to the size chart of the brand you buy, and check the RV manual or label on the bed frame for the original size.
 
 How to Measure for an RV Mattress is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For how to measure for an rv mattress, potentially relevant categories include t
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Do I measure the old mattress or the platform?
 
-For how to measure for an rv mattress, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Measure the platform, since old mattresses compress and can be smaller than the space. Use the mattress label as a cross check.
 
-### What should I measure before changing anything?
+### What is a common measuring mistake?
 
-For how to measure for an rv mattress, record opening dimensions, clearances, weight, fastener substrate, moisture, noise source, light output, color temperature and travel movement. Add photographs and the operating conditions so the result can be compared later.
+Ignoring height. A thicker mattress may hit overhead cabinets or keep a bedroom slide from closing, so measure the clearance before choosing a 10 or 12 inch mattress.
 
-### What if the problem is intermittent?
+### Is a custom cut mattress worth it vs a standard RV size?
 
-For how to measure for an rv mattress, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+If your bed has rounded or clipped corners, a custom or corner cut mattress fits better and avoids gaps. For rectangular platforms, a standard RV short size is cheaper and easier to find.
 
-### When should I stop DIY work?
+### How do I measure a bed with a lift up storage platform?
 
-For how to measure for an rv mattress, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Measure with the platform down and check that the gas struts can lift the new mattress weight. Heavier memory foam may need stronger struts.
 
-### How do I know the work succeeded?
+### Can I use a home queen in an RV?
 
-For how to measure for an rv mattress, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Only if the platform is a full 60 by 80 inches and there is clearance at the foot of the bed. Many RVs use a 60 by 74 or 60 by 75 inch short queen.
+
 
 ## Owner scenario 1: At the campsite
 

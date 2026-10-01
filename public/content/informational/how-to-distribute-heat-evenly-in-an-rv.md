@@ -2,7 +2,7 @@
 
 > **Safety note:** Disconnect shore power and generators before opening HVAC equipment, confirm 12-volt control power where applicable, and treat capacitors, refrigerant circuits, combustion systems and roof access as professional-service hazards.
 
-**Quick answer:** understand and complete how to distribute heat evenly in an rv without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Even heat in an RV mostly comes down to airflow: keep all floor and ducted registers open and unobstructed, run ceiling fans on low to push warm air down, and close blinds or add insulated covers to the coldest windows. Slides, cabinets, and the bedroom tend to run cold, so a small electric heater on shore power can help balance those zones. Your furnace manual shows duct layout and minimum open register requirements.
 
 How to Distribute Heat Evenly in an RV is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For how to distribute heat evenly in an rv, potentially relevant categories incl
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Are there limits on how many registers I can close?
 
-For how to distribute heat evenly in an rv, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Yes. Most RV furnaces need a minimum amount of open duct area to avoid overheating and tripping the high-limit switch. Your furnace manual specifies this, but a good rule is to never close more than one or two registers.
 
-### What should I measure before changing anything?
+### What common mistake causes cold spots?
 
-For how to distribute heat evenly in an rv, record indoor and outdoor temperature, relative humidity, supply-air temperature, airflow, voltage, current only when safely measured, condensate path and operating cycle. Add photographs and the operating conditions so the result can be compared later.
+Blocking floor registers with rugs, storage bins, or slide-out furniture. Even a partially covered vent can starve the far end of the duct run. Walk the coach with the furnace running and feel for airflow at every outlet.
 
-### What if the problem is intermittent?
+### Is a portable electric heater worth it versus relying on the furnace?
 
-For how to distribute heat evenly in an rv, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+On shore power, a 1,500W ceramic heater can warm a bedroom or bathroom without propane and help balance a cold end of the coach. It draws around 12.5 amps, so it needs careful load management on a 30 amp site. Use one with tip over and overheat protection.
 
-### When should I stop DIY work?
+### How do I find duct leaks or crushed ducts?
 
-For how to distribute heat evenly in an rv, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Compare airflow at the register nearest the furnace and the farthest one. A big difference often means a crushed flex duct, a disconnected joint, or an obstruction under a cabinet. Access panels or the underbelly may be needed, so a technician may be the simplest route on some models.
 
-### How do I know the work succeeded?
+### How do I handle slide-outs that run cold?
 
-For how to distribute heat evenly in an rv, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Check slide seals for gaps and lubricate them per the manufacturer's recommendation so they compress properly. Slide floors often have little insulation, so a rug and a skirt or seal topper can help. Some owners add a small heater near the slide in winter.
+
 
 ## Owner scenario 1: For a weekend owner
 

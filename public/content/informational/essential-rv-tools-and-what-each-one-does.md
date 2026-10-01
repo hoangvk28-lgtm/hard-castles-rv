@@ -2,7 +2,7 @@
 
 > **Safety note:** Do not let a checklist substitute for the manuals for the exact RV, chassis and installed equipment. Gas, brake, structural and energized electrical work may require a qualified technician.
 
-**Quick answer:** understand and complete essential rv tools and what each one does without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Most owners need a core set: a socket and wrench set, screwdrivers including square drive bits, a cordless drill, a digital multimeter for checking 12V and 120V circuits, a tire pressure gauge, a torque wrench for lug nuts, and a polarity tester for campground pedestals. Add a caulk gun, sealant, and a flashlight or headlamp for inspections. Your owner's manual lists the torque specs and fastener types specific to your RV.
 
 Essential RV Tools and What Each One Does is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For essential rv tools and what each one does, potentially relevant categories i
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Why do RVs need square drive bits?
 
-For essential rv tools and what each one does, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Many RV manufacturers use square drive (Robertson) screws in cabinets, trim, and panels because they resist cam out during assembly. A set of #1, #2, and #3 square bits covers most interior screws.
 
-### What should I measure before changing anything?
+### What is a common tool mistake?
 
-For essential rv tools and what each one does, record date, mileage, operating hours, symptom, test result, part number, labor, cost and next-due point. Add photographs and the operating conditions so the result can be compared later.
+Tightening lug nuts by feel instead of with a torque wrench. Over or under torqued lugs can damage studs or let a wheel loosen, so check the spec in your manual and retorque after the first 50 to 100 miles after a wheel is mounted.
 
-### What if the problem is intermittent?
+### Is a surge protector worth it over a basic polarity tester?
 
-For essential rv tools and what each one does, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+A polarity tester only checks the pedestal before you plug in. A surge protector or EMS unit monitors power continuously and some models cut power on low voltage or miswiring, so it offers more protection for your electronics.
 
-### When should I stop DIY work?
+### How do I use a multimeter on my RV?
 
-For essential rv tools and what each one does, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Set it to DC volts to check battery and 12V circuits, where a resting battery near 12.6V is fully charged for flooded lead acid. Leave 120V testing at the panel to a qualified technician unless you are trained, since those circuits can cause serious shock.
 
-### How do I know the work succeeded?
+### Should I keep tools in the RV year round?
 
-For essential rv tools and what each one does, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Keep a dedicated set in the RV so you are never without them. Check for rust and dead batteries before each season, especially if the unit is stored in a humid area.
+
 
 ## Owner scenario 1: At the campsite
 

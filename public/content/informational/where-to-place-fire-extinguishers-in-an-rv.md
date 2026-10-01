@@ -2,7 +2,7 @@
 
 > **Safety note:** Security and monitoring devices supplement—not replace—physical checks, working alarms and an emergency plan. Never disable a safety detector to stop nuisance alarms; identify the cause and follow its manual.
 
-**Quick answer:** make where to place fire extinguishers in an rv a measured, model-aware process. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Keep one extinguisher near the main entry door where it is easy to grab on the way out, and consider a second near the bedroom or in the kitchen area, plus one outside in a storage compartment or tow vehicle. Mount them securely with brackets so they do not roll while driving, and choose a multipurpose ABC type for RV use. Check your extinguisher's label for its rating and inspection guidance.
 
 Where to Place Fire Extinguishers in an RV is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For where to place fire extinguishers in an rv, potentially relevant categories 
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### What type of extinguisher should I use in an RV?
 
-For where to place fire extinguishers in an rv, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+A multipurpose ABC extinguisher is a good general choice for RVs because it covers ordinary materials, flammable liquids and electrical fires. Check the label for the rating.
 
-### What should I measure before changing anything?
+### What is a common placement mistake?
 
-For where to place fire extinguishers in an rv, record signal quality, throughput, latency, data use, voltage, camera link, alert delay, battery state, coverage area and failure behavior. Add photographs and the operating conditions so the result can be compared later.
+Placing the extinguisher right next to the stove. If a fire starts there, it may be hard to reach safely, so keep it a few steps away.
 
-### What if the problem is intermittent?
+### Is a larger extinguisher worth it over a small one?
 
-For where to place fire extinguishers in an rv, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+A larger unit gives more discharge time, which helps with bigger fires. A small unit may only last seconds, so many RVers carry at least one larger unit.
 
-### When should I stop DIY work?
+### How do I mount an extinguisher in an RV?
 
-For where to place fire extinguishers in an rv, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Use a sturdy bracket screwed into solid backing near the entry. Make sure it is easy to remove quickly.
 
-### How do I know the work succeeded?
+### How do I check an extinguisher?
 
-For where to place fire extinguishers in an rv, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Look at the pressure gauge monthly, check for damage and make sure the pin is in place. Replace or service it if the gauge is out of the green zone.
+
 
 ## Owner scenario 1: Under hot or cold weather
 

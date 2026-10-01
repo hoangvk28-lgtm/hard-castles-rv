@@ -2,7 +2,7 @@
 
 > **Safety note:** Do not let a checklist substitute for the manuals for the exact RV, chassis and installed equipment. Gas, brake, structural and energized electrical work may require a qualified technician.
 
-**Quick answer:** understand and complete how to prioritize rv repairs without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Fix safety items first: brakes, tires, hitch components, propane leaks, electrical faults, and failed smoke, CO, or LP detectors. Next come water intrusion problems such as roof or window leaks, because they cause rot and delamination that get more expensive every week. Comfort and cosmetic repairs can wait until the first two categories are handled.
 
 How to Prioritize RV Repairs is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For how to prioritize rv repairs, potentially relevant categories include inspec
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Is a slow roof leak really urgent?
 
-For how to prioritize rv repairs, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Yes. Water that gets into walls or floors can rot wood framing and cause delamination long before it shows inside, and that repair can cost far more than resealing early.
 
-### What should I measure before changing anything?
+### What is a common prioritization mistake?
 
-For how to prioritize rv repairs, record date, mileage, operating hours, symptom, test result, part number, labor, cost and next-due point. Add photographs and the operating conditions so the result can be compared later.
+Spending on upgrades like new TVs or decor while worn tires or old sealant go untouched. Tires on RVs often age out before the tread wears, so check date codes as well as tread.
 
-### What if the problem is intermittent?
+### Should I fix a minor issue now or bundle repairs?
 
-For how to prioritize rv repairs, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+Bundling non urgent items into one shop visit can save labor and scheduling time. Never delay safety or water intrusion repairs just to bundle them.
 
-### When should I stop DIY work?
+### How do I decide on a repair that seems expensive?
 
-For how to prioritize rv repairs, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Ask what happens if you wait: does it get worse, cause other damage, or create a safety risk. Get a written estimate and, for large jobs, a second opinion from another qualified shop.
 
-### How do I know the work succeeded?
+### What if a system fails mid trip?
 
-For how to prioritize rv repairs, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Secure safety first, such as shutting off propane or a faulty circuit, and then decide whether you can continue safely without that system. A failed water heater can wait, but brake or tire problems cannot.
+
 
 ## Owner scenario 1: During seasonal storage
 

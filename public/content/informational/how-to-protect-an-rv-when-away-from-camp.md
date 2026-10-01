@@ -2,7 +2,7 @@
 
 > **Safety note:** Security and monitoring devices supplement—not replace—physical checks, working alarms and an emergency plan. Never disable a safety detector to stop nuisance alarms; identify the cause and follow its manual.
 
-**Quick answer:** understand and complete how to protect an rv when away from camp without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Lock all doors and compartments, close blinds so valuables are not visible, and bring in outdoor gear like chairs, bikes and grills or lock them to the RV. A wheel lock or hitch lock helps prevent towable theft, and a camera or motion alert adds warning. Check campground rules and local laws before leaving pets or running appliances while you are away.
 
 How to Protect an RV When Away From Camp is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For how to protect an rv when away from camp, potentially relevant categories in
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Do I need a hitch lock for a travel trailer?
 
-For how to protect an rv when away from camp, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+A hitch or coupler lock makes it harder for someone to hook up and tow your trailer. It is worth using whenever the trailer is unhitched.
 
-### What should I measure before changing anything?
+### What is a common mistake when leaving camp?
 
-For how to protect an rv when away from camp, record signal quality, throughput, latency, data use, voltage, camera link, alert delay, battery state, coverage area and failure behavior. Add photographs and the operating conditions so the result can be compared later.
+Leaving the awning out. Sudden wind can damage it, so roll it in before leaving.
 
-### What if the problem is intermittent?
+### Is a security camera worth it for campsites?
 
-For how to protect an rv when away from camp, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+A camera with motion alerts lets you check on your site remotely. It needs internet and power, so plan for both.
 
-### When should I stop DIY work?
+### How do I keep pets safe when I leave?
 
-For how to protect an rv when away from camp, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Use a temperature monitor with alerts and make sure the air conditioner can run reliably. Have a backup plan if power fails.
 
-### How do I know the work succeeded?
+### What should I do before leaving for a long day?
 
-For how to protect an rv when away from camp, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Turn off the water pump and propane appliances if not needed, close windows and check that everything is locked.
+
 
 ## Owner scenario 1: After a rough travel day
 

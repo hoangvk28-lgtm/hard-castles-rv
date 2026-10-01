@@ -2,7 +2,7 @@
 
 > **Safety note:** Security and monitoring devices supplement—not replace—physical checks, working alarms and an emergency plan. Never disable a safety detector to stop nuisance alarms; identify the cause and follow its manual.
 
-**Quick answer:** make rv smoke propane and carbon monoxide alarms a measured, model-aware process. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** RVs need three types of protection: smoke alarms near sleeping areas, a carbon monoxide alarm for exhaust and fuel combustion gases, and a propane (LP) leak detector mounted low because propane is heavier than air. CO alarms are usually mounted higher on the wall or ceiling following the maker's instructions. Test them monthly, and if a propane or CO alarm sounds, get everyone out, shut off the propane if safe and have a qualified technician check the system.
 
 RV Smoke, Propane and Carbon Monoxide Alarms is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For rv smoke propane and carbon monoxide alarms, potentially relevant categories
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Why is the propane detector mounted near the floor?
 
-For rv smoke propane and carbon monoxide alarms, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Propane is heavier than air and settles low, so detectors are installed near the floor. CO mixes with air, so those alarms usually go higher as the manual directs.
 
-### What should I measure before changing anything?
+### What is a common alarm mistake in RVs?
 
-For rv smoke propane and carbon monoxide alarms, record signal quality, throughput, latency, data use, voltage, camera link, alert delay, battery state, coverage area and failure behavior. Add photographs and the operating conditions so the result can be compared later.
+Disconnecting a propane detector because it drains the battery or chirps. A chirping detector may be warning of low voltage or end of life, so check the manual rather than unplugging it.
 
-### What if the problem is intermittent?
+### Is a combination CO and propane alarm worth it?
 
-For rv smoke propane and carbon monoxide alarms, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+Combo units save space and wiring and are common in RVs. Make sure the unit is designed for RV use and mounted where the maker says, since the two gases behave differently.
 
-### When should I stop DIY work?
+### How do I test my RV alarms?
 
-For rv smoke propane and carbon monoxide alarms, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Press and hold the test button on each alarm monthly and before trips. Do not test with an open flame or propane, and follow the maker's instructions.
 
-### How do I know the work succeeded?
+### What should I do if the propane alarm sounds?
 
-For rv smoke propane and carbon monoxide alarms, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Get everyone out, avoid switches or flames, and shut off propane at the tank if it is safe. Have a qualified RV technician find the leak before using propane again.
+
 
 ## Owner scenario 1: For a full-time traveler
 

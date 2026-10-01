@@ -2,7 +2,7 @@
 
 > **Safety note:** Do not let a checklist substitute for the manuals for the exact RV, chassis and installed equipment. Gas, brake, structural and energized electrical work may require a qualified technician.
 
-**Quick answer:** understand and complete how to inspect an rv before every trip without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Before each trip, check tire pressure cold against the sidewall or placard rating, inspect lug nuts, test all running, brake, and turn lights, and confirm the hitch, safety chains, and breakaway cable are connected. Inside, latch cabinets and the fridge, retract the antenna and steps, and run a propane leak check with the smoke, CO, and LP detectors tested. Follow your RV and tow vehicle manuals for exact pressures and torque values.
 
 How to Inspect an RV Before Every Trip is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For how to inspect an rv before every trip, potentially relevant categories incl
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Should tire pressure match the sidewall number?
 
-For how to inspect an rv before every trip, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+The sidewall shows the maximum pressure for the tire's maximum load, while the RV's placard lists the recommended pressure for that vehicle. Check pressure cold, before driving, and follow the placard or a load and inflation table for your actual weight.
 
-### What should I measure before changing anything?
+### What is the most commonly missed item?
 
-For how to inspect an rv before every trip, record date, mileage, operating hours, symptom, test result, part number, labor, cost and next-due point. Add photographs and the operating conditions so the result can be compared later.
+The breakaway cable and its battery. If the cable is not attached to the tow vehicle or the breakaway battery is dead, the trailer brakes will not apply if the trailer separates.
 
-### What if the problem is intermittent?
+### Is a TPMS worth it over a manual gauge?
 
-For how to inspect an rv before every trip, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+A tire pressure monitoring system warns you of a slow leak or overheating while driving, which a gauge cannot do. Many owners use both, a gauge to set pressure cold and a TPMS to watch it on the road.
 
-### When should I stop DIY work?
+### How do I test my detectors?
 
-For how to inspect an rv before every trip, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Press and hold the test button on the smoke, CO, and LP detectors until each sounds. Replace any that fail and note manufacturing dates, since many detectors have a limited service life printed on the unit.
 
-### How do I know the work succeeded?
+### What if I smell propane during the check?
 
-For how to inspect an rv before every trip, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Close the tank valves, avoid flames and electrical switches, and ventilate the coach. Do not travel until a qualified RV technician finds and repairs the leak.
+
 
 ## Owner scenario 1: For a weekend owner
 

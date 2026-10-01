@@ -2,7 +2,7 @@
 
 > **Safety note:** Propane is flammable and combustion can produce carbon monoxide. If gas is smelled or an alarm activates, avoid switches and flames, leave the RV, shut off the supply only if safe, and contact qualified service or emergency help.
 
-**Quick answer:** make why an rv stove flame is yellow a measured, model-aware process. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** A healthy propane flame is mostly blue with a small inner cone; a lazy, yellow or orange flame usually means poor air mixing, often from a dirty or blocked air shutter, debris or spider webs in the burner tube, or a misadjusted regulator. Yellow flames burn incompletely and can produce soot and carbon monoxide, so ventilate, stop using the burner, and have a qualified RV technician check it. A brief orange flicker from dust or salt in the air is normal.
 
 Why an RV Stove Flame Is Yellow is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For why an rv stove flame is yellow, potentially relevant categories include app
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Does a yellow flame mean my RV is unsafe to use?
 
-For why an rv stove flame is yellow, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+It means combustion is incomplete, which can create soot and carbon monoxide. Stop using that burner, ventilate the RV, and confirm your CO detector works until the cause is fixed.
 
-### What should I measure before changing anything?
+### What is a common mistake people make with yellow flames?
 
-For why an rv stove flame is yellow, record model and serial number, power source, voltage, propane status, flame appearance, cooling trend, cabinet ventilation, food temperature and fault code. Add photographs and the operating conditions so the result can be compared later.
+Ignoring it because the stove still cooks. Running a yellow flame for weeks can blacken cookware, coat the cabinets with soot, and raise CO levels inside a small space.
 
-### What if the problem is intermittent?
+### Is it worth cleaning the burner myself vs calling a technician?
 
-For why an rv stove flame is yellow, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+Wiping debris off the burner cap and grate is fine for a DIY owner. Adjusting air shutters, regulators, or orifices is gas work best left to a qualified RV technician.
 
-### When should I stop DIY work?
+### How can I check whether the cause is a single burner or the whole system?
 
-For why an rv stove flame is yellow, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Light every burner and the oven. If only one burner is yellow, a blockage in that burner is likely; if all of them are yellow, regulator pressure or the supply is the more likely issue.
 
-### How do I know the work succeeded?
+### Can spiders really cause a yellow flame?
 
-For why an rv stove flame is yellow, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Yes, spiders and insects like to nest in burner tubes and venturis, especially after storage. Their webs restrict airflow, which is why a yellow flame often appears at the start of a camping season.
+
 
 ## Owner scenario 1: For a weekend owner
 

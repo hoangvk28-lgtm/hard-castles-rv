@@ -2,7 +2,7 @@
 
 > **Safety note:** Propane is flammable and combustion can produce carbon monoxide. If gas is smelled or an alarm activates, avoid switches and flames, leave the RV, shut off the supply only if safe, and contact qualified service or emergency help.
 
-**Quick answer:** make rv propane detector care and replacement a measured, model-aware process. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** RV propane detectors should be tested regularly using the test button and replaced according to the manufacturer's date, often every 5 to 7 years. Keep them clean and powered, since low voltage can cause false alarms. Check the label for the expiration date and replace with a model approved for RVs.
 
 RV Propane Detector Care and Replacement is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For rv propane detector care and replacement, potentially relevant categories in
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Will any detector fit my RV?
 
-For rv propane detector care and replacement, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+RV detectors are typically 12V and mounted low near the floor. Replacement models should match the mounting and wiring. Check size and voltage.
 
-### What should I measure before changing anything?
+### What mistake causes false alarms?
 
-For rv propane detector care and replacement, record model and serial number, power source, voltage, propane status, flame appearance, cooling trend, cabinet ventilation, food temperature and fault code. Add photographs and the operating conditions so the result can be compared later.
+Low battery voltage or aerosol sprays near the sensor. Keep batteries charged and avoid spraying near it. Clean the sensor gently.
 
-### What if the problem is intermittent?
+### Is a combo CO and propane detector worth it?
 
-For rv propane detector care and replacement, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+Combo units save space but must be mounted where each gas is detected well. Separate detectors may offer better placement. Follow the manufacturer's guidance.
 
-### When should I stop DIY work?
+### How do I replace a detector?
 
-For rv propane detector care and replacement, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Disconnect 12V power, remove the old unit, and connect the new one following its wiring diagram. Mount it near the floor. Test it after installing.
 
-### How do I know the work succeeded?
+### How often should I test it?
 
-For rv propane detector care and replacement, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Test before each trip and monthly when in use. Replace if it fails or reaches its expiration date. Keep a record of the install date.
+
 
 ## Owner scenario 1: After a rough travel day
 

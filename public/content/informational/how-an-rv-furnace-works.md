@@ -2,7 +2,7 @@
 
 > **Safety note:** Disconnect shore power and generators before opening HVAC equipment, confirm 12-volt control power where applicable, and treat capacitors, refrigerant circuits, combustion systems and roof access as professional-service hazards.
 
-**Quick answer:** make how an rv furnace works a measured, model-aware process. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** An RV furnace burns propane in a sealed combustion chamber, and a 12V blower pushes cabin air across a heat exchanger and out through the ducts. A sail switch confirms airflow before the control board allows ignition, and a limit switch shuts the burner off if it overheats; combustion gases vent outside. Furnaces need steady 12V power, with blower draws often in the range of several amps, so check your model's manual for exact figures.
 
 How an RV Furnace Works is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For how an rv furnace works, potentially relevant categories include washable fi
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Does the furnace need battery power?
 
-For how an rv furnace works, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Yes. The blower, control board, and igniter run on 12V DC, so a weak battery can prevent ignition even when propane is available.
 
-### What should I measure before changing anything?
+### What is a common furnace mistake?
 
-For how an rv furnace works, record indoor and outdoor temperature, relative humidity, supply-air temperature, airflow, voltage, current only when safely measured, condensate path and operating cycle. Add photographs and the operating conditions so the result can be compared later.
+Blocking floor vents or return air openings with furniture or storage. Restricted airflow can trip the limit switch and cause the furnace to cycle off.
 
-### What if the problem is intermittent?
+### Is a furnace worth using over a space heater?
 
-For how an rv furnace works, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+Electric space heaters save propane when on shore power, but they heat only nearby space and do not warm ducts near tanks and plumbing in some RVs. Many owners combine both in cold weather.
 
-### When should I stop DIY work?
+### How do I know it ignited correctly?
 
-For how an rv furnace works, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+After the blower starts, you should hear the burner light within a short delay, and warm air should follow. Repeated attempts followed by a lockout point to an ignition or gas supply issue.
 
-### How do I know the work succeeded?
+### Is the furnace safe to run while sleeping?
 
-For how an rv furnace works, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Furnaces with sealed combustion vent outside, but the RV should still have a working CO detector. Have a qualified technician inspect the furnace and venting regularly.
+
 
 ## Owner scenario 1: Under hot or cold weather
 

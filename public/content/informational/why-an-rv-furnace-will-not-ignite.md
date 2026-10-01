@@ -2,7 +2,7 @@
 
 > **Safety note:** Disconnect shore power and generators before opening HVAC equipment, confirm 12-volt control power where applicable, and treat capacitors, refrigerant circuits, combustion systems and roof access as professional-service hazards.
 
-**Quick answer:** make why an rv furnace will not ignite a measured, model-aware process. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Common causes are low 12V battery voltage, empty or closed propane tanks, air in the gas line after a tank change, a blocked or stuck sail switch from weak airflow, a tripped limit switch, or a failing igniter or control board. Check battery voltage (around 12V or higher), propane supply, and that a stovetop burner lights, then reset the thermostat. Gas valve, board, and burner repairs should go to a qualified RV technician.
 
 Why an RV Furnace Will Not Ignite is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For why an rv furnace will not ignite, potentially relevant categories include w
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Why does the furnace work after lighting the stove?
 
-For why an rv furnace will not ignite, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Lighting a stove burner first can purge air from the propane line after a tank change or long storage. If the furnace lights after that, air in the line was likely the cause.
 
-### What should I measure before changing anything?
+### What is a common mistake?
 
-For why an rv furnace will not ignite, record indoor and outdoor temperature, relative humidity, supply-air temperature, airflow, voltage, current only when safely measured, condensate path and operating cycle. Add photographs and the operating conditions so the result can be compared later.
+Assuming the furnace is broken when the battery is low. A weak battery can slow the blower so the sail switch does not close, which prevents ignition.
 
-### What if the problem is intermittent?
+### Is replacing the control board worth it over a new furnace?
 
-For why an rv furnace will not ignite, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+A board replacement is usually much cheaper than a full furnace if the rest of the unit is in good shape. A technician can confirm the board is at fault before you buy parts.
 
-### When should I stop DIY work?
+### How do I check for blocked vents?
 
-For why an rv furnace will not ignite, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Look at the exterior furnace vent for wasp nests, debris, or damage, and make sure interior returns and ducts are open. Insect nests are a common cause in RVs that sit unused.
 
-### How do I know the work succeeded?
+### What if I smell gas when the furnace tries to light?
 
-For why an rv furnace will not ignite, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Turn off the furnace and propane at the tanks, ventilate, and do not try again. Have a qualified technician inspect the system before using it.
+
 
 ## Owner scenario 1: When shore power is uncertain
 

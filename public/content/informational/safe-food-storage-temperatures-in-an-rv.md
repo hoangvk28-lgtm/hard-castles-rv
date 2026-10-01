@@ -2,7 +2,7 @@
 
 > **Safety note:** Propane is flammable and combustion can produce carbon monoxide. If gas is smelled or an alarm activates, avoid switches and flames, leave the RV, shut off the supply only if safe, and contact qualified service or emergency help.
 
-**Quick answer:** make safe food storage temperatures in an rv a measured, model-aware process. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Keep your RV refrigerator at 40 degrees F or below, ideally 34 to 38, and the freezer at 0 degrees F, measured with an inexpensive appliance thermometer rather than trusting the dial. Perishable food left above 40 degrees F for more than about two hours should be thrown out under USDA guidance. Absorption fridges cool slowly, so start them 8 to 24 hours before loading and check your fridge manual for its settings.
 
 Safe Food Storage Temperatures in an RV is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For safe food storage temperatures in an rv, potentially relevant categories inc
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Does my RV fridge need to be level to stay cold?
 
-For safe food storage temperatures in an rv, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Absorption fridges need to be reasonably level when parked to cool properly and avoid damage, while compressor fridges are far less sensitive. Check your manual for the allowed tilt.
 
-### What should I measure before changing anything?
+### What is a common mistake with RV fridge temperatures?
 
-For safe food storage temperatures in an rv, record model and serial number, power source, voltage, propane status, flame appearance, cooling trend, cabinet ventilation, food temperature and fault code. Add photographs and the operating conditions so the result can be compared later.
+Packing a warm fridge full of room temperature food. Pre cool the fridge and load cold or frozen food so it does not struggle to recover.
 
-### What if the problem is intermittent?
+### Is a wireless fridge thermometer worth it vs a basic dial thermometer?
 
-For safe food storage temperatures in an rv, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+A wireless unit lets you see temperatures and set alarms without opening the door, which is helpful while driving. A basic dial thermometer is cheaper and still accurate enough.
 
-### When should I stop DIY work?
+### How do I keep food cold in very hot weather?
 
-For safe food storage temperatures in an rv, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Park with the fridge side in shade, keep the door closed, avoid overpacking so air can circulate, and consider a small fridge fan. Some owners add a vent fan on the exterior fridge vent.
 
-### How do I know the work succeeded?
+### How long is food safe if the fridge stops working?
 
-For safe food storage temperatures in an rv, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+A closed fridge typically keeps food safe for about 4 hours, and a full freezer about 48 hours, under USDA guidance. Check temperatures with a thermometer before using anything.
+
 
 ## Owner scenario 1: After a rough travel day
 

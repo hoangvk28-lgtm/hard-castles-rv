@@ -2,7 +2,7 @@
 
 > **Safety note:** Do not let a checklist substitute for the manuals for the exact RV, chassis and installed equipment. Gas, brake, structural and energized electrical work may require a qualified technician.
 
-**Quick answer:** understand and complete maintenance differences by rv type without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Motorhomes need engine, transmission, and chassis service in addition to coach maintenance, with Class A diesel pushers often requiring more costly service than gas Class C models. Towables like travel trailers and fifth wheels skip engine work but need regular wheel bearing, brake, and hitch or kingpin maintenance. Every type shares roof, sealant, plumbing, and appliance care, so follow both the coach and chassis manuals.
 
 Maintenance Differences by RV Type is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For maintenance differences by rv type, potentially relevant categories include 
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### How often do trailer wheel bearings need service?
 
-For maintenance differences by rv type, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Many axle manufacturers suggest inspecting and repacking bearings about every 12 months or 12,000 miles, unless the axle uses a sealed or oil bath system with different intervals. Check your axle maker's manual.
 
-### What should I measure before changing anything?
+### What do Class B owners often overlook?
 
-For maintenance differences by rv type, record date, mileage, operating hours, symptom, test result, part number, labor, cost and next-due point. Add photographs and the operating conditions so the result can be compared later.
+Compact systems packed tightly in a van can be hard to reach, so small leaks go unnoticed longer. Inspect plumbing and battery compartments regularly.
 
-### What if the problem is intermittent?
+### Is a fifth wheel harder to maintain than a travel trailer?
 
-For maintenance differences by rv type, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+Not dramatically, but fifth wheels add a kingpin, pin box, and often a hitch that need lubrication and inspection. They also tend to have more slides and systems to maintain.
 
-### When should I stop DIY work?
+### What extra care do pop-up campers need?
 
-For maintenance differences by rv type, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Canvas needs to be dry before folding to prevent mildew, and the lift system needs periodic inspection and lubrication. Check the manufacturer's manual for the lift mechanism's schedule.
 
-### How do I know the work succeeded?
+### Do diesel pushers need special service?
 
-For maintenance differences by rv type, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Diesel engines have their own filter, coolant, and fluid schedules, and many have air brakes that need regular inspection. A shop experienced with heavy diesel chassis is usually the best choice.
+
 
 ## Owner scenario 1: Under hot or cold weather
 

@@ -2,7 +2,7 @@
 
 > **Safety note:** Security and monitoring devices supplement—not replace—physical checks, working alarms and an emergency plan. Never disable a safety detector to stop nuisance alarms; identify the cause and follow its manual.
 
-**Quick answer:** understand and complete how to secure an rv wi-fi network without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Change the router's default admin password and network name, turn on WPA2 or WPA3 encryption with a strong passphrase, and keep the router firmware updated. When using campground Wi-Fi, connect through your own router or a VPN instead of logging in directly from every device. Check your router's manual for where to find these settings.
 
 How to Secure an RV Wi-Fi Network is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For how to secure an rv wi-fi network, potentially relevant categories include h
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Does my RV router support WPA3?
 
-For how to secure an rv wi-fi network, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Many newer routers do, but older ones may only support WPA2. Check the wireless security settings, and use WPA2 if WPA3 is not available, since it is still far safer than an open network.
 
-### What should I measure before changing anything?
+### What is a common Wi-Fi security mistake in RVs?
 
-For how to secure an rv wi-fi network, record signal quality, throughput, latency, data use, voltage, camera link, alert delay, battery state, coverage area and failure behavior. Add photographs and the operating conditions so the result can be compared later.
+Leaving the router's default admin password unchanged. Anyone nearby who connects could then change your settings.
 
-### What if the problem is intermittent?
+### Is a VPN worth it on public campground Wi-Fi?
 
-For how to secure an rv wi-fi network, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+Yes, it adds encryption between your device and the VPN server, which helps on shared networks. It may slow your connection a little.
 
-### When should I stop DIY work?
+### How do I check who is connected to my network?
 
-For how to secure an rv wi-fi network, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Log into the router's admin page or app and look at the connected devices list. If you see unknown devices, change the Wi-Fi password and reconnect your own devices.
 
-### How do I know the work succeeded?
+### How often should I update router firmware?
 
-For how to secure an rv wi-fi network, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Check for updates every few months or turn on automatic updates if available. Updates often fix security problems, so do not skip them.
+
 
 ## Owner scenario 1: Under hot or cold weather
 

@@ -2,7 +2,7 @@
 
 > **Safety note:** Do not let a checklist substitute for the manuals for the exact RV, chassis and installed equipment. Gas, brake, structural and energized electrical work may require a qualified technician.
 
-**Quick answer:** understand and complete common rv maintenance mistakes without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** The most expensive mistakes are skipping roof and sealant inspections, ignoring tire age, letting batteries sit discharged, and skipping winterization in freezing climates. Others include overfilling or underinflating tires, using the wrong sealant, and leaving the black tank valve open while connected at a campsite. Following your manual's service schedule prevents most of them.
 
 Common RV Maintenance Mistakes is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For common rv maintenance mistakes, potentially relevant categories include insp
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Why is leaving the black tank valve open a mistake?
 
-For common rv maintenance mistakes, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Liquids drain out while solids stay behind and dry into a buildup that can clog the tank and confuse sensors. Keep it closed and dump when it is at least two thirds full.
 
-### What should I measure before changing anything?
+### What battery mistake shortens battery life?
 
-For common rv maintenance mistakes, record date, mileage, operating hours, symptom, test result, part number, labor, cost and next-due point. Add photographs and the operating conditions so the result can be compared later.
+Letting lead acid batteries sit partially discharged, which causes sulfation. Keep them charged during storage or disconnect them and use a maintainer, and check water levels in flooded batteries.
 
-### What if the problem is intermittent?
+### Is it worth winterizing in mild climates?
 
-For common rv maintenance mistakes, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+If temperatures can drop below freezing even for a night, water in lines and valves can freeze and crack them. Many owners in mild areas still winterize or keep the heat on when a freeze is forecast.
 
-### When should I stop DIY work?
+### How do I avoid sealant mistakes?
 
-For common rv maintenance mistakes, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Check what your roof membrane and exterior surfaces are and use the sealant type the manufacturer recommends. Remove loose old sealant and clean the surface before applying new.
 
-### How do I know the work succeeded?
+### What about the generator?
 
-For common rv maintenance mistakes, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Letting a generator sit unused can lead to fuel problems and hard starting. Many manufacturers recommend running it under load periodically, so check your generator manual for its exercise schedule.
+
 
 ## Owner scenario 1: For a full-time traveler
 

@@ -2,7 +2,7 @@
 
 > **Safety note:** Do not let a checklist substitute for the manuals for the exact RV, chassis and installed equipment. Gas, brake, structural and energized electrical work may require a qualified technician.
 
-**Quick answer:** understand and complete how to prepare an rv for a service appointment without hiding the underlying condition. The exact RV and component manuals remain controlling documents, especially where electricity, propane, combustion, refrigerant, structural attachment or life-safety equipment is involved.
+**Quick answer:** Write a clear list of every issue with when it happens, any error codes, and photos or videos, and bring your repair history and warranty paperwork. Empty the black and gray tanks, clear access to the areas being worked on, and remove valuables. Confirm before drop off whether the shop wants propane tanks full, empty, or removed.
 
 How to Prepare an RV for a Service Appointment is often covered online as either a short checklist or a product list. This guide closes the gap by connecting diagnosis, safe preparation, measured verification, ownership records and clear stop-work boundaries.
 
@@ -131,25 +131,26 @@ For how to prepare an rv for a service appointment, potentially relevant categor
 
 ## Frequently asked questions
 
-### Can I use a universal replacement?
+### Why empty the holding tanks?
 
-For how to prepare an rv for a service appointment, only after matching ratings, dimensions, connectors, materials and the manufacturer instructions. “Fits most” is not evidence that it is safe for this RV.
+Technicians may need to move the RV, work on plumbing, or access areas near the tanks. Many shops ask for empty tanks and may charge to dump them if you arrive full.
 
-### What should I measure before changing anything?
+### What is the most common drop off mistake?
 
-For how to prepare an rv for a service appointment, record date, mileage, operating hours, symptom, test result, part number, labor, cost and next-due point. Add photographs and the operating conditions so the result can be compared later.
+Describing a problem vaguely, such as the AC is not working right. Say what happens, when it started, and the conditions, like the AC runs but blows warm air after 30 minutes on shore power.
 
-### What if the problem is intermittent?
+### Is it worth recording a video of the problem?
 
-For how to prepare an rv for a service appointment, create a simple event log. Note temperature, load, power source, travel movement and the exact sequence immediately before the symptom.
+Yes, especially for intermittent issues. A short video of a noise, error code, or leak can save diagnostic time if the problem does not show up while the RV is at the shop.
 
-### When should I stop DIY work?
+### How should I handle personal items?
 
-For how to prepare an rv for a service appointment, stop for unknown energized wiring, gas odor or alarm, structural damage, unstable access, a result outside the manual. Use qualified service when the manual calls for tests or adjustments beyond your training.
+Remove valuables and clear cabinets or compartments near the work area. This protects your belongings and saves labor spent moving items.
 
-### How do I know the work succeeded?
+### What should I do at pickup?
 
-For how to prepare an rv for a service appointment, recreate the original operating condition, confirm the measured result, inspect for side effects and schedule a follow-up check.
+Review the repair order, test each repaired system before leaving, and ask for old parts if you want them. Add the repair order to your maintenance log right away.
+
 
 ## Owner scenario 1: After a rough travel day
 

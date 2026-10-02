@@ -33,6 +33,24 @@ const CL = {
   "RV TPMS": { q: (k) => [k, k.replace(/rv tpms|tpms/, "RV tire pressure monitoring system"), k + " trailer sensors", k.replace(/rv tpms|tpms/, "TPMS RV trailer repeater")], must: /tpms|tire pressure monitor/i, ban: /valve stem only|tool kit|inflator|compressor|gauge only|replacement battery/i, req: [[/4-sensor/, /4 sensors?|4.?pack|4 tires?|4pcs/i], [/8-sensor/, /8 sensors?|8.?pack|8 tires?|8pcs/i], [/internal/, /internal|inner|in.?tire/i], [/sensors/, /sensor/i], [/repeater/, /repeater|booster|signal/i], [/bluetooth|smartphone/, /bluetooth|\\bapp\\b|smartphone/i], [/solar/, /solar/i], [/external/, /external|cap/i], [/6-sensor/, /6 sensors?|6.?pack|6 tires?|6pcs/i], [/10-sensor/, /10 sensors?|10.?pack|10 tires?|10pcs/i], [/replaceable/, /replaceable|cr1632|battery/i], [/high-pressure/, /high pressure|2\\d\\d ?psi|1[5-9]\\d ?psi/i]] },
   "Solar Charge Controllers": { q: (k) => [k, k + " 12V 24V", k.replace("solar charge controller", "charge controller RV solar"), k.replace("solar charge controller", "solar controller regulator"), ...(/alternator/.test(k) ? ["DC to DC battery charger MPPT solar input", "Renogy DC-DC charger MPPT", "Victron Orion DC-DC charger", "dual input DC DC charger solar alternator"] : []), ...(/generator|ac input/.test(k) ? ["solar inverter charger MPPT 12V RV", "all in one inverter charger with MPPT solar controller", "hybrid solar inverter MPPT AC charger 12V"] : [])], must: /charge controller|solar controller|charge regulator|dc.?(to.?)?dc|mppt|inverter charger/i, ban: /panel kit|kit with|cable only|fuse|connector|bracket|mount|battery monitor only|light|lamp/i, req: [[/mppt/, /mppt/i], [/pwm/, /pwm/i], [/bluetooth/, /bluetooth|\bapp\b/i], [/waterproof/, /waterproof|ip6\d/i], [/dual-battery/, /dual.?batter|two batter|2 batter/i], [/all-in-one/, /inverter/i], [/alternator/, /alternator|dc.?dc|b2b|dc to dc/i], [/generator-input|ac-input/, /\bac\b|generator|inverter charger|mains/i], [/lifepo4|lithium/, /lithium|lifepo4/i], [/lead-acid/, /agm|gel|flooded|lead/i], [/compact/, /compact|mini|small/i], [/high-voltage/, /high voltage|1[05]0 ?v|2[05]0 ?v|voc/i]] },
   "Weight Distribution Hitches": { q: (k) => [k, k + " sway control", k.replace("weight distribution hitch", "WD hitch kit trailer"), k.replace("weight distribution hitch", "weight distribution hitch trunnion round bar kit"), "Equal-i-zer weight distribution hitch", "Fastway e2 weight distribution hitch", "CURT TruTrack weight distribution hitch", "Husky Centerline weight distribution hitch", "Andersen No-Sway weight distribution hitch", "Blue Ox SwayPro weight distribution", "Reese Strait-Line weight distribution", "Camco Eaz-Lift weight distribution hitch", "ProPride 3P hitch"], must: /weight distribut|\bwd hitch|equal.?i.?zer|trunnion/i, ban: /hitch pin|hitch lock|receiver cover|bike|cargo|stabilizer jack/i, req: [[/integrated-sway|with-sway/, /sway|4.?point/i], [/2-5-inch/, /2.?1\/2|2\.5|2 1\/2/i], [/3-inch/, /3"|3 inch|3-inch|3 in\b/i], [/lifted/, /drop|rise|lift|long shank|adjustable/i], [/round-bar/, /round/i], [/trunnion/, /trunnion/i], [/surge/, /surge|andersen/i], [/adjustable-weight/, /adjust/i], [/lightweight/, /light|alumin|compact|andersen/i]] },
+  "Heated RV Water Hoses": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /heated|heat tape|freeze/i, ban: /hose reel|nozzle|splitter only|cover only|y valve/i },
+  "RV AC Soft Starts": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /soft start|softstart|easystart|micro.?air/i, ban: /capacitor only|thermostat/i },
+  "RV Air Conditioners": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /air condition|\bac\b|a\/c|heat pump/i, ban: /filter|cover|thermostat only|capacitor|soft start|vent cover|portable fan|cleaner|shroud only/i },
+  "RV Cleaners": { q: (k) => [k, "RV black streak remover", "RV roof cleaner rubber EPDM", "RV awning cleaner", k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /clean|wash|remover/i, ban: /brush|mop|pole|towel|vacuum/i, req: [[/black-tank/, /enzyme|tank|bio|odor/i], [/streak/, /streak/i], [/fiberglass/, /fiberglass|gel.?coat/i], [/drain/, /drain|clog/i], [/interior/, /interior|upholster|multi.?surface|all.?purpose|fabric/i], [/roof/, /roof/i]], },
+  "RV Fresh Water Hoses": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /hose/i, ban: /clean.?out|black water|elbow|90 degree|sewer|heated|reel only|nozzle only|splitter|garden spray|air hose/i },
+  "RV GPS & Navigation": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /gps|navigat|navigator/i, ban: /tracker|pet|collar|dash cam only|mount only|charger only|antenna only/i },
+  "RV Roof Coatings": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /coating|roof (paint|coat)|elastomeric/i, ban: /roller only|brush only|sealant tape|caulk/i, req: [[/epdm|rubber/, /epdm|rubber/i], [/fiberglass/, /fiberglass/i], [/tpo/, /tpo/i]], },
+  "RV Roof Repair Tapes": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /tape/i, ban: /duct tape|painter|electrical tape|teflon|measuring/i },
+  "RV Roof Sealants": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /sealant|lap seal|caulk|dicor|self.?leveling/i, ban: /tape|coating gallon|caulk gun only|remover/i, req: [[/aluminum/, /alumin|metal/i], [/self-leveling/, /self.?level/i]], },
+  "RV Sewer Hose Fittings": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /sewer|elbow|fitting|adapter|bayonet|wye|valve|connector/i, ban: /hose kit|\d+ ?ft|water hose|garden|drinking/i },
+  "RV Sewer Hose Supports": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /sewer hose support|hose support|slunky|sidewinder|support/i, ban: /water hose|tent|jack/i },
+  "RV Sewer Hoses": { q: (k) => [k, "RhinoFLEX sewer hose kit 20 ft", "Valterra Dominator sewer hose", "RV sewer hose kit 15 ft with fittings", k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /sewer hose|sewer kit|sewage hose|drain hose/i, ban: /support|carrier|tote|wye|elbow|adapter|cap\b|storage|bumper|garden|drinking|water hose|wrench/i },
+  "RV Space Heaters": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /heater/i, ban: /engine compartment|bilge|water heater|heated hose|tank heater|blanket|hand warmer|engine block/i, req: [[/ceramic/, /ceramic/i], [/electric/, /electric/i], [/low-wattage/, /low.?watt|\b[2-9]\d\d ?w\b|energy.?saving|eco/i], [/safest/, /tip.?over|overheat|safety|\bul\b|etl/i]], noNum: /30-amp/, },
+  "RV Wash & Wax": { q: (k) => [k, ...(/aluminum/.test(k) ? ["aluminum trailer wash and polish", "RV aluminum siding cleaner wax", "aluminum brightener polish trailer"] : []), ...(/fiberglass/.test(k) ? ["fiberglass RV wash and wax gelcoat", "boat RV fiberglass cleaner wax", "gelcoat restorer wax RV"] : []), k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /wash|wax|polish|sealant spray|ceramic/i, ban: /brush only|towel only|pole only|toilet|tank/i, req: [[/aluminum/, /alumin|metal|siding/i], [/fiberglass/, /fiberglass|gel.?coat/i]], },
+  "RV Water Heaters": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /water heater|tankless|hot water/i, ban: /latch|door|anode|element|wrench|flush|anode only|element only|thermostat only|door only|heated hose|tank heater pad|flush wand/i, req: [[/tankless/, /tankless|on.?demand|instant/i]], },
+  "RV Water Pump Accumulators": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /accumulator|expansion tank|pressure tank/i, ban: /pump only|gauge only/i },
+  "RV Water Pumps": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /water pump|pump/i, ban: /accumulator|strainer only|sump|bilge|transfer pump drill|fuel|aquarium|air pump|macerator|vacuum|pump cover|pressure washer/i, req: [[/variable/, /variable|vsp|speed/i]], },
+  "RV WiFi Boosters": { q: (k) => [k, k.replace(/^best /, "") + " RV camper", k.replace(/ rv| for rv/g, "") + " travel trailer motorhome"], must: /wifi|wi-fi|booster|extender|router|cellular|antenna/i, ban: /for home|sq\.? ?ft|whole home|tv antenna|fm|radio|cable only|usb wifi adapter only/i },
   "RV Inverters": { q: (k) => [k, k.replace(/rv /, "") + " pure sine wave 12V", k + " charger transfer switch"], must: /inverter/i, ban: /generator|cable|fuse|remote only|cover|solar panel kit|car inverter 150|usb/i },
 };
 
@@ -77,6 +95,9 @@ const used = new Set();
 for (const f of readdirSync("data/guides")) { if (!f.endsWith(".ts")) continue; for (const m of readFileSync("data/guides/" + f, "utf8").matchAll(/\/dp\/([A-Z0-9]{10})/g)) used.add(m[1]); }
 for (const f of readdirSync("scripts/p2-content")) for (const m of readFileSync("scripts/p2-content/" + f, "utf8").matchAll(/asin: "([A-Z0-9]{10})"/g)) used.add(m[1]);
 
+// Prior descriptions of ASINs already reviewed elsewhere, so writers can adapt them instead of starting from scratch.
+const prior = {};
+for (const f of readdirSync("data/guides")) { if (!f.endsWith(".ts")) continue; for (const m of readFileSync("data/guides/" + f, "utf8").matchAll(/"amazonUrl": "https:\/\/www\.amazon\.com\/dp\/([A-Z0-9]{10})[^"]*",\s*"description": "((?:[^"\\]|\\.)*)"/g)) prior[m[1]] ??= { guide: f.replace(/\.ts$/, ""), text: JSON.parse('"' + m[2] + '"').slice(0, 900) }; }
 const gap = readFileSync(GAP, "utf8");
 const p2 = gap.slice(gap.indexOf("# P2 articles"));
 function gapEntry(slug) {
@@ -92,6 +113,8 @@ function clusterNote(cluster) {
   return gap.slice(i, gap.indexOf("\n### ", i + 5)).trim();
 }
 
+CL["RV Water Filters — Incremental"] = CL["RV Water Filters"];
+CL["RV Water Pressure Regulators — Incremental"] = CL["RV Water Pressure Regulators"];
 const lines = readFileSync(slugsFile, "utf8").split("\n").map((l) => l.trim()).filter(Boolean);
 const taken = new Set();
 for (const line of lines) {
@@ -105,12 +128,13 @@ for (const line of lines) {
   let cands = raw.filter((i) => i.asin && !seen.has(i.asin) && seen.add(i.asin) && i.price != null && i.title);
   cands = cands.filter((i) => cfg.must.test(i.title) && !cfg.ban.test(i.title));
   for (const [sp, tp] of cfg.req || []) if (sp.test(slug)) cands = cands.filter((i) => tp.test(process.env.LOOSE ? i.title + " " + i.features.join(" ") : i.title));
-  const toks = numTokens(slug);
+  const toks = cfg.noNum && cfg.noNum.test(slug) ? [] : numTokens(slug);
   let numOk = cands;
   if (toks.length) numOk = cands.filter((i) => toks.every((tk) => matchesNum(process.env.LOOSE ? i.title + ' ' + i.features.join(' ') : i.title, tk)));
   const usedIn = {};
   if (process.env.ALLOW_USED) for (const f of readdirSync("data/guides")) { if (!f.endsWith(".ts")) continue; for (const m of readFileSync("data/guides/" + f, "utf8").matchAll(/\/dp\/([A-Z0-9]{10})/g)) (usedIn[m[1]] ??= new Set()).add(f); }
   let pool = numOk.filter((i) => !taken.has(i.asin) && (process.env.ALLOW_USED || !used.has(i.asin)));
+  if (process.env.REUSE && !process.env.ALLOW_USED) pool = [...numOk.filter((i) => used.has(i.asin) && prior[i.asin] && !taken.has(i.asin)).slice(0, 2), ...pool];
   const reuse = pool.length < 6 ? numOk.filter((i) => taken.has(i.asin) && !used.has(i.asin)).slice(0, Math.min(2, 6 - pool.length)) : [];
   pool.sort((a, b) => (used.has(a.asin) ? 1 : 0) - (used.has(b.asin) ? 1 : 0));
   // diversify: max 2 per brand, spread over price
@@ -135,7 +159,7 @@ for (const line of lines) {
     status: picks.length >= 5 ? "ok" : "THIN",
     candidatesAfterFilter: numOk.length, availableUnused: pool.length,
     gap: gapEntry(slug), clusterFinding: clusterNote(cluster),
-    picks: picks.map((p) => ({ asin: p.asin, brand: p.brand, price: p.price, title: p.title.slice(0, 170), features: p.features.slice(0, 5).map((f) => f.replace(/\s+/g, " ").slice(0, 200)) })),
+    picks: picks.map((p) => ({ asin: p.asin, brand: p.brand, price: p.price, title: p.title.slice(0, 170), features: p.features.slice(0, 5).map((f) => f.replace(/\s+/g, " ").slice(0, 200)), ...(prior[p.asin] ? { prior: prior[p.asin] } : {}) })),
   };
   writeFileSync(resolve(outDir, slug + ".json"), JSON.stringify(out, null, 1));
   console.log(`${out.status.padEnd(4)} ${slug}  picks=${picks.length} filtered=${numOk.length} unused=${pool.length}`);

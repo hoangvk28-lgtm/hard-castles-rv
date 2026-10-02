@@ -113,7 +113,6 @@ function verificationNote(product: GuideProduct) {
 
 function buildEditorialReview(product: GuideProduct, siblings: GuideProduct[]) {
   const strengths = product.pros.filter(usablePoint);
-  const tradeoffs = product.cons.filter(usablePoint);
   const specs = product.specs.filter(usablePoint).slice(0, 3);
   const lead = strengths[0] ?? specs[0] ?? `a configuration suited to ${product.bestFor}`;
   const specLine = specs.length > 0
@@ -136,15 +135,8 @@ function buildEditorialReview(product: GuideProduct, siblings: GuideProduct[]) {
     `What separates it on paper is ${lowerFirst(lead)}.`,
     `The feature doing most of the work here is ${lowerFirst(lead)}.`,
   ];
-  const tradeoffOpeners = [
-    "The main limitation to plan around is",
-    "The trade-off worth checking first is",
-    "Before committing, account for",
-    "The practical constraint here is",
-  ];
-  const finalParagraph = tradeoffs[0]
-    ? `${tradeoffOpeners[variant]} ${lowerFirst(tradeoffs[0])}. ${verification}`
-    : verification;
+  // "Why it made the shortlist" argues for the pick only; limitations live in the Cons list and "Skip if".
+  const finalParagraph = verification;
 
   const variants = [
     {
@@ -172,6 +164,21 @@ function buildEditorialReview(product: GuideProduct, siblings: GuideProduct[]) {
 
 const toList = (v?: string | string[]) => (Array.isArray(v) ? v : v ? [v] : []);
 
+// Sentences that argue against a pick (caveats, missing specs, price/weight penalties). "Why it made the
+// shortlist" only makes the case for the product; limitations are shown in Cons and "Skip if".
+const LIMITATION = /\b(caveat|catch|downside|drawback|limitation|trade-?off|weak(er|ness)?|lacks?|lacking|missing|omit(s|ted)?|not (listed|stated|named|given|included|specified|published|clear|mentioned|confirmed)|does ?n[o']t|doesn't|is ?n[o']t|isn't|cannot|can't|no (stated|listed|published|named|warranty|gauge|app|remote|display)|leaves? out|thin(ner)? (spec|listing|detail)|costs? (more|extra)|pricier|more expensive|heavier|bulkier|louder|shorter|smaller|fewer|less (detail|info|document)|confirm|verify|check (the|with|before)|ask the seller|skip (it|this)|however|unfortunately|though|although|but|only|twice|double|premium|treat (it|the|this)|listing claim|cut off|before (buying|ordering|you buy)|read the|be aware|keep in mind|watch (for|out))\b/i;
+
+function shortlistParagraphs(description?: string): string[] {
+  if (!description) return [];
+  return description
+    .split(/\n\s*\n/)
+    .map((para) => para.split(/(?<=[.!?]["')\]]?)\s+(?=[A-Z0-9"'(])/)
+      .map((sentence) => sentence.trim())
+      .filter((sentence) => sentence && !LIMITATION.test(sentence))
+      .join(" "))
+    .filter((para) => para.split(/\s+/).length >= 8);
+}
+
 function Label({ children }: { children: React.ReactNode }) {
   return <h4 className="font-[family-name:var(--font-body)] text-[0.8125rem] font-semibold uppercase tracking-[0.1em] text-ink">{children}</h4>;
 }
@@ -182,7 +189,9 @@ function Label({ children }: { children: React.ReactNode }) {
  * phones. Exactly one commerce CTA per product.
  */
 export function GuideProductPick({ product: p, products, total }: { product: GuideProduct; products: GuideProduct[]; total: number }) {
-  const { verdict, rest } = buildEditorialReview(p, products);
+  const { verdict, rest: templateRest } = buildEditorialReview(p, products);
+  const written = shortlistParagraphs(p.description);
+  const rest = written.length > 0 ? written : templateRest;
   const skipIf = toList(p.skipIf);
 
   return (

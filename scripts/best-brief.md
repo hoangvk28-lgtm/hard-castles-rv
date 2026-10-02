@@ -37,3 +37,9 @@ When a spec is missing, say it plainly as a buyer tip: "The listing does not sta
 - Each of the 3 "d" paragraphs must be 2-3 full sentences (not 1). The positioning paragraph names the neighbouring pick(s) and the concrete mechanism that separates them.
 - Pros must be real product facts; a price-only pro ("Lowest price here") is allowed at most once per guide.
 - Angle: derive each slug's angle from its keyword (feature, use case, vehicle, stage count, etc.) and make intro, criteria, howToChoose and FAQ specific to it. Siblings in the same cluster must not share intro sentences, criteria labels, or FAQ questions word for word.
+
+## Reusing prior reviews (facts "prior" field)
+Some picks carry `prior: {guide, text}`: the description that product already has in another guide on the site. Reuse its facts to save effort, but never copy its sentences: rewrite all 3 paragraphs for this guide's angle and siblings, with different sentence structure. Pros/cons/specs may repeat facts but should not be the identical list.
+
+## "d" renders as "Why it made the shortlist" (positive case only, from Round 3 batch 3)
+The 3 "d" paragraphs are shown on the page under "Why it made the shortlist". Write them as the case FOR the pick: (1) what it is and its key real specs, (2) where it beats or differs from named neighbouring picks, (3) who it is best for. Do NOT put caveats, missing specs, "costs more", "confirm/verify", "however/but/though" or other limitations in "d"; those belong only in "cons" (and FAQ/criteria where relevant). The page also filters such sentences out, so any limitation written in "d" is wasted tokens.

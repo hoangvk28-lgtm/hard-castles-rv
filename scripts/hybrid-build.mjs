@@ -11,6 +11,9 @@ const guides = new Set(readdirSync("data/guides").map((f) => f.replace(/\.ts$/, 
 const content = new Set(readdirSync("scripts/p2-content").map((f) => f.replace(/\.mjs$/, "")));
 const titleCase = (s) => s.replace(/\b(rv|ac|dc|ems|ups|psi|tpms|mppt|pwm|cpap|bms|usb|lifepo4|wfco|tt)\b/gi, (m) => m.toUpperCase()).replace(/\b([a-z])/g, (m) => m.toUpperCase()).replace(/(\d+)Ah\b/i, "$1Ah").replace(/(\d+)wh\b/i, "$1Wh");
 const wc = (s) => s.trim().split(/\s+/).length;
+// slug -> silo for guides already in the registry (subcategorySlug is the silo for RV guides)
+const REG_SILO = {};
+for (const m of readFileSync("data/guides.ts", "utf8").matchAll(/slug: "([^"]+)",\s*categorySlug: "rv",\s*subcategorySlug: "([^"]+)"/g)) REG_SILO[m[1]] = m[2];
 
 function specsFor(p) {
   const out = [];
@@ -55,11 +58,24 @@ for (const slug of slugs) {
   // Related: same-cluster siblings that exist
   const cluster = facts.cluster;
   const sib = readFileSync(process.env.SLUGS || process.env.TEMP + "/claude/rv/p3all.txt", "utf8").split("\n").map((l) => l.trim().split("|")).filter(([c, s]) => c === cluster && s && s !== slug && (guides.has(s) || content.has(s))).map(([, s]) => s);
-  const extra = [...guides].filter((g) => g !== slug && g.startsWith("best-") && cluster.toLowerCase().split(" ").filter((w) => w.length > 3 && w !== "rv").some((w) => g.includes(w.replace(/s$/, ""))));
+  const extra = [...guides].filter((g) => g !== slug && g.startsWith("best-") && [cluster.toLowerCase().replace(/ — .*$/, "").split(" ").filter((w) => w.length > 2 && w !== "rv").pop()].filter(Boolean).some((w) => g.includes(w.replace(/s$/, ""))));
   const relSlugs = [...new Set([...sib, ...extra])].slice(0, 4);
-  const SILO = { "RV Water Pressure Regulators": "water-plumbing", "RV Water Filters": "water-plumbing", "Weight Distribution Hitches": "towing-leveling", "Sway Control Hitches": "towing-leveling", "Trailer Brake Controllers": "towing-leveling", "RV TPMS": "towing-leveling" };
+  const SILO = { "RV Water Pressure Regulators": "water-plumbing", "RV Water Filters": "water-plumbing", "Weight Distribution Hitches": "towing-leveling", "Sway Control Hitches": "towing-leveling", "Trailer Brake Controllers": "towing-leveling", "RV TPMS": "towing-leveling", "Weight Distribution Hitches": "towing-leveling", "Heated RV Water Hoses": "water-plumbing", "RV Fresh Water Hoses": "water-plumbing", "RV Sewer Hose Fittings": "water-plumbing", "RV Sewer Hose Supports": "water-plumbing", "RV Sewer Hoses": "water-plumbing", "RV Water Heaters": "water-plumbing", "RV Water Pump Accumulators": "water-plumbing", "RV Water Pumps": "water-plumbing", "RV Water Filters — Incremental": "water-plumbing", "RV Water Pressure Regulators — Incremental": "water-plumbing", "RV Air Conditioners": "interior-comfort", "RV Space Heaters": "interior-comfort", "RV Cleaners": "rv-care", "RV Wash & Wax": "rv-care", "RV Roof Coatings": "rv-care", "RV Roof Sealants": "rv-care", "RV Roof Repair Tapes": "rv-care", "RV GPS & Navigation": "camping-travel", "RV WiFi Boosters": "camping-travel" };
   const silo = SILO[cluster] || "power-electrical";
-  const related = relSlugs.map((s) => ({ title: titleCase(s.replace(/^best-/, "best ").replace(/-/g, " ")), href: `/${silo}/${s}` }));
+  if (relSlugs.length < 4) {
+    // Fallback for first-in-cluster hubs: link other guides in the same silo from the slug list.
+    const lines = readFileSync(process.env.SLUGS || process.env.TEMP + "/claude/rv/p3all.txt", "utf8").split("\n").map((l) => l.trim().split("|"));
+    for (const [c, s2] of lines) if (relSlugs.length < 4 && s2 && s2 !== slug && !relSlugs.includes(s2) && (SILO[c] || "power-electrical") === silo && (guides.has(s2) || content.has(s2))) relSlugs.push(s2);
+  }
+  if (relSlugs.length < 3) {
+    const words = slug.replace(/^best-/, "").split("-").filter((w) => w.length > 3 && w !== "rv");
+    const same = Object.keys(REG_SILO).filter((g) => g !== slug && REG_SILO[g] === silo && !relSlugs.includes(g));
+    same.sort((a, b) => words.filter((w) => b.includes(w)).length - words.filter((w) => a.includes(w)).length);
+    for (const g of same) if (relSlugs.length < 3) relSlugs.push(g);
+  }
+  const slugCluster = Object.fromEntries(readFileSync(process.env.SLUGS || process.env.TEMP + "/claude/rv/p3all.txt", "utf8").split("\n").map((l) => l.trim().split("|")).filter(([c, x]) => x).map(([c, x]) => [x, c]));
+  const siloOf = (x) => REG_SILO[x] || (slugCluster[x] && SILO[slugCluster[x]]) || silo;
+  const related = relSlugs.map((s) => ({ title: titleCase(s.replace(/^best-/, "best ").replace(/-/g, " ")), href: `/${siloOf(s)}/${s}` }));
 
   const h = prose.howToChoose;
   const mod = {

@@ -905,5 +905,8 @@ P2/P3 shipped many lines like "not stated in the text we saw", "the excerpt we r
 ### MANDATORY: Every product needs `imageUrl`; `tsc` must be clean (added 2026-10-02)
 `next.config.ts` has `typescript.ignoreBuildErrors: true`, so Vercel deploys "Ready" even with type errors (a P3 guide shipped a product with no `imageUrl` this way). `gen-p2-batch.mjs` now rejects any pick without an image. After every batch, `npx tsc --noEmit` must report **0 errors** before committing; a green Vercel deploy is not evidence the code type-checks.
 
+### Product description = "Why it made the shortlist" (changed 2026-10-02)
+`components/guide/editorial/GuideProductPick.tsx` now renders each product's `description` paragraphs under "Why it made the shortlist" (it previously ignored `description` and built template sentences from pros/specs). That section must only argue FOR the pick; the component drops sentences matching its `LIMITATION` regex (caveat, lacks, not listed, costs more, verify, however/but/though...). Write descriptions as: what it is + key specs, how it beats named neighbours, who it is best for. Limitations go in `cons` only. See `scripts/best-brief.md`.
+
 ### Template gotcha fixed
 - `lib/guide-headings.ts` had a leftover "to Your Garden or Yard" heading from another site (now "to Your RV"). When cloning templates, grep components/lib for other niches' words (garden, desk, office, chair) before launching content.

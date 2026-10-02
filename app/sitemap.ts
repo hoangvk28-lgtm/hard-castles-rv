@@ -35,6 +35,18 @@ async function getPublishedProductSlugs(): Promise<{ slug: string; updatedAt: st
   return staticEntries;
 }
 
+// Google rejects non-W3C dates in <lastmod>; some guide data stores "September 25, 2026".
+// Normalize to YYYY-MM-DD, or omit lastmod if the value can't be parsed.
+function toLastMod(value: string | undefined): string | undefined {
+  if (!value) return undefined;
+  const iso = value.match(/^\d{4}-\d{2}-\d{2}/);
+  if (iso) return iso[0];
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return undefined;
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
 interface GuideSitemapEntry {
   slug: string;
   updatedAt: string;
@@ -115,7 +127,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const silo = siloForGuide(categorySlug, subcategorySlug);
     return {
       url: silo ? `${SITE_URL}/${silo}/${slug}` : `${SITE_URL}/guide/${slug}`,
-      lastModified: updatedAt,
+      lastModified: toLastMod(updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.9,
     };
@@ -123,7 +135,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const informationalPages: MetadataRoute.Sitemap = informationalGuides.map((guide) => ({
     url: `${SITE_URL}/${guide.silo}/${guide.slug}`,
-    lastModified: guide.lastUpdated,
+    lastModified: toLastMod(guide.lastUpdated),
     changeFrequency: "yearly",
     priority: 0.75,
   }));

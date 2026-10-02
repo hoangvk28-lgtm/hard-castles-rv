@@ -9,7 +9,7 @@ const [factsDir, proseDir, only] = process.argv.slice(2);
 const slugs = only ? only.split(",") : readdirSync(proseDir).filter((f) => f.endsWith(".json")).map((f) => f.slice(0, -5));
 const guides = new Set(readdirSync("data/guides").map((f) => f.replace(/\.ts$/, "")));
 const content = new Set(readdirSync("scripts/p2-content").map((f) => f.replace(/\.mjs$/, "")));
-const titleCase = (s) => s.replace(/\b(rv|ac|dc|ems|ups|cpap|bms|usb|lifepo4|wfco|tt)\b/gi, (m) => m.toUpperCase()).replace(/\b([a-z])/g, (m) => m.toUpperCase()).replace(/(\d+)Ah\b/i, "$1Ah").replace(/(\d+)wh\b/i, "$1Wh");
+const titleCase = (s) => s.replace(/\b(rv|ac|dc|ems|ups|psi|tpms|mppt|pwm|cpap|bms|usb|lifepo4|wfco|tt)\b/gi, (m) => m.toUpperCase()).replace(/\b([a-z])/g, (m) => m.toUpperCase()).replace(/(\d+)Ah\b/i, "$1Ah").replace(/(\d+)wh\b/i, "$1Wh");
 const wc = (s) => s.trim().split(/\s+/).length;
 
 function specsFor(p) {
@@ -54,14 +54,16 @@ for (const slug of slugs) {
   }
   // Related: same-cluster siblings that exist
   const cluster = facts.cluster;
-  const sib = readFileSync(process.env.TEMP + "/claude/rv/p3all.txt", "utf8").split("\n").map((l) => l.trim().split("|")).filter(([c, s]) => c === cluster && s && s !== slug && (guides.has(s) || content.has(s))).map(([, s]) => s);
+  const sib = readFileSync(process.env.SLUGS || process.env.TEMP + "/claude/rv/p3all.txt", "utf8").split("\n").map((l) => l.trim().split("|")).filter(([c, s]) => c === cluster && s && s !== slug && (guides.has(s) || content.has(s))).map(([, s]) => s);
   const extra = [...guides].filter((g) => g !== slug && g.startsWith("best-") && cluster.toLowerCase().split(" ").filter((w) => w.length > 3 && w !== "rv").some((w) => g.includes(w.replace(/s$/, ""))));
   const relSlugs = [...new Set([...sib, ...extra])].slice(0, 4);
-  const related = relSlugs.map((s) => ({ title: titleCase(s.replace(/^best-/, "best ").replace(/-/g, " ")), href: `/power-electrical/${s}` }));
+  const SILO = { "RV Water Pressure Regulators": "water-plumbing", "RV Water Filters": "water-plumbing", "Weight Distribution Hitches": "towing-leveling", "Sway Control Hitches": "towing-leveling", "Trailer Brake Controllers": "towing-leveling", "RV TPMS": "towing-leveling" };
+  const silo = SILO[cluster] || "power-electrical";
+  const related = relSlugs.map((s) => ({ title: titleCase(s.replace(/^best-/, "best ").replace(/-/g, " ")), href: `/${silo}/${s}` }));
 
   const h = prose.howToChoose;
   const mod = {
-    short: !!prose.short, slug, title: `${n} Best ${kwTitle} in 2026`, metaTitle: metaTitleFor(facts.keyword), metaDescription: prose.metaDescription,
+    short: !!prose.short, silo, slug, title: `${n} Best ${kwTitle} in 2026`, metaTitle: metaTitleFor(facts.keyword), metaDescription: prose.metaDescription,
     keyword: facts.keyword, readTime: "10 min", intro: prose.intro,
     products: products.map(({ price, ...p }) => p),
     howWeEvaluated: prose.howWeEvaluated,

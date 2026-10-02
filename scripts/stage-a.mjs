@@ -8,8 +8,8 @@ import { resolve } from "path";
 
 const [slugsFile, outDir] = process.argv.slice(2);
 mkdirSync(outDir, { recursive: true });
-const GAP = "C:/Users/ADMIN/Downloads/Roo-Code-main/HardcastlesRV-P2-P3-Content-Gap.md";
-const TMP = process.env.TEMP + "/claude/rv";
+const GAP = process.env.GAP || "Guide Best Plan/HardcastlesRV-P2-P3-Content-Gap.md";
+const TMP = process.env.RV_TMP || (process.env.TEMP || "/tmp") + "/claude/rv";
 for (const l of readFileSync(".env.local", "utf8").split("\n")) { const i = l.indexOf("="); if (i > 0 && !process.env[l.slice(0, i)]) process.env[l.slice(0, i)] = l.slice(i + 1).trim(); }
 const M = "www.amazon.com", TAG = process.env.AMAZON_PAAPI_PARTNER_TAG;
 const tok = (await (await fetch("https://api.amazon.com/auth/o2/token", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ grant_type: "client_credentials", client_id: process.env.AMAZON_PAAPI_ACCESS_KEY, client_secret: process.env.AMAZON_PAAPI_SECRET_KEY, scope: "creatorsapi::default" }) })).json()).access_token;
@@ -25,6 +25,7 @@ const CL = {
   "RV Generators": { q: (k) => [k, k.replace("rv generator", "inverter generator rv ready"), k + " 30 amp quiet", k.replace("rv generator","portable generator"), k.replace(/for (\d+) amp rv/, "generator $1 amp RV outlet").replace("best ",""), k.replace("rv generator","dual fuel generator")], must: /generator/i, ban: /adapter|cord|cover|inlet|transfer switch|tent|kit only|lock|wheel kit|parallel kit|solar generator|power station|oil|tank/i },
   "Portable Power Stations": { q: (k) => [k, k.replace("portable power station", "power station LiFePO4"), k.replace("portable power station", "solar generator"), k.replace("portable power station","power station LiFePO4 camping"), k.replace("portable power station","battery generator")], must: /power station|solar generator|portable power|powerhouse/i, ban: /air conditioner|\bAC unit|cable|cover|panel only|adapter|bag|case|expansion|accessory/i },
   "RV Batteries": { q: (k) => [k, k + " 12V", k.replace("rv battery", "battery for RV camper")], must: /batter/i, ban: /charger only|tester|terminal|cable|box|cover|monitor|isolator|switch|tray|jump starter/i },
+  "RV Water Pressure Regulators": { q: (k) => [k, k.replace("rv water pressure regulator", "water pressure regulator RV brass lead free"), k.replace("rv water pressure regulator", "RV water pressure regulator with gauge adjustable"), k.replace("rv water pressure regulator", "camper water pressure reducer valve"), k + " 3/4 inch garden hose"], must: /regulat|reducer|pressure valve/i, ban: /filter cartridge only|hose only|gauge only|pump|softener|replacement filter|tank|drip|irrigation|sprinkler/i, req: [[/adjustable/, /adjust/i], [/gauge/, /gauge/i], [/lead-free/, /lead.?free/i], [/fixed/, /^(?!.*adjust)/i], [/high-flow/, /hi(gh)?.?flow/i], [/filter/, /filter/i], [/inline/, /in.?line/i], [/compact/, /compact|mini|small/i]] },
   "RV Inverters": { q: (k) => [k, k.replace(/rv /, "") + " pure sine wave 12V", k + " charger transfer switch"], must: /inverter/i, ban: /generator|cable|fuse|remote only|cover|solar panel kit|car inverter 150|usb/i },
 };
 
@@ -80,6 +81,7 @@ function gapEntry(slug) {
 function clusterNote(cluster) {
   const key = cluster;
   const i = gap.indexOf("### " + key + " (");
+  if (i < 0) return "";
   return gap.slice(i, gap.indexOf("\n### ", i + 5)).trim();
 }
 
@@ -95,12 +97,14 @@ for (const line of lines) {
   const seen = new Set();
   let cands = raw.filter((i) => i.asin && !seen.has(i.asin) && seen.add(i.asin) && i.price != null && i.title);
   cands = cands.filter((i) => cfg.must.test(i.title) && !cfg.ban.test(i.title));
+  for (const [sp, tp] of cfg.req || []) if (sp.test(slug)) cands = cands.filter((i) => tp.test(i.title));
   const toks = numTokens(slug);
   let numOk = cands;
   if (toks.length) numOk = cands.filter((i) => toks.every((tk) => matchesNum(process.env.LOOSE ? i.title + ' ' + i.features.join(' ') : i.title, tk)));
   const usedIn = {};
   if (process.env.ALLOW_USED) for (const f of readdirSync("data/guides")) { if (!f.endsWith(".ts")) continue; for (const m of readFileSync("data/guides/" + f, "utf8").matchAll(/\/dp\/([A-Z0-9]{10})/g)) (usedIn[m[1]] ??= new Set()).add(f); }
   let pool = numOk.filter((i) => !taken.has(i.asin) && (process.env.ALLOW_USED || !used.has(i.asin)));
+  const reuse = pool.length < 6 ? numOk.filter((i) => taken.has(i.asin) && !used.has(i.asin)).slice(0, Math.min(2, 6 - pool.length)) : [];
   pool.sort((a, b) => (used.has(a.asin) ? 1 : 0) - (used.has(b.asin) ? 1 : 0));
   // diversify: max 2 per brand, spread over price
   if (!process.env.ALLOW_USED) pool.sort((a, b) => a.price - b.price);
@@ -116,6 +120,7 @@ for (const line of lines) {
     bc[b] = (bc[b] || 0) + 1; picks.push(it);
   }
   for (const it of pool) { if (picks.length >= 6) break; if (!picks.includes(it) && (bc[(it.brand || "x").toLowerCase()] || 0) < 3) { picks.push(it); bc[(it.brand || "x").toLowerCase()] = (bc[(it.brand || "x").toLowerCase()] || 0) + 1; } }
+  for (const it of reuse) if (picks.length < 6) picks.push(it);
   picks.sort((a, b) => b.price - a.price);
   picks.forEach((p) => taken.add(p.asin));
   const out = {

@@ -326,16 +326,16 @@ export default {
       "href": "/towing-leveling/best-electronic-rv-leveler"
     },
     {
-      "title": "Best Electric RV Leveling System",
-      "href": "/towing-leveling/best-electric-rv-leveling-system"
-    },
-    {
       "title": "Best Manual RV Leveling System",
       "href": "/towing-leveling/best-manual-rv-leveling-system"
     },
     {
       "title": "Best RV Wheel Chocks",
       "href": "/towing-leveling/best-rv-wheel-chocks"
+    },
+    {
+      "title": "Best RV leveling blocks",
+      "href": "/towing-leveling/best-rv-leveling-blocks"
     }
   ]
 };

@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415pBLk5K4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FFMTW2YH?tag=hardcastlesrv-20",
-    "description": "The AIVOLT 7500 lists 7500 peak and 6300 running watts on gasoline, or 6800 peak and 5800 running on propane, from a 322cc engine. It adds a 14-50R outlet, a 30A twist lock and a CO Watch-Guard that shuts the engine off, plus wheels and a plug and play kit.\n\nAt $699.99 it undercuts the Westinghouse 7500 by $349.01 and the GENMAX 7250 by $600 while stating the highest running watts here. Pick this if you have a 50A coach and a tight budget. The caveat is that the listing title calls it a portable generator rather than an inverter, and no warranty term is listed in the bullets.",
+    "description": "The AIVOLT 7500 lists 7500 peak and 6300 running watts on gasoline, or 6800 peak and 5800 running on propane, from a 322cc engine. It adds a 14-50R outlet, a 30A twist lock and a CO Watch-Guard that shuts the engine off, plus wheels and a plug and play kit.\n\nAt $699.99 it undercuts the Westinghouse 7500 by $349.01 and the GENMAX 7250 by $600 while stating the highest running watts here. Pick this if you have a 50A coach and a tight budget. The caveat is that the listing title calls it a portable generator rather than an inverter, and no warranty term is listed.",
     "specs": [
       "7500W peak, 6300W running",
       "322cc dual fuel, wheels",
@@ -277,7 +277,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Running watts at your fuel",
-    "explanation": "Running watts are what the engine holds continuously, and propane usually lowers them, as the AIVOLT 7500 shows with 5800 versus 6300 on gasoline. A unit sold as 7500 may deliver only 5100 running. Read the per fuel running figure in the bullets, not the title."
+    "explanation": "Running watts are what the engine holds continuously, and propane usually lowers them, as the AIVOLT 7500 shows with 5800 versus 6300 on gasoline. A unit sold as 7500 may deliver only 5100 running. Read the per fuel running figure in the listing, not the title."
   },
   {
     "criterion": "30A or 50A plug match",
@@ -289,7 +289,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Starting system and fuel injection",
-    "explanation": "Electric or remote start saves effort, and fuel injection removes the choke. The Westinghouse 7500 uses EFI and remote start, which helps cold mornings. Look for the start method and battery details in the bullets."
+    "explanation": "Electric or remote start saves effort, and fuel injection removes the choke. The Westinghouse 7500 uses EFI and remote start, which helps cold mornings. Look for the start method and battery details in the listing."
   },
   {
     "criterion": "Warranty and support disclosure",

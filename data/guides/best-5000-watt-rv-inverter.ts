@@ -5,7 +5,7 @@ export const metaDescription = "Five 12V 5000W continuous RV inverters compared 
 export const mainKeyword = "best 5000 watt rv inverter";
 export const introParagraphs = [
   "A 5000 watt inverter on a 12 volt battery bank is a different animal from the 2000 watt units most RVs carry. At full load it pulls about 417 amps from the battery before conversion losses, and closer to 460 amps once you assume a typical 90 percent efficiency. That is an estimate from simple division, but it explains why the cable, fuse and battery decide whether this inverter works, far more than the badge on the case.",
-  "We compared five 12V inverters that list 5,000 watts of continuous output and 10,000 watts of surge, priced from $239.90 to $395.99. We ranked them on whether the listing states pure sine wave, the outlets and hardwire terminal, remote and display, and how clearly protections are named. Two listings do not state the waveform in the text we reviewed, and one is a modified sine unit, which we ranked last."
+  "We compared five 12V inverters that list 5,000 watts of continuous output and 10,000 watts of surge, priced from $239.90 to $395.99. We ranked them on whether the listing states pure sine wave, the outlets and hardwire terminal, remote and display, and how clearly protections are named. Two listings do not state the waveform, and one is a modified sine unit, which is ranked last."
 ];
 export const lastUpdated = "2026-10-02";
 export const readTime = "10 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51FI8-VdBTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DNW39T4V?tag=hardcastlesrv-20",
-    "description": "The Sunivora lists 5,000 watts of continuous pure sine wave output and 10,000 watts of peak power, with four AC outlets, a 5V 4A USB port and a hardwired terminal block for high loads. A wireless remote works from up to 165 feet, an LCD shows input and output voltage, and built-in protections cover undervoltage, overvoltage, overload, overheating, short circuit and reverse polarity. The case is aluminum.\n\nIt ranks first because it states the waveform and the 5,000 continuous rating clearly at $279.99, which is $116 less than the LVYUAN pure sine unit that lists the same output. It costs $30 more than the LVYUAN 249.99 and $40.09 more than the modified sine VEVOR, and for that money it names pure sine wave, which the cheaper units do not in the text we reviewed.\n\nPick it if you have a 12V battery bank that can supply several hundred amps and you want clean power for electronics and a microwave. The caveat is that a listing does not tell you the cable gauge or fuse size, so check the manual before ordering the cabling.",
+    "description": "The Sunivora lists 5,000 watts of continuous pure sine wave output and 10,000 watts of peak power, with four AC outlets, a 5V 4A USB port and a hardwired terminal block for high loads. A wireless remote works from up to 165 feet, an LCD shows input and output voltage, and built-in protections cover undervoltage, overvoltage, overload, overheating, short circuit and reverse polarity. The case is aluminum.\n\nIt ranks first because it states the waveform and the 5,000 continuous rating clearly at $279.99, which is $116 less than the LVYUAN pure sine unit that lists the same output. It costs $30 more than the LVYUAN 249.99 and $40.09 more than the modified sine VEVOR, and for that money it names pure sine wave, which the cheaper units do not.\n\nPick it if you have a 12V battery bank that can supply several hundred amps and you want clean power for electronics and a microwave. The caveat is that a listing does not tell you the cable gauge or fuse size, so check the manual before ordering the cabling.",
     "specs": [
       "5,000W continuous pure sine",
       "10,000W peak, 165 ft remote",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41pYoQAIvPL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CTHGSYCY?tag=hardcastlesrv-20",
-    "description": "This LVYUAN lists 5,000 watts continuous and 10,000 watts peak, four AC sockets plus a hardwire terminal, a real-time LCD for voltage, battery level and load, a wireless remote, and a cooling fan that the listing says runs only when internal temperature passes 104°F (40°C) or load passes 45 percent. The text we reviewed does not state the waveform.\n\nIt ranks third at $249.99, which is $30 below the Sunivora and $146 below the LVYUAN pure sine. Without a stated pure sine wave, you should treat the waveform as unconfirmed, and it sits above the TOPBULL because it publishes the fan thresholds.\n\nPick it if the price matters and you will confirm pure sine output with the seller before connecting sensitive electronics. The caveat is exactly that unconfirmed waveform, so keep motors and electronics off it until you know.",
+    "description": "This LVYUAN lists 5,000 watts continuous and 10,000 watts peak, four AC sockets plus a hardwire terminal, a real-time LCD for voltage, battery level and load, a wireless remote, and a cooling fan that the listing says runs only when internal temperature passes 104°F (40°C) or load passes 45 percent. The listing does not state the waveform.\n\nIt ranks third at $249.99, which is $30 below the Sunivora and $146 below the LVYUAN pure sine. Without a stated pure sine wave, you should treat the waveform as unconfirmed, and it sits above the TOPBULL because it publishes the fan thresholds.\n\nPick it if the price matters and you will confirm pure sine output with the seller before connecting sensitive electronics. The caveat is exactly that unconfirmed waveform, so keep motors and electronics off it until you know.",
     "specs": [
       "5,000W continuous, 10,000W peak",
       "Fan starts above 104°F",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
       "LCD shows voltage, battery level and load"
     ],
     "cons": [
-      "Waveform is not stated in the listing text",
+      "Waveform is not stated",
       "No cabling or fuse sizing details given"
     ],
     "bestFor": "budget buyers who will confirm the waveform first"
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/510Vae0wh+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GCFKQ4X4?tag=hardcastlesrv-20",
-    "description": "The TOPBULL lists a continuous 5,000 watts and 10,000 watts of peak power, a high-definition color display showing voltage, power and working state, a remote control, and ten stated protections including low voltage, high voltage, overload and short circuit. The listing says it uses high-frequency transformers and pure copper flexible cables. The waveform is not stated in the text we reviewed.\n\nIt ranks fourth at $249.99, the same price as the LVYUAN 249.99, and $30 below the Sunivora. Compared with the LVYUAN 249.99 it has a more detailed display, but that listing publishes fan thresholds and outlet count that this one does not.\n\nChoose it if you want the clearest status display at a budget price. The caveat is that outlet count and waveform are not stated, so ask the seller before buying.",
+    "description": "The TOPBULL lists a continuous 5,000 watts and 10,000 watts of peak power, a high-definition color display showing voltage, power and working state, a remote control, and ten stated protections including low voltage, high voltage, overload and short circuit. The listing says it uses high-frequency transformers and pure copper flexible cables. The waveform is not stated.\n\nIt ranks fourth at $249.99, the same price as the LVYUAN 249.99, and $30 below the Sunivora. Compared with the LVYUAN 249.99 it has a more detailed display, but that listing publishes fan thresholds and outlet count that this one does not.\n\nChoose it if you want the clearest status display at a budget price. The caveat is that outlet count and waveform are not stated, so ask the seller before buying.",
     "specs": [
       "5,000W continuous, 10,000W peak",
       "Color display and remote",
@@ -327,7 +327,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Continuous vs surge rating",
-    "explanation": "Continuous watts are what the inverter can supply for hours, while peak watts are a brief surge. Some inverters advertise 5000W but deliver it only as a peak, with a continuous rating of 2,300 or less. Find the word continuous next to 5,000 in the bullets, and treat anything that only says peak as a smaller inverter."
+    "explanation": "Continuous watts are what the inverter can supply for hours, while peak watts are a brief surge. Some inverters advertise 5000W but deliver it only as a peak, with a continuous rating of 2,300 or less. Find the word continuous next to 5,000 in the listing, and treat anything that only says peak as a smaller inverter."
   },
   {
     "criterion": "Pure sine vs modified sine",

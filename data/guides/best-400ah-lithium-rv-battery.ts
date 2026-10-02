@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "Weak-current switch cuts output safely for service"
     ],
     "cons": [
-      "Weight and dimensions are not stated in the listing",
+      "Weight and dimensions are not stated",
       "A single battery fault takes out all 400Ah"
     ],
     "bestFor": "one-battery 400Ah installs with simple wiring"
@@ -97,7 +97,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Each battery weighs 58.86 pounds, two-person carry in tight bays",
-      "Cold cutoff temperatures are not stated in the listing"
+      "Cold cutoff temperatures are not stated"
     ],
     "bestFor": "two-battery banks with a heavy inverter load"
   },

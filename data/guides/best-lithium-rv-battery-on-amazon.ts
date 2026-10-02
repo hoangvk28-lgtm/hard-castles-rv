@@ -4,7 +4,7 @@ export const metaTitle = "Best Lithium RV Battery on Amazon (2026)";
 export const metaDescription = "The 12V 100Ah LiFePO4 batteries RV owners buy most on Amazon, compared on case size, Bluetooth, cold cutoff, and warranty so you can pick a real drop-in.";
 export const mainKeyword = "best lithium rv battery on amazon";
 export const introParagraphs = [
-  "Search Amazon for a lithium RV battery and you will get hundreds of 12V 100Ah listings that look nearly identical: same capacity, same 1280Wh, same 100A BMS, and similar prices. The differences that matter are in the details sellers bury in the bullets, like case dimensions, low-temperature cutoffs, and how many years the warranty actually runs.",
+  "Search Amazon for a lithium RV battery and you will get hundreds of 12V 100Ah listings that look nearly identical: same capacity, same 1280Wh, same 100A BMS, and similar prices. The differences that matter are the details sellers bury in the bullet points, like case dimensions, low-temperature cutoffs, and how many years the warranty actually runs.",
   "This guide narrows the field to the 100Ah format, the most common single-battery RV upgrade, and compares six popular Amazon listings head to head. We weighed size, monitoring, cold-weather behavior, and support based on published specs and buyer feedback, so you can tell which listing fits your tray and your trips."
 ];
 export const lastUpdated = "2026-10-01";
@@ -370,7 +370,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Exact Case Dimensions",
-    "explanation": "Many 100Ah listings call themselves mini, but sizes range from a 9 inch Group 22NF case to a 13 inch Group 31. That difference decides whether one or two batteries fit in your tray, or whether the lid closes at all. Use the length, width, and height in the bullets, not the photo, and measure your box with the cables attached."
+    "explanation": "Many 100Ah listings call themselves mini, but sizes range from a 9 inch Group 22NF case to a 13 inch Group 31. That difference decides whether one or two batteries fit in your tray, or whether the lid closes at all. Use the length, width, and height in the listing, not the photo, and measure your box with the cables attached."
   },
   {
     "criterion": "Charge Cutoff Temperature",

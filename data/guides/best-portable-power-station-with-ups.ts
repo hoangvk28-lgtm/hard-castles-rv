@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41UO-rypUVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GY6H1YC3?tag=hardcastlesrv-20",
-    "description": "The UDPOWER S1200 offers 1200W (1800W surge) pure sine output, a UPS switch listed under 0.01 seconds, 4,000+ LiFePO4 cycles and 5 AC outlets for $429.99. Its AC charging reaches 80% in 1.5 hours and solar input is up to 400W.\n\nIt costs $190.00 more than the LIBRIDS C600 but doubles the continuous output, adds solar input up to 400W, and adds UL2743 per the title. Pick this if you want a larger inverter at the lowest price; the caveat is that capacity is not given in the bullets we saw, so check runtime before buying.",
+    "description": "The UDPOWER S1200 offers 1200W (1800W surge) pure sine output, a UPS switch listed under 0.01 seconds, 4,000+ LiFePO4 cycles and 5 AC outlets for $429.99. Its AC charging reaches 80% in 1.5 hours and solar input is up to 400W.\n\nIt costs $190.00 more than the LIBRIDS C600 but doubles the continuous output, adds solar input up to 400W, and adds UL2743 per the title. Pick this if you want a larger inverter at the lowest price; the caveat is that capacity is not given, so check runtime before buying.",
     "specs": [
       "1200W (1800W surge)",
       "UPS under 0.01 seconds",
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
       "Works from -4F per the listing"
     ],
     "cons": [
-      "Capacity not stated in the bullets",
+      "Capacity not stated",
       "Costs $190.00 more than the LIBRIDS"
     ],
     "bestFor": "heavier loads on UPS"

@@ -4,7 +4,7 @@ export const metaTitle = "Best Generator For 50 Amp RV in 2026";
 export const metaDescription = "Three portable generators with a 50 amp outlet for big RVs, compared on running watts, noise, fuel and price, plus what to verify about the outlet type.";
 export const mainKeyword = "best generator for 50 amp rv";
 export const introParagraphs = [
-  "Running a 50 amp RV from a portable generator takes more than a 50A sticker. You need an outlet that matches your RV plug, and enough running watts that two air conditioners do not trip the unit. Of the candidates we reviewed, three listings state a 50 amp socket and a size that makes sense for a big rig. Their listings do not name the receptacle model, so confirm 14-50R or L14-50R before you buy."
+  "Running a 50 amp RV from a portable generator takes more than a 50A sticker. You need an outlet that matches your RV plug, and enough running watts that two air conditioners do not trip the unit. Of the picks here, three listings state a 50 amp socket and a size that makes sense for a big rig. Their listings do not name the receptacle model, so confirm 14-50R or L14-50R before you buy."
 ];
 export const lastUpdated = "2026-10-02";
 export const readTime = "10 min";
@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41EH-da0UdL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F87T361D?tag=hardcastlesrv-20",
-    "description": "The GENMAX 7250W digital dual fuel inverter generator is $1,299.99 and gives 7,250 starting and 6,000 running watts on gas, 6,000 and 5,500 on propane. Its panel shows hours, load, fuel level and amps used, and it has a 50A socket, CO detect shutdown and parallel capability.\n\nIt is the cheapest here, $133.53 below the AIVOLT 8000W, with about 100 fewer running watts. It also lists no noise figure or weight in the data we have. Pick this if budget matters and you may add a second unit later. The caveat is that you should verify the 50A outlet type and the weight yourself.",
+    "description": "The GENMAX 7250W digital dual fuel inverter generator is $1,299.99 and gives 7,250 starting and 6,000 running watts on gas, 6,000 and 5,500 on propane. Its panel shows hours, load, fuel level and amps used, and it has a 50A socket, CO detect shutdown and parallel capability.\n\nIt is the cheapest here, $133.53 below the AIVOLT 8000W, with about 100 fewer running watts. It also lists no noise figure or weight. Pick this if budget matters and you may add a second unit later. The caveat is that you should verify the 50A outlet type and the weight yourself.",
     "specs": [
       "6,000W running on gas",
       "5,500W running on propane",
@@ -80,7 +80,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51POF0PFgpL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DG1NXJ5X?tag=hardcastlesrv-20",
-    "description": "The AIVOLT 11250W dual fuel inverter generator is $1,896.99 with 11,250 starting and 9,000 running watts on gas, or 10,570 and 8,540 on propane. It lists a heavy-duty 50A outlet, 60 dBA at 23 feet, 19 hours on a 7.1 gallon tank and an 80 foot remote fob.\n\nIt costs $463.47 more than the AIVOLT 8000W and $596.98 more than the GENMAX 7250W. The extra headroom runs two air conditioners and a microwave together, and it supports home backup through an ATS. Pick this if you run two units or want house backup. The caveat is price, and the weight is not in the data we have.",
+    "description": "The AIVOLT 11250W dual fuel inverter generator is $1,896.99 with 11,250 starting and 9,000 running watts on gas, or 10,570 and 8,540 on propane. It lists a heavy-duty 50A outlet, 60 dBA at 23 feet, 19 hours on a 7.1 gallon tank and an 80 foot remote fob.\n\nIt costs $463.47 more than the AIVOLT 8000W and $596.98 more than the GENMAX 7250W. The extra headroom runs two air conditioners and a microwave together, and it supports home backup through an ATS. Pick this if you run two units or want house backup. The caveat is price, and the weight is not listed.",
     "specs": [
       "9,000W running, 11,250W starting",
       "60 dBA at 23 ft",

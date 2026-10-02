@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41i49zsHhPL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D6PM5XN1?tag=hardcastlesrv-20",
-    "description": "The Champion 4000-watt inverter weighs under 49 pounds and states 64 dBA from 23 feet, a distance you can actually compare. It has a TT-30R 25A outlet, a 5-20R household outlet and a parallel kit option, at $639.99.\n\nThat is $209.01 below the Westinghouse iGen5000 and only $5.00 above WEN 4800, with a stated noise distance WEN does not list in the features. Pick this if you want a light 4000W unit with a checkable noise claim. Caveat: 64 dBA is louder than Oxseryn 2800 at the same distance.",
+    "description": "The Champion 4000-watt inverter weighs under 49 pounds and states 64 dBA from 23 feet, a distance you can actually compare. It has a TT-30R 25A outlet, a 5-20R household outlet and a parallel kit option, at $639.99.\n\nThat is $209.01 below the Westinghouse iGen5000 and only $5.00 above WEN 4800, with a stated noise distance that WEN does not list. Pick this if you want a light 4000W unit with a checkable noise claim. Caveat: 64 dBA is louder than Oxseryn 2800 at the same distance.",
     "specs": [
       "4000W, under 49 lb",
       "64 dBA at 23 feet",
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
       "4800 surge watts beats Champion 4000 by 800"
     ],
     "cons": [
-      "Noise level is not listed in the features",
+      "Noise level is not listed",
       "Costs $347.89 more than Oxseryn 2800"
     ],
     "bestFor": "Families wanting CO shutdown on a 4000W generator"
@@ -173,7 +173,7 @@ export const products: GuideProduct[] = [
       "CO Watchdog shuts it down automatically"
     ],
     "cons": [
-      "No noise rating appears in the features",
+      "No noise rating appears in the listing",
       "Highest rated output means a bigger, heavier unit"
     ],
     "bestFor": "Big rigs prioritizing power and propane over quiet"
@@ -335,7 +335,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Noise at a stated distance",
-    "explanation": "A decibel number only means something with a distance and load, because sound drops as you move away and rises with load. A 64 dBA claim at 23 feet is a comparable figure, while as low as 52 dBA is a best case. Look for a distance in feet in the bullets, and treat any figure without one as marketing."
+    "explanation": "A decibel number only means something with a distance and load, because sound drops as you move away and rises with load. A 64 dBA claim at 23 feet is a comparable figure, while as low as 52 dBA is a best case. Look for a distance in feet in the listing, and treat any figure without one as marketing."
   },
   {
     "criterion": "Rated versus peak watts",

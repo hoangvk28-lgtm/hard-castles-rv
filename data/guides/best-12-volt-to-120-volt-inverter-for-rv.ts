@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41iv-ro4N0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07PQR8HVQ?tag=hardcastlesrv-20",
-    "description": "The Renogy 2000W is an inverter and battery charger in one box. The listing gives 2000W continuous with 6000W surge, a conversion efficiency above 90 percent, a four-stage charger (bulk, boost, float, equalization) and compatibility with gel, AGM, sealed, flooded, calcium and lithium batteries. Protections include under-voltage, overvoltage, overload, overheating and short circuit.\n\nIt leads this guide because 2000W is near the practical top of a 12V system, and it is the only pick here that also charges the bank from shore power or a generator. It costs $485.44 more than the HONOURLIGHT 3000W and $490.43 more than the Ampinvt 1200W, but the HONOURLIGHT is inverter-only and asks for about 250 DC amps at full load, while the Renogy tops out near 185 amps (2000W divided by 12V, with 90 percent efficiency).\n\nPick this if you want one unit to invert, charge and live on a 12V bank, typically with lithium. The caveat is that the excerpt we have does not publish idle draw, transfer time or weight, so confirm those in the manual before you commit to a tight battery bay.",
+    "description": "The Renogy 2000W is an inverter and battery charger in one box. The listing gives 2000W continuous with 6000W surge, a conversion efficiency above 90 percent, a four-stage charger (bulk, boost, float, equalization) and compatibility with gel, AGM, sealed, flooded, calcium and lithium batteries. Protections include under-voltage, overvoltage, overload, overheating and short circuit.\n\nIt leads this guide because 2000W is near the practical top of a 12V system, and it is the only pick here that also charges the bank from shore power or a generator. It costs $485.44 more than the HONOURLIGHT 3000W and $490.43 more than the Ampinvt 1200W, but the HONOURLIGHT is inverter-only and asks for about 250 DC amps at full load, while the Renogy tops out near 185 amps (2000W divided by 12V, with 90 percent efficiency).\n\nPick this if you want one unit to invert, charge and live on a 12V bank, typically with lithium. The caveat is that the listing does not publish idle draw, transfer time or weight, so confirm those in the manual before you commit to a tight battery bay.",
     "specs": [
       "2000W, 6000W surge",
       "Four-stage charger",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ctUZeiwqL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CQY798SV?tag=hardcastlesrv-20",
-    "description": "The OLTEANP 1000W lists 1000W continuous and 2000W peak at $69.99, with two AC outlets, a 36W USB-C port, a 5V 3A USB port, six safety protections, temperature-controlled cooling and an LCD with protection codes. The listing is aimed at cars, trucks and camping, and it does not state a sine wave type in the excerpt we have.\n\nIt ranks fourth. It draws about 93 amps at full load after losses, easy for a 12V bank, and it costs $100 less than the HONOURLIGHT 3000W for one third of the power. It matches the OLTEANP 600W on price, so the extra 400W is free, but it lacks that unit's stated pure sine output, which matters for CPAP machines and some chargers.\n\nPick it for laptops, a blender, power tools or a small kettle that stays under 1000W, when you do not need clean sine power. The caveat is the unstated waveform, so verify it before connecting anything with a motor or sensitive electronics.",
+    "description": "The OLTEANP 1000W lists 1000W continuous and 2000W peak at $69.99, with two AC outlets, a 36W USB-C port, a 5V 3A USB port, six safety protections, temperature-controlled cooling and an LCD with protection codes. The listing is aimed at cars, trucks and camping, and it does not state a sine wave type.\n\nIt ranks fourth. It draws about 93 amps at full load after losses, easy for a 12V bank, and it costs $100 less than the HONOURLIGHT 3000W for one third of the power. It matches the OLTEANP 600W on price, so the extra 400W is free, but it lacks that unit's stated pure sine output, which matters for CPAP machines and some chargers.\n\nPick it for laptops, a blender, power tools or a small kettle that stays under 1000W, when you do not need clean sine power. The caveat is the unstated waveform, so verify it before connecting anything with a motor or sensitive electronics.",
     "specs": [
       "1000W, 2000W peak",
       "36W USB-C port",
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
       "LCD shows protection codes such as overload and low voltage"
     ],
     "cons": [
-      "Waveform type is not stated in the listing excerpt",
+      "Waveform type is not stated",
       "No charger, transfer switch or hardwire terminal"
     ],
     "bestFor": "light loads on a budget in a 12V rig"

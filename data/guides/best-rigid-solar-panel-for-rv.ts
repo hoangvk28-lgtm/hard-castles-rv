@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/310PuU3YOmL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DMT2WTC8?tag=hardcastlesrv-20",
-    "description": "The Renogy ShadowFlux is a 200W N-type panel with 16BB cells, anti-shading technology and an IP67 or better rating. The listing says it is 7% smaller and 10% more compact than earlier models, priced at $184.67.\n\nIt costs $32.68 more than the Renogy 200W N-Type and $44.68 more than AeternaSol, and the extra buys shade tolerance, which matters under roof vents and AC units. Pick this if partial shade is unavoidable on your roof. Caveat: weight is not given in the excerpt.",
+    "description": "The Renogy ShadowFlux is a 200W N-type panel with 16BB cells, anti-shading technology and an IP67 or better rating. The listing says it is 7% smaller and 10% more compact than earlier models, priced at $184.67.\n\nIt costs $32.68 more than the Renogy 200W N-Type and $44.68 more than AeternaSol, and the extra buys shade tolerance, which matters under roof vents and AC units. Pick this if partial shade is unavoidable on your roof. Caveat: weight is not listed.",
     "specs": [
       "200W N-type, 16BB cells",
       "ShadowFlux anti-shading",
@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs $32.68 more than the Renogy 200W N-Type",
-      "Weight is not listed in the features"
+      "Weight is not listed"
     ],
     "bestFor": "Roofs with vents and shadows from an AC unit"
   },
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
       "Slim 56.7 inch frame fits tight roof spaces"
     ],
     "cons": [
-      "Warranty terms are not listed in the features",
+      "Warranty terms are not listed",
       "Newer brand with less track record than Renogy"
     ],
     "bestFor": "Budget 12V systems on narrow roofs"
@@ -120,7 +120,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Rear-side bifacial gain is small on a flat roof",
-      "IP rating is not listed in the features"
+      "IP rating is not listed"
     ],
     "bestFor": "Tilt-stand or ground setups where weight matters"
   }

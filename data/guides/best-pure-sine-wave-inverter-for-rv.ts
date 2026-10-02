@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "No built-in transfer switch for shore power",
-      "Warranty length is not listed in the features"
+      "Warranty length is not listed"
     ],
     "bestFor": "Budget buyers who need full 3000W capacity"
   },
@@ -120,7 +120,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "2500W ceiling limits running a microwave plus AC",
-      "Surge watts are not listed in the feature text"
+      "Surge watts are not listed"
     ],
     "bestFor": "Mid-size RVs wanting automatic switching on a budget"
   },

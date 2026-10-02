@@ -370,7 +370,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Published BMS Amp Rating",
-    "explanation": "The BMS rating tells you the most current the battery will deliver continuously before it disconnects. A bargain battery that does not publish this figure may cut out the first time your inverter starts a microwave. Look for a specific number like 100A, 150A, or 200A in the bullets, and treat a missing number as a reason to ask the seller."
+    "explanation": "The BMS rating tells you the most current the battery will deliver continuously before it disconnects. A bargain battery that does not publish this figure may cut out the first time your inverter starts a microwave. Look for a specific number like 100A, 150A, or 200A in the listing, and treat a missing number as a reason to ask the seller."
   },
   {
     "criterion": "Case Size Against Your Box",

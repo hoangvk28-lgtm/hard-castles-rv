@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs the most of the three picks",
-      "Weight is not listed in the excerpt"
+      "Weight is not listed"
     ],
     "bestFor": "Campers who want documented runtime"
   },
@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "No dB figure behind its quiet claim",
-      "Runtime figures are not listed in the excerpt"
+      "Runtime figures are not listed"
     ],
     "bestFor": "Budget minded campers wanting CO protection"
   },

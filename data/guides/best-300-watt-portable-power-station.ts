@@ -375,7 +375,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "AC outlets and USB-C wattage",
-    "explanation": "A single AC outlet means one mains device, so a fan and a charger need a power strip, while two outlets avoid it. USB-C PD ports at 60W or 100W charge a laptop without a brick, but an 18W port will not. Read the port list in the bullets, because the headline often says only 300W."
+    "explanation": "A single AC outlet means one mains device, so a fan and a charger need a power strip, while two outlets avoid it. USB-C PD ports at 60W or 100W charge a laptop without a brick, but an 18W port will not. Read the port list in the listing, because the headline often says only 300W."
   },
   {
     "criterion": "Battery chemistry and cycle life",

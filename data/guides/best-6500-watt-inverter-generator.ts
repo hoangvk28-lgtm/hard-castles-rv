@@ -277,7 +277,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Rated output versus label",
-    "explanation": "A 6500W name can hide a rated figure as low as 5200W, as on the Aceup 6500, because the title often quotes the peak. That gap decides whether two loads run together or the unit trips. Find the word rated or running in the bullets, and compare that figure."
+    "explanation": "A 6500W name can hide a rated figure as low as 5200W, as on the Aceup 6500, because the title often quotes the peak. That gap decides whether two loads run together or the unit trips. Find the word rated or running in the listing, and compare that figure."
   },
   {
     "criterion": "Fuel type and derating",

@@ -223,7 +223,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "ZapLitho 22Ah lists 3 x 7.1 x 7 inches at 5.5 pounds, while ERYY 22Ah and ABKPOWER 20Ah list weight but no dimensions in the excerpt."
+        "text": "ZapLitho 22Ah lists 3 x 7.1 x 7 inches at 5.5 pounds, while ERYY 22Ah and ABKPOWER 20Ah list weight but no dimensions."
       }
     ]
   },

@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/413JL-PoS+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HBVJFZBW?tag=hardcastlesrv-20",
-    "description": "The ANTPO 500W puts a Grade-A LiFePO4 pack, listed as 512Wh in the bullets and 500Wh in the title, behind a 500W pure sine wave inverter with a 1,000W surge. It is rated for more than 3,500 cycles, weighs 13.2 pounds with a retro fuel-can shape and handle, and the listing claims 0 to 80 percent in 1 hour from a 500W wall input. A 200W panel recharge is quoted at 8 to 9 hours, and the warranty is 24 months.\n\nAt $169.99 it costs about $0.33 per watt-hour, the lowest among the units with a full 512Wh. Against the ALLWEI 500W at $269 it is $99.01 cheaper and charges faster on paper, but the ALLWEI adds a 100W USB-C port and a 13 pound body with two AC outlets. Against the Jackery it gives up 2,500 cycles and quiet 28 dB operation.\n\nBuy it if you want pure sine wave power, LiFePO4 and a 24-month warranty at the lowest price. The caveat is the capacity wording, since the title says 500Wh and the bullets say 512Wh, so plan on the lower number.",
+    "description": "The ANTPO 500W puts a Grade-A LiFePO4 pack, listed as 512Wh in the bullet points and 500Wh in the title, behind a 500W pure sine wave inverter with a 1,000W surge. It is rated for more than 3,500 cycles, weighs 13.2 pounds with a retro fuel-can shape and handle, and the listing claims 0 to 80 percent in 1 hour from a 500W wall input. A 200W panel recharge is quoted at 8 to 9 hours, and the warranty is 24 months.\n\nAt $169.99 it costs about $0.33 per watt-hour, the lowest among the units with a full 512Wh. Against the ALLWEI 500W at $269 it is $99.01 cheaper and charges faster on paper, but the ALLWEI adds a 100W USB-C port and a 13 pound body with two AC outlets. Against the Jackery it gives up 2,500 cycles and quiet 28 dB operation.\n\nBuy it if you want pure sine wave power, LiFePO4 and a 24-month warranty at the lowest price. The caveat is the capacity wording, since the title says 500Wh and the bullets say 512Wh, so plan on the lower number.",
     "specs": [
       "512Wh LiFePO4, 500W",
       "3,500 plus cycles, 13.2 lb",
@@ -374,7 +374,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Watt-hours per dollar",
-    "explanation": "The 500W figure is the inverter, while Wh is the fuel tank, so divide price by Wh to compare. Here that ranges from about $0.33 to $0.70, so the same 512Wh costs $189.01 more on the Jackery than on the ANTPO. Compare the Wh in the bullets and the title, since a few listings quote both 500Wh and 512Wh."
+    "explanation": "The 500W figure is the inverter, while Wh is the fuel tank, so divide price by Wh to compare. Here that ranges from about $0.33 to $0.70, so the same 512Wh costs $189.01 more on the Jackery than on the ANTPO. Compare the Wh in the bullet points and the title, since a few listings quote both 500Wh and 512Wh."
   },
   {
     "criterion": "Weight and carry",

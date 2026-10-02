@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
       "Claims 95 percent usable capacity from each cycle"
     ],
     "cons": [
-      "Cold-charging cutoff is not stated in the excerpt",
+      "Cold-charging cutoff is not stated",
       "At 55 pounds it takes two hands to place"
     ],
     "bestFor": "400 watt plus arrays and multi-day off-grid stays"

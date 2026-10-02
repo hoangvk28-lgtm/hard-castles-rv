@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41kYZSHeT-L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FPL1QNFY?tag=hardcastlesrv-20",
-    "description": "The Dyness 12V 100Ah RV battery lists a 100A BMS, A+ grade cells and Bluetooth 5.0 monitoring of voltage, current and capacity. Its low temperature protection is spelled out: it disconnects charging when the battery temperature falls below 32°F (0°C) and resumes after it warms, a threshold many listings never state.\n\nAt $199.98 it is $65.01 cheaper than the Power Queen and $8.99 above the HumsiENK at $190.99, which sits in the same 100A and 1,280Wh class. It can also expand to 4S4P, so 16 units form a 51.2V 400Ah system, which matters if you plan a higher voltage upgrade later.\n\nPick this if you winter camp and want to know exactly when charging stops. The caveat: the facts here give no case dimensions, weight or IP rating, so confirm the case size matches your tray, and note that a 100A BMS limits an inverter to roughly 1,200W.",
+    "description": "The Dyness 12V 100Ah RV battery lists a 100A BMS, A+ grade cells and Bluetooth 5.0 monitoring of voltage, current and capacity. Its low temperature protection is spelled out: it disconnects charging when the battery temperature falls below 32°F (0°C) and resumes after it warms, a threshold many listings never state.\n\nAt $199.98 it is $65.01 cheaper than the Power Queen and $8.99 above the HumsiENK at $190.99, which sits in the same 100A and 1,280Wh class. It can also expand to 4S4P, so 16 units form a 51.2V 400Ah system, which matters if you plan a higher voltage upgrade later.\n\nPick this if you winter camp and want to know exactly when charging stops. The caveat: the listing gives no case dimensions, weight or IP rating, so confirm the case size matches your tray, and note that a 100A BMS limits an inverter to roughly 1,200W.",
     "specs": [
       "12V 100Ah LiFePO4",
       "Bluetooth 5.0 monitoring",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
       "Bluetooth 5.0 shows voltage and current"
     ],
     "cons": [
-      "Dimensions and weight not given in the listing",
+      "Dimensions and weight not given",
       "100A BMS limits inverter size to about 1,200W"
     ],
     "bestFor": "Winter campers who want clear limits"

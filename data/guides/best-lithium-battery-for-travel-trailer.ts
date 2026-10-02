@@ -316,7 +316,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "BMS rating versus inverter",
-    "explanation": "A 100A BMS trips near 1200W at 12V, while a 200A BMS reaches about 2400W. A microwave or hair dryer can exceed a small BMS rating. Read the continuous amp number in the bullets and compare it to your largest load."
+    "explanation": "A 100A BMS trips near 1200W at 12V, while a 200A BMS reaches about 2400W. A microwave or hair dryer can exceed a small BMS rating. Read the continuous amp number in the listing and compare it to your largest load."
   },
   {
     "criterion": "Freezing weather charging",

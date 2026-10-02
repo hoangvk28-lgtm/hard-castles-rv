@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51gIN6FDCKL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DPL5PZG8?tag=hardcastlesrv-20",
-    "description": "The Lifan lists 3,500 peak and 3,000 rated watts, pure sine wave output, a 1.6-gallon tank, and up to 6.5 hours at 50 percent load in Eco mode. The body measures 22 by 13 by 18 inches and weighs 46.3 pounds. CO auto shutoff, low-oil protection and overload protection are included, and it is parallel ready with compatible equipment.\n\nIt ranks second behind the maXpeedingrods because the text we reviewed does not name a 30A receptacle, and the other listing does, at the same $399.99 price. It has a 400-watt higher continuous rating than the PowerSmart for $30 more, and the listed tank holds 0.1 gallon more than the RVMP's 1.5 gallons for $199.01 less.\n\nThis is for buyers who want 3,000 rated watts and a compact body that fits an RV compartment. The caveat is verifying the outlet list before you buy, since a 30A plug is the single feature that decides whether you need an adapter.",
+    "description": "The Lifan lists 3,500 peak and 3,000 rated watts, pure sine wave output, a 1.6-gallon tank, and up to 6.5 hours at 50 percent load in Eco mode. The body measures 22 by 13 by 18 inches and weighs 46.3 pounds. CO auto shutoff, low-oil protection and overload protection are included, and it is parallel ready with compatible equipment.\n\nIt ranks second behind the maXpeedingrods because the listing does not name a 30A receptacle, and the other listing does, at the same $399.99 price. It has a 400-watt higher continuous rating than the PowerSmart for $30 more, and the listed tank holds 0.1 gallon more than the RVMP's 1.5 gallons for $199.01 less.\n\nThis is for buyers who want 3,000 rated watts and a compact body that fits an RV compartment. The caveat is verifying the outlet list before you buy, since a 30A plug is the single feature that decides whether you need an adapter.",
     "specs": [
       "3,500 peak, 3,000 rated watts",
       "1.6-gallon tank, Eco mode",
@@ -264,7 +264,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "20A outlets only",
-        "text": "The Evernexta 3000 lists dual 20A outlets, and the Lifan and PowerSmart listings we reviewed do not name a 30A receptacle. You will likely need an adapter cord, which limits you to 20A, or 2,400 watts."
+        "text": "The Evernexta 3000 lists dual 20A outlets, and the Lifan and PowerSmart listings do not name a 30A receptacle. You will likely need an adapter cord, which limits you to 20A, or 2,400 watts."
       }
     ],
     "note": "Most RV owners should default to a model that names a 30A outlet unless the price gap is the deciding factor."
@@ -327,7 +327,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Continuous vs peak output",
-    "explanation": "Peak watts are what a generator can output for a few seconds, while continuous (running or rated) watts are the figure it can hold. A generator sold as 3000 watts with 2,350 running watts will shut down on loads the 3,000 running model handles. Find the word running, rated or continuous in the bullets and size to that, leaving 20 percent headroom."
+    "explanation": "Peak watts are what a generator can output for a few seconds, while continuous (running or rated) watts are the figure it can hold. A generator sold as 3000 watts with 2,350 running watts will shut down on loads the 3,000 running model handles. Find the word running, rated or continuous in the listing and size to that, leaving 20 percent headroom."
   },
   {
     "criterion": "30A outlet and amp math",
@@ -343,7 +343,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Safety certifications",
-    "explanation": "CO shutdown is a minimum for a generator near an RV, but a standard such as ANSI/PGMA G300 or UL2201 shows the product was tested to written safety criteria. A brand can claim a CO sensor without any published standard. Look for the standard name in the bullets rather than a vague phrase like safe design."
+    "explanation": "CO shutdown is a minimum for a generator near an RV, but a standard such as ANSI/PGMA G300 or UL2201 shows the product was tested to written safety criteria. A brand can claim a CO sensor without any published standard. Look for the standard name in the listing rather than a vague phrase like safe design."
   },
   {
     "criterion": "Parallel kits and fuel use",

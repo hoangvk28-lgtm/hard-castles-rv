@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "800W is too small to run a microwave",
-      "Idle draw is not listed in the excerpt"
+      "Idle draw is not listed"
     ],
     "bestFor": "Electronics from a tongue battery"
   },
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "About 208A draw strains a single tongue battery",
-      "Waveform is not stated in the excerpt"
+      "Waveform is not stated"
     ],
     "bestFor": "Microwave use with a large battery"
   }

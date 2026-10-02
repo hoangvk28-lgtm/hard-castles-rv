@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41WZr+MgBUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GY437K8K?tag=hardcastlesrv-20",
-    "description": "The LANDERPOW 4000W is a 24V hybrid solar inverter charger with pure sine output, a built-in 140A MPPT solar charge controller and PV, battery and utility AC inputs. At $359.99 it combines the inverter and controller into one box, which saves wiring and space in an RV bay.\n\nIt costs $20.00 less than the SRGFTS 4000W and $295.44 below the Renogy 2000W inverter charger. The 140A MPPT figure means roughly 3,300W of charging power at a 24V bank, so a large array can be fully used. Pick this if you plan a 24V lithium bank. Caveat: PV voltage limits are not in the excerpt, so verify them against your panel string before ordering.",
+    "description": "The LANDERPOW 4000W is a 24V hybrid solar inverter charger with pure sine output, a built-in 140A MPPT solar charge controller and PV, battery and utility AC inputs. At $359.99 it combines the inverter and controller into one box, which saves wiring and space in an RV bay.\n\nIt costs $20.00 less than the SRGFTS 4000W and $295.44 below the Renogy 2000W inverter charger. The 140A MPPT figure means roughly 3,300W of charging power at a 24V bank, so a large array can be fully used. Pick this if you plan a 24V lithium bank. Caveat: PV voltage limits are not listed, so verify them against your panel string before ordering.",
     "specs": [
       "4000W pure sine, 24V",
       "140A built-in MPPT",
@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Only works with a 24V battery bank, not 12V",
-      "Maximum PV voltage is not in the excerpt"
+      "Maximum PV voltage is not listed"
     ],
     "bestFor": "24V bank with a large array"
   },
@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs $20 more than the LANDERPOW",
-      "MPPT current rating is not in the excerpt"
+      "MPPT current rating is not listed"
     ],
     "bestFor": "24V system with daytime PV running"
   },

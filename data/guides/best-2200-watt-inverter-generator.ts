@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     "cons": [
       "Costs $647 more than the Westinghouse iGen2800DFc",
       "Listing does not confirm a TT-30R outlet",
-      "No watts or weight details in the bullets"
+      "No watts or weight details in the listing"
     ],
     "bestFor": "Buyers who prioritize the Honda name"
   },

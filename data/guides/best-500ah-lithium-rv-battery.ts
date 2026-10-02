@@ -4,7 +4,7 @@ export const metaTitle = "Best 500Ah Lithium RV Batteries in 2026";
 export const metaDescription = "Six ways to build a roughly 500Ah 12V lithium RV bank: one 5-battery kit, four 460Ah to 660Ah single batteries and a 2x280Ah kit, from $900 to $1,496.";
 export const mainKeyword = "best 500ah lithium rv battery";
 export const introParagraphs = [
-  "A 500Ah bank at 12.8 volts is 6,400 watt-hours, which is enough for a few days of fridge, lights and electronics, or about three hours at 2,000 watts through an inverter. It is an awkward size to buy, though. In the listings we pulled, no maker sold a single 12V 500Ah battery that we could price and verify. The sizes on the market are 460Ah, 560Ah and 660Ah singles, and kits such as two 280Ah batteries, so we say plainly what each pick is and how far it sits from 500Ah.",
+  "A 500Ah bank at 12.8 volts is 6,400 watt-hours, which is enough for a few days of fridge, lights and electronics, or about three hours at 2,000 watts through an inverter. It is an awkward size to buy, though. Among current listings, no maker sells a single 12V 500Ah battery that can be priced and verified. The sizes on the market are 460Ah, 560Ah and 660Ah singles, and kits such as two 280Ah batteries, so we say plainly what each pick is and how far it sits from 500Ah.",
   "Exactly 500Ah comes only from a kit of five 100Ah batteries, and the one such listing here is aimed at golf carts and carries a caveat we explain below. The other five are neighbors: 460Ah is 8 percent under, 560Ah is 12 percent over and 660Ah is 32 percent over. Prices run from $899.99 to $1,496, and cost per nominal kilowatt-hour from about $117 to $234, so the right pick depends on whether you want one battery, a kit, or a self-heating case."
 ];
 export const lastUpdated = "2026-10-02";
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "460Ah is 40Ah under a true 500Ah bank",
-      "Weight is not stated in the listing"
+      "Weight is not stated"
     ],
     "bestFor": "one-battery winter-ready banks near 500Ah"
   },
@@ -125,7 +125,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "$334.99 more than the 2x280Ah kit for the same capacity",
-      "Weight is not stated in the listing"
+      "Weight is not stated"
     ],
     "bestFor": "heated 560Ah in one case without parallel wiring"
   },
@@ -387,7 +387,7 @@ export const buyingCriteria = [
 export const faq = [
   {
     "q": "Does a single 12V 500Ah lithium battery exist?",
-    "a": "We could not find one in the listings we pulled. The common single sizes are 460Ah, 560Ah and 660Ah, and an exact 500Ah comes from five 100Ah batteries in parallel."
+    "a": "None turned up in current listings. The common single sizes are 460Ah, 560Ah and 660Ah, and an exact 500Ah comes from five 100Ah batteries in parallel."
   },
   {
     "q": "Is 460Ah close enough to 500Ah?",

@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Listing does not publish a weight",
-      "No cycle rating or warranty length in the bullets"
+      "No cycle rating or warranty length in the listing"
     ],
     "bestFor": "shared loads on a fridge, laptop and CPAP"
   },
@@ -341,7 +341,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "AC outlets and USB-C wattage",
-    "explanation": "Three outlets with a 140W USB-C, as on the CYBPULTE, lets a fridge, laptop and CPAP share the station without a strip. Two outlets with 60W USB-C, as on the GRECELL and EBL, is enough for simpler setups. Read the port list in the bullets, since the headline shows only 1000W."
+    "explanation": "Three outlets with a 140W USB-C, as on the CYBPULTE, lets a fridge, laptop and CPAP share the station without a strip. Two outlets with 60W USB-C, as on the GRECELL and EBL, is enough for simpler setups. Read the port list in the listing, since the headline shows only 1000W."
   },
   {
     "criterion": "Cycle rating and recharge",

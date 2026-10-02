@@ -80,7 +80,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51C3FuF1yqL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CQ1YPFHB?tag=hardcastlesrv-20",
-    "description": "The maXpeedingrods MXR4000 makes 4000 peak and 3200 running watts and adds Bluetooth app monitoring plus an NEMA L5-30R RV outlet with an adapter. The app lets you check output without leaving your chair.\n\nAt $482.39 it is the priciest of the three, costing $82.40 more than the PowerSmart 4000 with the same watts. Pick this if app based monitoring matters to you. The caveat is that you are paying for connectivity rather than power, and noise and tank size are not listed in the details we mined.",
+    "description": "The maXpeedingrods MXR4000 makes 4000 peak and 3200 running watts and adds Bluetooth app monitoring plus an NEMA L5-30R RV outlet with an adapter. The app lets you check output without leaving your chair.\n\nAt $482.39 it is the priciest of the three, costing $82.40 more than the PowerSmart 4000 with the same watts. Pick this if app based monitoring matters to you. The caveat is that you are paying for connectivity rather than power, and noise and tank size are not listed.",
     "specs": [
       "4000W peak, 3200W running",
       "Bluetooth app monitor",

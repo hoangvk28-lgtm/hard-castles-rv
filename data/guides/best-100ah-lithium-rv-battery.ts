@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41c2PJIIVDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FDQL2J9R?tag=hardcastlesrv-20",
-    "description": "The CYCLENBATT 12V 100Ah Mini is sold as the smallest 100Ah in this comparison, listed as 46 percent smaller than a Group 31 lithium battery. It has Bluetooth 5.0 with an app that shows state of charge, voltage, current, power and temperature and can switch charging or discharging on and off. The BMS allows up to 330A instantaneous discharge, cuts charging below 32°F and cuts discharge below minus 4°F, and the maker offers a five-year warranty.\n\nIt ranks third because it is $20 cheaper than the Wattcycle Mini while stating exact cutoffs, but it costs $23.01 more than the Dyness. Against Jovialpoa it adds the smaller case and the remote on/off switch, though Jovialpoa costs $49.99 less and has an IP65 rating this one does not list.\n\nChoose it when space is the deciding factor, for example a bench-seat compartment or a van. The caveat is that the listing does not publish dimensions in the text we reviewed or an IP rating, so measure your bay against the product page drawing before buying.",
+    "description": "The CYCLENBATT 12V 100Ah Mini is sold as the smallest 100Ah in this comparison, listed as 46 percent smaller than a Group 31 lithium battery. It has Bluetooth 5.0 with an app that shows state of charge, voltage, current, power and temperature and can switch charging or discharging on and off. The BMS allows up to 330A instantaneous discharge, cuts charging below 32°F and cuts discharge below minus 4°F, and the maker offers a five-year warranty.\n\nIt ranks third because it is $20 cheaper than the Wattcycle Mini while stating exact cutoffs, but it costs $23.01 more than the Dyness. Against Jovialpoa it adds the smaller case and the remote on/off switch, though Jovialpoa costs $49.99 less and has an IP65 rating this one does not list.\n\nChoose it when space is the deciding factor, for example a bench-seat compartment or a van. The caveat is that the listing does not publish dimensions or an IP rating, so measure your bay against the product page drawing before buying.",
     "specs": [
       "46 percent smaller than Group 31",
       "Bluetooth 5.0 app with remote switch",
@@ -152,7 +152,7 @@ export const products: GuideProduct[] = [
       "M8 terminals and carry handle ease installation"
     ],
     "cons": [
-      "Charge cutoff temperature is not stated in the listing",
+      "Charge cutoff temperature is not stated",
       "Standard warranty is three years, shorter than rivals"
     ],
     "bestFor": "budget buyers wanting Bluetooth and a sealed case"
@@ -181,7 +181,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Case has no IP rating, only light water resistance",
-      "Charge cutoff temperature is not stated in the listing"
+      "Charge cutoff temperature is not stated"
     ],
     "bestFor": "dry, mild-climate installs focused on lowest price"
   }

@@ -78,6 +78,7 @@ export const products: GuideProduct[] = [
     "price": "$479.49",
     "rating": null,
     "reviews": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/41vtTkEOVzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FH628CSV?tag=hardcastlesrv-20",
     "description": "The Aceup 4000 is a 149cc dual-fuel inverter rated 3,200 running on gas and 3,000 on propane, with THD under 1.5%, about 60 decibels in Eco mode and a 30A RV outlet. Runtime is 5 hours at half load on its 1.32 gallon gasoline tank.\n\nAt $479.49 it is $269.51 under the Champion 4000 and lists 3,000 propane running watts against the Champion 4000's 2,700. Against the WEN 3600 it is $115.11 cheaper and adds 400 propane watts. Pick this if you want the most propane watts per dollar. Caveat: brand support is thinner than WEN or Champion.",
     "specs": [
@@ -92,7 +93,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "1.32 gallon gas tank is small",
-      "Warranty length is not listed in the listing"
+      "Warranty length is not listed"
     ],
     "bestFor": "Most propane watts per dollar"
   },

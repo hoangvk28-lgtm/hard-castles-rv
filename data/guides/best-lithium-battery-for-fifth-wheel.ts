@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs $66.72 more than the Redodo 2-Pack",
-      "Bluetooth and cold charging details not in the bullets"
+      "Bluetooth and cold charging details not listed"
     ],
     "bestFor": "Buyers who measure the tray first"
   },
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Single 200Ah case is larger and harder to lift",
-      "No low temperature charging cutoff in the bullets"
+      "No low temperature charging cutoff in the listing"
     ],
     "bestFor": "Buyers replacing two batteries with one"
   },

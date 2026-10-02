@@ -161,7 +161,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51N0Qi-dPkL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CHFM3V8Q?tag=hardcastlesrv-20",
-    "description": "The ZeroKor 300W kit includes a 60W monocrystalline panel rated at 20.5% efficiency, with two 300W max AC outlets, a DC port and USB ports for $189.97. Its built-in MPPT takes solar through a DC5521 input at 13V to 23V.\n\nIt costs two cents less than the DaranEner 350W and ships a 60W panel instead of 40W, but it lists no LiFePO4 chemistry or capacity in the bullets we saw. Pick this if you want the largest panel per dollar; the caveat is that unlisted battery capacity makes runtime planning guesswork.",
+    "description": "The ZeroKor 300W kit includes a 60W monocrystalline panel rated at 20.5% efficiency, with two 300W max AC outlets, a DC port and USB ports for $189.97. Its built-in MPPT takes solar through a DC5521 input at 13V to 23V.\n\nIt costs two cents less than the DaranEner 350W and ships a 60W panel instead of 40W, but it lists no LiFePO4 chemistry or capacity. Pick this if you want the largest panel per dollar; the caveat is that unlisted battery capacity makes runtime planning guesswork.",
     "specs": [
       "300W AC, 60W panel",
       "20.5% efficient mono cells",
@@ -173,7 +173,7 @@ export const products: GuideProduct[] = [
       "Two 300W AC outlets plus SOS flashlight"
     ],
     "cons": [
-      "Battery capacity not stated in the bullets",
+      "Battery capacity not stated",
       "LiFePO4 chemistry is not listed, so cycle life is unknown"
     ],
     "bestFor": "cheap solar starter"
@@ -347,7 +347,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Battery chemistry and cycles",
-    "explanation": "LiFePO4 units list 3,000 to 4,000 cycles while others state none. A kit used weekly for several years outlasts a lithium-ion one. Find the word LiFePO4 and a cycle count in the bullets."
+    "explanation": "LiFePO4 units list 3,000 to 4,000 cycles while others state none. A kit used weekly for several years outlasts a lithium-ion one. Find the word LiFePO4 and a cycle count in the listing."
   },
   {
     "criterion": "Weight with panel",

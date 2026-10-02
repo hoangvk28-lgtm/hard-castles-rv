@@ -293,7 +293,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Warranty and maintenance",
-    "explanation": "Flooded batteries need regular water top-ups and venting, and a warranty tells you how the maker backs them. Only the Trojan T-105 lists a term, 18 months. Look for the warranty line in the bullets and plan for ventilated storage."
+    "explanation": "Flooded batteries need regular water top-ups and venting, and a warranty tells you how the maker backs them. Only the Trojan T-105 lists a term, 18 months. Look for the warranty line in the listing and plan for ventilated storage."
   }
 ];
 

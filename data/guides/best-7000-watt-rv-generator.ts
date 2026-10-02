@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51Twaslf85L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F3CP4RV5?tag=hardcastlesrv-20",
-    "description": "The Powerhorse 7,000 Watt generator has a 298cc engine with a cast iron cylinder sleeve and dual-fuel technology that lets it switch between gasoline and propane without shutting down. The listing also names CO detection with an indicator light, an automatic voltage regulator with a multimeter, and a control panel showing run time, voltage and frequency. It does not publish running watts, outlet types, weight or warranty in the product details we reviewed.\n\nIt sits last because the 7,000 figure cannot be tied to a running rating, which is the exact boundary this guide cares about. It costs $100 more than the EFURDEN and the AIVOLT, both of which state running watts, and $500 less than the GENMAX, which also lists its outlets and warranty. The switch-without-shutdown feature is its distinct selling point.\n\nPick this only if you value changing fuels mid-run, and you will confirm the running watts and outlet layout from the manual before buying. The caveat is that the listing leaves out the details an RV owner most needs, so treat the 7,000 as a peak figure until proven otherwise.",
+    "description": "The Powerhorse 7,000 Watt generator has a 298cc engine with a cast iron cylinder sleeve and dual-fuel technology that lets it switch between gasoline and propane without shutting down. The listing also names CO detection with an indicator light, an automatic voltage regulator with a multimeter, and a control panel showing run time, voltage and frequency. It does not publish running watts, outlet types, weight or warranty.\n\nIt sits last because the 7,000 figure cannot be tied to a running rating, which is the exact boundary this guide cares about. It costs $100 more than the EFURDEN and the AIVOLT, both of which state running watts, and $500 less than the GENMAX, which also lists its outlets and warranty. The switch-without-shutdown feature is its distinct selling point.\n\nPick this only if you value changing fuels mid-run, and you will confirm the running watts and outlet layout from the manual before buying. The caveat is that the listing leaves out the details an RV owner most needs, so treat the 7,000 as a peak figure until proven otherwise.",
     "specs": [
       "7,000 watts, 298cc engine",
       "Gas and propane switching",
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
       "Includes CO detection with an indicator light"
     ],
     "cons": [
-      "Running watts are not stated in the listing",
+      "Running watts are not stated",
       "Outlets, weight and warranty are not listed"
     ],
     "bestFor": "propane users who want mid-run fuel switching"

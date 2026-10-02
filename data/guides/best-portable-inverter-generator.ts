@@ -181,7 +181,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Tank size and runtime are not listed",
-      "Standard warranty length is not stated in the listing"
+      "Standard warranty length is not stated"
     ],
     "bestFor": "most power per carried pound"
   }

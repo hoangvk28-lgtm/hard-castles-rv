@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs the most of the five",
-      "Standby draw is not listed in the excerpt"
+      "Standby draw is not listed"
     ],
     "bestFor": "Easiest install with alarms"
   },
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
       "Reads SOC percent and remaining capacity"
     ],
     "cons": [
-      "Standby draw is not listed in the excerpt",
+      "Standby draw is not listed",
       "Touch buttons are small and easy to miss"
     ],
     "bestFor": "Systems with a large inverter"
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "100A shunt limits it to smaller loads only",
-      "No alarm detail is listed in the excerpt"
+      "No alarm detail is listed"
     ],
     "bestFor": "Small rigs with low loads"
   },

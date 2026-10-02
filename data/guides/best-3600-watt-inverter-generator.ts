@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Heaviest of the four at 61 lbs",
-      "Noise figure is not shown in the excerpt"
+      "Noise figure is not shown"
     ],
     "bestFor": "Buyers who need true 3600W running"
   },

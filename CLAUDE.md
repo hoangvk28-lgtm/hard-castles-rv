@@ -896,5 +896,14 @@ P1 (27 guides) cost ~735k subagent tokens (~27k per guide) using 5 Opus agents. 
 - Near-synonym keywords ("for the money", "value", "budget", "on Amazon") must get distinct angles and product sets: decide the angle + candidate ASINs per slug in the orchestrator before dispatch, so agents don't spend tokens negotiating overlap.
 - Skip keywords whose prefiltered pool has < 4 genuinely matching products instead of letting an agent search for them; report them to the user.
 
+### Current pipeline scripts (Round 2 onward, 2026-10-02)
+`scripts/stage-a.mjs` (sourcing + selection, zero LLM tokens; per-cluster `q`/`must`/`ban`/`req` config, `RV_TMP` = query cache dir) → Sonnet writer agent writes compact prose JSON per slug following **`scripts/best-brief.md`** → `SLUGS=<cluster|slug list> node scripts/hybrid-build.mjs <facts> <prose>` (silo + related) → `node scripts/gen-p2-batch.mjs <pool> scripts/p2-content [--register]` (validation + write) → `generate-guides-index.mjs` → `tsc`. Pilot cost: ~20k writer tokens/guide on Sonnet vs ~27k on Opus in P1.
+
+### MANDATORY: Copy must never expose the drafting process (added 2026-10-02)
+P2/P3 shipped many lines like "not stated in the text we saw", "the excerpt we reviewed", "in the facts provided", "not listed in the features", "Of the candidates we reviewed". These tell the reader the article was written from a fact sheet. Write as an editor who knows the category; state a missing spec as a buyer tip ("The listing does not state the gauge range, so confirm it before buying"). `gen-p2-batch.mjs` hard-fails on the `LEAK` regex (we saw/reviewed/have/found, text/excerpt/bullets/features/facts/data we, in the features/facts/excerpt, facts provided, the pool, candidates). Do not weaken that regex to make a batch pass; rewrite the sentence. Older P2/P3 guides still contain these phrases and need a retrofit pass.
+
+### MANDATORY: Every product needs `imageUrl`; `tsc` must be clean (added 2026-10-02)
+`next.config.ts` has `typescript.ignoreBuildErrors: true`, so Vercel deploys "Ready" even with type errors (a P3 guide shipped a product with no `imageUrl` this way). `gen-p2-batch.mjs` now rejects any pick without an image. After every batch, `npx tsc --noEmit` must report **0 errors** before committing; a green Vercel deploy is not evidence the code type-checks.
+
 ### Template gotcha fixed
 - `lib/guide-headings.ts` had a leftover "to Your Garden or Yard" heading from another site (now "to Your RV"). When cloning templates, grep components/lib for other niches' words (garden, desk, office, chair) before launching content.

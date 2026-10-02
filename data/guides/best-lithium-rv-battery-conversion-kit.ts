@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
       "Lists six separate protections, including reverse polarity"
     ],
     "cons": [
-      "No exact lithium preset or warranty in the bullets",
+      "No exact lithium preset or warranty in the listing",
       "Costs $89.91 more than the suplife WF-9855"
     ],
     "bestFor": "Mixed or changing battery chemistries"
@@ -120,7 +120,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Lithium use needs manual voltage configuration",
-      "No warranty term appears in the bullets"
+      "No warranty term appears in the listing"
     ],
     "bestFor": "Larger battery banks and heavy 12V loads"
   },

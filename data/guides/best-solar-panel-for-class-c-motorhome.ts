@@ -359,7 +359,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Weight per panel",
-    "explanation": "Rooftop weight raises the center of gravity and counts against your cargo capacity. Panels here range from 4.7 pounds for the slim 100W to 11.4 pounds for a standard glass 100W, which is nearly a 7 pound difference per panel. Look for a weight in the bullets or title, and add up the array."
+    "explanation": "Rooftop weight raises the center of gravity and counts against your cargo capacity. Panels here range from 4.7 pounds for the slim 100W to 11.4 pounds for a standard glass 100W, which is nearly a 7 pound difference per panel. Look for a weight in the listing or title, and add up the array."
   },
   {
     "criterion": "Mounting method and hardware",

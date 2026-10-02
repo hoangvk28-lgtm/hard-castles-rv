@@ -68,7 +68,7 @@ export const products: GuideProduct[] = [
       "About $131 per kilowatt-hour with an app"
     ],
     "cons": [
-      "Weight and size are not given in the listing",
+      "Weight and size are not given",
       "100A BMS limits one battery to about 5,120W"
     ],
     "bestFor": "budget-conscious 48V installs wanting an app"
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41DSsc-p0pL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G5YFJQH1?tag=hardcastlesrv-20",
-    "description": "The Wattcycle 51.2V 100Ah is a 3U rack battery measuring 19.09 by 17.72 by 5.24 inches and weighing 91.9 pounds. It delivers 5,120Wh with up to 5,120W of output from 102Ah EV-grade A+ cells rated for 15,000 plus cycles at 60 percent depth of discharge, and its full-metal case operates from minus 4°F to 149°F. An LCD touchscreen and Bluetooth 5.0 show status, and CAN, RS485 and RS232 ports are listed, with Victron and Schneider named as compatible inverter brands.\n\nIt ranks third because at $899.99 it costs $230 more than the NebuQuic and $340 more than the DATOUBOSS, and is the most expensive pick. In return it gives the clearest weight and size data, the explicit temperature range and a named inverter-compatibility statement. It is $10 above the ECO-WORTHY, which has more safety listings.\n\nChoose it if you plan a Victron or Schneider inverter system and need exact dimensions to build a mount. The caveat is the highest price per kilowatt-hour here, about $176, and that the listing does not name UL listings in the text we reviewed.",
+    "description": "The Wattcycle 51.2V 100Ah is a 3U rack battery measuring 19.09 by 17.72 by 5.24 inches and weighing 91.9 pounds. It delivers 5,120Wh with up to 5,120W of output from 102Ah EV-grade A+ cells rated for 15,000 plus cycles at 60 percent depth of discharge, and its full-metal case operates from minus 4°F to 149°F. An LCD touchscreen and Bluetooth 5.0 show status, and CAN, RS485 and RS232 ports are listed, with Victron and Schneider named as compatible inverter brands.\n\nIt ranks third because at $899.99 it costs $230 more than the NebuQuic and $340 more than the DATOUBOSS, and is the most expensive pick. In return it gives the clearest weight and size data, the explicit temperature range and a named inverter-compatibility statement. It is $10 above the ECO-WORTHY, which has more safety listings.\n\nChoose it if you plan a Victron or Schneider inverter system and need exact dimensions to build a mount. The caveat is the highest price per kilowatt-hour here, about $176, and that the listing does not name UL listings.",
     "specs": [
       "19.09 x 17.72 x 5.24 inches",
       "91.9 lb, 5,120Wh",
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
       "Lists RV and travel trailer use"
     ],
     "cons": [
-      "Weight and dimensions are not given in the listing",
+      "Weight and dimensions are not given",
       "No UL listing is named, unlike ECO-WORTHY"
     ],
     "bestFor": "single-battery banks feeding a large inverter"
@@ -371,7 +371,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Weight and mounting in a vehicle",
-    "explanation": "Rack batteries here weigh about 92 to 95 pounds where weight is stated, and they are made for a stationary cabinet. In a moving RV the listings we reviewed do not describe vibration testing, so plan a strap-down frame fixed to the structure and keep terminals protected. Confirm weight and dimensions, and plan for two people to lift it."
+    "explanation": "Rack batteries here weigh about 92 to 95 pounds where weight is stated, and they are made for a stationary cabinet. In a moving RV the listings do not describe vibration testing, so plan a strap-down frame fixed to the structure and keep terminals protected. Confirm weight and dimensions, and plan for two people to lift it."
   },
   {
     "criterion": "Safety listings and what they mean",
@@ -386,7 +386,7 @@ export const faq = [
   },
   {
     "q": "Can I use a 48V rack battery in a moving RV?",
-    "a": "Some owners do, but the listings we reviewed describe home energy storage and do not mention vibration testing. Secure the battery with a rigid frame and straps, keep it level and check the terminals regularly."
+    "a": "Some owners do, but the listings describe home energy storage and do not mention vibration testing. Secure the battery with a rigid frame and straps, keep it level and check the terminals regularly."
   },
   {
     "q": "Is 48V better than four 12V batteries in series?",

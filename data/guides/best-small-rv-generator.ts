@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/4192C502DML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HGD5GGMC?tag=hardcastlesrv-20",
-    "description": "The PowerSmart 3800 is a dual-fuel inverter generator with 3,800 starting and 3,300 running watts on gasoline, and 3,500 starting and 3,100 running watts on propane. It runs 8 hours at 25 percent load on a 1.3-gallon gas tank, or up to 24 hours on a standard 20-pound propane tank, at 59 dBA in Eco Mode. Its panel includes an L5-30R 120V 30A twist-lock, a 5-20R duplex outlet, a 12V 8A DC port and dual USB ports, and the listing cites overload, short-circuit and carbon monoxide protection and low-oil shutdown.\n\nAt $499.99 it is $55 under the WEN 4500 and $1.99 above the WEN 3600 ($499.99 versus $498), and it is the only pick that adds propane at this size. It gives 300 fewer gas running watts than the WEN 4500 and 400 more than the WEN 3600 (3,300 versus 2,900). Against the AIVOLT 4300 it costs $50 more but offers two fuels, with the AIVOLT's gas running watts 150 higher (3,450 versus 3,300).\n\nPick this if you want a small unit that can run for a weekend on a single 20-pound tank and store propane without worrying about stale gas. The caveat is the L5-30R outlet, which likely needs an adapter for a TT-30P cord, and weight is not stated in the listing.",
+    "description": "The PowerSmart 3800 is a dual-fuel inverter generator with 3,800 starting and 3,300 running watts on gasoline, and 3,500 starting and 3,100 running watts on propane. It runs 8 hours at 25 percent load on a 1.3-gallon gas tank, or up to 24 hours on a standard 20-pound propane tank, at 59 dBA in Eco Mode. Its panel includes an L5-30R 120V 30A twist-lock, a 5-20R duplex outlet, a 12V 8A DC port and dual USB ports, and the listing cites overload, short-circuit and carbon monoxide protection and low-oil shutdown.\n\nAt $499.99 it is $55 under the WEN 4500 and $1.99 above the WEN 3600 ($499.99 versus $498), and it is the only pick that adds propane at this size. It gives 300 fewer gas running watts than the WEN 4500 and 400 more than the WEN 3600 (3,300 versus 2,900). Against the AIVOLT 4300 it costs $50 more but offers two fuels, with the AIVOLT's gas running watts 150 higher (3,450 versus 3,300).\n\nPick this if you want a small unit that can run for a weekend on a single 20-pound tank and store propane without worrying about stale gas. The caveat is the L5-30R outlet, which likely needs an adapter for a TT-30P cord, and weight is not stated.",
     "specs": [
       "3,300 running watts on gas",
       "3,100 running watts on propane",
@@ -128,7 +128,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Has an L5-30R twist-lock, so a TT-30 adapter is likely needed",
-      "Weight is not stated in the feature bullets",
+      "Weight is not stated",
       "Propane rating drops to 3,100 running watts"
     ],
     "bestFor": "weekend trips on one propane tank"
@@ -157,7 +157,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "One-gallon tank runs only 4 hours at half load",
-      "Outlet types and weight are not in the bullets",
+      "Outlet types and weight are not listed",
       "Gives 250 fewer rated watts than the AIVOLT 4300"
     ],
     "bestFor": "quiet camps with a single air conditioner"
@@ -172,7 +172,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51q0ZK+ixwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FQ5BB6SS?tag=hardcastlesrv-20",
-    "description": "The Oxseryn 4400 lists 4,400 peak and 3,400 running watts, a 2-gallon tank with a fuel gauge, and up to 14 hours at 25 percent load in ECO mode. Its panel includes two 120V AC ports, a 12V DC port and one RV port. It weighs 56 pounds, an open-frame design, and the listing says it runs under 72 dBA from 23 feet.\n\nAt $262.18 it is $187.81 below the AIVOLT 4300 and gives up only 50 running watts (3,400 versus 3,450), but it is 5 pounds heavier (56 versus 51) and 12 dBA louder, 72 versus 60. That makes it roughly $188 saved for a noisier unit with a less detailed spec sheet. It is $292.81 below the WEN 4500 ($554.99 versus $262.18) with 200 fewer rated watts.\n\nPick this if price is the main constraint and the campground allows a louder generator. The caveat is that the listing does not state the RV port's shape or give a warranty in the bullets, and 72 dBA is noticeably louder than the other picks.",
+    "description": "The Oxseryn 4400 lists 4,400 peak and 3,400 running watts, a 2-gallon tank with a fuel gauge, and up to 14 hours at 25 percent load in ECO mode. Its panel includes two 120V AC ports, a 12V DC port and one RV port. It weighs 56 pounds, an open-frame design, and the listing says it runs under 72 dBA from 23 feet.\n\nAt $262.18 it is $187.81 below the AIVOLT 4300 and gives up only 50 running watts (3,400 versus 3,450), but it is 5 pounds heavier (56 versus 51) and 12 dBA louder, 72 versus 60. That makes it roughly $188 saved for a noisier unit with a less detailed spec sheet. It is $292.81 below the WEN 4500 ($554.99 versus $262.18) with 200 fewer rated watts.\n\nPick this if price is the main constraint and the campground allows a louder generator. The caveat is that the listing does not state the RV port's shape or give a warranty, and 72 dBA is noticeably louder than the other picks.",
     "specs": [
       "3,400 running watts",
       "56 lb, 2-gallon tank",

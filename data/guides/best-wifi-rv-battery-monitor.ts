@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41+0jVYdUOL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FGFC1W6J?tag=hardcastlesrv-20",
-    "description": "The Aramox monitor uses a 2.4 inch HD color LCD with dark and light modes and covers VRLA, LFP, lithium ion and NiMH from 10 to 100V. It measures voltage, current, power, capacity and watt-hours, and has a buzzer with pop up reminders. Remote monitoring runs over WiFi and its app.\n\nAt $65.62 it is $18.88 above the Cwmiibili Monitor and $6.65 below the Eujgoov Monitor. It reads very similar to the Eujgoov on paper. Pick this if you want the common 2.4 inch interface at a lower price. The caveat is that the current range and warranty are not given in the listing.",
+    "description": "The Aramox monitor uses a 2.4 inch HD color LCD with dark and light modes and covers VRLA, LFP, lithium ion and NiMH from 10 to 100V. It measures voltage, current, power, capacity and watt-hours, and has a buzzer with pop up reminders. Remote monitoring runs over WiFi and its app.\n\nAt $65.62 it is $18.88 above the Cwmiibili Monitor and $6.65 below the Eujgoov Monitor. It reads very similar to the Eujgoov on paper. Pick this if you want the common 2.4 inch interface at a lower price. The caveat is that the current range and warranty are not given.",
     "specs": [
       "10 to 100V, 2.4 inch LCD",
       "WiFi app, buzzer reminders",
@@ -312,7 +312,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "2.4GHz WiFi requirement",
-    "explanation": "Most cheap monitors support only the 2.4GHz band, and a dual band router can block pairing. The phone must usually join the same 2.4GHz network during setup. Look for the band in the bullets."
+    "explanation": "Most cheap monitors support only the 2.4GHz band, and a dual band router can block pairing. The phone must usually join the same 2.4GHz network during setup. Look for the band in the listing."
   },
   {
     "criterion": "Battery chemistry setting",

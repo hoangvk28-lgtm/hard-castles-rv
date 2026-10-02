@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Highest price of the five at $85.95",
-      "Panel dimensions are not in the excerpt"
+      "Panel dimensions are not listed"
     ],
     "bestFor": "Shaded storage with a lead acid bank"
   },
@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Larger panel is harder to mount",
-      "Weight is not listed in the excerpt"
+      "Weight is not listed"
     ],
     "bestFor": "Outdoor storage with a bigger battery"
   },

@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "Fireproof ABS housing with IP67 cover"
     ],
     "cons": [
-      "Warranty length is not stated in the listing",
+      "Warranty length is not stated",
       "Costs $35.00 more than the cheapest relay unit"
     ],
     "bestFor": "first-time 50 amp owners wanting a clear display"

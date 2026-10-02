@@ -388,7 +388,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Look for Weather Resistance",
-    "explanation": "Open trays face rain, road spray, and in coastal areas, salt. IP65 or corrosion-resistant claims mean better sealed cases. Look for an IP rating in the bullets, or keep the battery inside a vented box."
+    "explanation": "Open trays face rain, road spray, and in coastal areas, salt. IP65 or corrosion-resistant claims mean better sealed cases. Look for an IP rating in the listing, or keep the battery inside a vented box."
   },
   {
     "criterion": "Plan the Charging Profile",

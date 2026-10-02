@@ -277,7 +277,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Series and parallel limits",
-    "explanation": "Series raises voltage and parallel raises capacity, and listings state how many units you can combine. Exceeding the limit can unbalance the pack. Check for text like 4S4P in the bullets before planning expansion."
+    "explanation": "Series raises voltage and parallel raises capacity, and listings state how many units you can combine. Exceeding the limit can unbalance the pack. Check for text like 4S4P in the listing before planning expansion."
   },
   {
     "criterion": "BMS amps versus inverter size",

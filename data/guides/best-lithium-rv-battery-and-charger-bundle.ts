@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
       "IP65 case resists dust and splashes"
     ],
     "cons": [
-      "No warranty term appears in the bullets",
+      "No warranty term appears in the listing",
       "Cold weather claim does not separate charging from discharging"
     ],
     "bestFor": "Budget buyers wanting a 20A charger"

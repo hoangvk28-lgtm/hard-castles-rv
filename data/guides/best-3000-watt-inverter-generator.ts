@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Rated watts sit 400 below the Lifan",
-      "Weight is not given in the listing"
+      "Weight is not given"
     ],
     "bestFor": "Quiet campgrounds and later expansion"
   },

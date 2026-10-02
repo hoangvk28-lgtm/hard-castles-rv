@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
       "Mini case saves space versus a standard 200Ah"
     ],
     "cons": [
-      "Cut-off temperature is not stated in the listing",
+      "Cut-off temperature is not stated",
       "Cycle claim is up-to with no stated conditions"
     ],
     "bestFor": "budget buyers who want an app and heated storage"

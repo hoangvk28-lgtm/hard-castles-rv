@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/414jpbca9vL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GKG3CXNF?tag=hardcastlesrv-20",
-    "description": "The ALLWEI 1000W is another pure sine unit with 2000W surge, but its listing leads with a safety claim: it is ETL listed to UL 458, the standard for inverters used on vehicles. It adds eight protections covering low and high voltage, over and under temperature, and overload, along with load and temperature controlled fans in an aluminum alloy housing. The text also describes ultra low no-load loss.\n\nIt ranks second because it costs $10 more than the LANDERPOW 1000W for the same output class, and what you gain is the documented listing rather than extra features. Compared with the TOPBULL 3000W it is $40 cheaper and a much lighter demand on the battery. It is a better fit than the Cantonape 3000W when waveform and certification matter more than raw wattage.\n\nChoose it if an insurer, campground or your own caution makes a listed product worth ten dollars. The caveat is that the text we reviewed lists no remote in the excerpt we saw and no exact no-load figure, so verify the control layout and idle draw on the full listing.",
+    "description": "The ALLWEI 1000W is another pure sine unit with 2000W surge, but its listing leads with a safety claim: it is ETL listed to UL 458, the standard for inverters used on vehicles. It adds eight protections covering low and high voltage, over and under temperature, and overload, along with load and temperature controlled fans in an aluminum alloy housing. The text also describes ultra low no-load loss.\n\nIt ranks second because it costs $10 more than the LANDERPOW 1000W for the same output class, and what you gain is the documented listing rather than extra features. Compared with the TOPBULL 3000W it is $40 cheaper and a much lighter demand on the battery. It is a better fit than the Cantonape 3000W when waveform and certification matter more than raw wattage.\n\nChoose it if an insurer, campground or your own caution makes a listed product worth ten dollars. The caveat is that the listing shows no remote and no exact no-load figure, so verify the control layout and idle draw on the full listing.",
     "specs": [
       "1000W, 2000W surge",
       "ETL listed to UL 458",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51J-KtOqqzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C8HSTD6N?tag=hardcastlesrv-20",
-    "description": "The TOPBULL 3000W lists 3000W continuous and 6000W peak, two 20A 120V outlets, a 3.4A USB port, a 30W Type-C port, ten protection mechanisms and thick pure copper battery cables. Its standout feature is a 200ft wireless remote with a color LED display and one-button shutdown, which is unusual at this price.\n\nIt ranks third because 3000W is only useful if your battery bank, cable and fuse can feed it. At full load a 3000W inverter pulls roughly 250A from a 12V battery before conversion losses, which is more than a single typical lithium battery's battery management system will allow. It is $40 above the ALLWEI 1000W and $10 above the Cantonape 3000W, and the extra $10 is what separates it from a modified sine unit if the waveform is pure sine, which the excerpt we reviewed does not state, so confirm it.\n\nPick it if you have a large lithium bank and want to run a high-draw tool or a window air conditioner on a short run. The caveat is the waveform wording and the lack of a listed warranty length, so ask before connecting expensive electronics.",
+    "description": "The TOPBULL 3000W lists 3000W continuous and 6000W peak, two 20A 120V outlets, a 3.4A USB port, a 30W Type-C port, ten protection mechanisms and thick pure copper battery cables. Its standout feature is a 200ft wireless remote with a color LED display and one-button shutdown, which is unusual at this price.\n\nIt ranks third because 3000W is only useful if your battery bank, cable and fuse can feed it. At full load a 3000W inverter pulls roughly 250A from a 12V battery before conversion losses, which is more than a single typical lithium battery's battery management system will allow. It is $40 above the ALLWEI 1000W and $10 above the Cantonape 3000W, and the extra $10 is what separates it from a modified sine unit if the waveform is pure sine, which the listing does not state, so confirm it.\n\nPick it if you have a large lithium bank and want to run a high-draw tool or a window air conditioner on a short run. The caveat is the waveform wording and the lack of a listed warranty length, so ask before connecting expensive electronics.",
     "specs": [
       "3000W continuous, 6000W peak",
       "Two 20A outlets, USB-C 30W",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
       "Ten separate protection mechanisms are listed"
     ],
     "cons": [
-      "Waveform is not clearly stated in the text we reviewed",
+      "Waveform is not clearly stated",
       "Needs a big battery bank and heavy cable to deliver 3000W"
     ],
     "bestFor": "large lithium banks running tools or a small AC"

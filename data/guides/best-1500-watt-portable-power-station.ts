@@ -153,7 +153,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Highest cost per Wh at about $0.93",
-      "Panel weight and size are not given in the listing"
+      "Panel weight and size are not given"
     ],
     "bestFor": "off-grid trips relying mainly on sun"
   }
@@ -337,7 +337,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "UPS and surge protection",
-    "explanation": "A UPS switchover under 10ms keeps a PC and router up through a power flicker, while a surge shield helps when you plug into a campground pedestal. Only some listings state these numbers. Look for the milliseconds and the surge voltage in the bullets."
+    "explanation": "A UPS switchover under 10ms keeps a PC and router up through a power flicker, while a surge shield helps when you plug into a campground pedestal. Only some listings state these numbers. Look for the milliseconds and the surge voltage in the listing."
   },
   {
     "criterion": "Cycle rating and chemistry",

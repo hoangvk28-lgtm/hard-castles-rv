@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs far more than Genkins and AMERISUN",
-      "Noise figure is not shown in the excerpt"
+      "Noise figure is not shown"
     ],
     "bestFor": "Balanced output and weight"
   },
@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Heavier at 61 pounds, bulky at 21 inches wide",
-      "Rated running watts are not listed in the excerpt"
+      "Rated running watts are not listed"
     ],
     "bestFor": "Safety features without the premium"
   },
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Open frame design is usually louder",
-      "No stated RV outlet in the excerpt"
+      "No stated RV outlet in the listing"
     ],
     "bestFor": "Most running watts per dollar"
   },

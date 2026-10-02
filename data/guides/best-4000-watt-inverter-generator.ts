@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Rated 3200 running, below the Evernexta 208cc",
-      "Fuel runtime is not stated in the excerpt"
+      "Fuel runtime is not stated"
     ],
     "bestFor": "Buyers who want documented specs"
   },
@@ -65,8 +65,8 @@ export const products: GuideProduct[] = [
       "Runtime is stated at a clear 50% load"
     ],
     "cons": [
-      "Noise figure is not shown in the excerpt",
-      "Weight is not listed in the excerpt"
+      "Noise figure is not shown",
+      "Weight is not listed"
     ],
     "bestFor": "Maximum running watts per dollar"
   },
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Outlet types are less clearly listed",
-      "Fuel runtime is not shown in the excerpt"
+      "Fuel runtime is not shown"
     ],
     "bestFor": "Matching the leader for less"
   }

@@ -346,7 +346,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Liftability and packed size",
-    "explanation": "Stations in this class pack more than 3,000Wh of lithium into one case, and none of the listing bullets we reviewed publish weight. A unit you cannot lift into a storage bay alone is a poor match for a single traveler. Look for weight and dimensions in the spec table or manual, and decide beforehand whether you need wheels or a second person."
+    "explanation": "Stations in this class pack more than 3,000Wh of lithium into one case, and none of the listings publish weight. A unit you cannot lift into a storage bay alone is a poor match for a single traveler. Look for weight and dimensions in the spec table or manual, and decide beforehand whether you need wheels or a second person."
   },
   {
     "criterion": "Warranty and expansion",
@@ -377,7 +377,7 @@ export const faq = [
   },
   {
     "q": "Does the neutral and ground setup matter?",
-    "a": "Yes. Some trailers and surge protectors expect a bonded or floating neutral, and the listings we reviewed do not describe the station's neutral behavior. Ask the maker before connecting an EMS or surge protector, and avoid daisy-chaining adapters."
+    "a": "Yes. Some trailers and surge protectors expect a bonded or floating neutral, and the listings do not describe the station's neutral behavior. Ask the maker before connecting an EMS or surge protector, and avoid daisy-chaining adapters."
   }
 ];
 

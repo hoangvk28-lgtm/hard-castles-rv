@@ -325,7 +325,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Auto shutoff behavior",
-    "explanation": "A display is only a warning unless the unit disconnects on faults. Rvhouse 50A claims a cut-off in under one second, but others give no speed. Look for auto power off in the bullets and a reset delay."
+    "explanation": "A display is only a warning unless the unit disconnects on faults. Rvhouse 50A claims a cut-off in under one second, but others give no speed. Look for auto power off in the listing and a reset delay."
   },
   {
     "criterion": "Weather resistance",

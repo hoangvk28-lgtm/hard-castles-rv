@@ -257,7 +257,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "CO detection and placement",
-    "explanation": "Carbon monoxide from a generator can enter a motorhome through windows and vents. The PowerSmart and Westinghouse list CO sensors, but you should still place any generator outdoors, well away from openings. Check for a CO sensor in the bullets, since the maXpeedingrods listing does not name one."
+    "explanation": "Carbon monoxide from a generator can enter a motorhome through windows and vents. The PowerSmart and Westinghouse list CO sensors, but you should still place any generator outdoors, well away from openings. Check for a CO sensor in the listing, since the maXpeedingrods listing does not name one."
   },
   {
     "criterion": "Fuel type and runtime",

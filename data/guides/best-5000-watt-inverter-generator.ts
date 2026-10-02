@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Highest price of the four at $569.99",
-      "Weight is not listed in the excerpt"
+      "Weight is not listed"
     ],
     "bestFor": "Long outages with CO protection"
   },
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
       "4000 running watts like the others"
     ],
     "cons": [
-      "Tank and runtime are not listed in the excerpt",
+      "Tank and runtime are not listed",
       "Costs $130.00 more than Oxseryn Eco"
     ],
     "bestFor": "Sensitive electronics"
@@ -120,7 +120,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Outlet details are thinner than the Eco",
-      "THD is not clearly stated in the excerpt"
+      "THD is not clearly stated"
     ],
     "bestFor": "Lowest price for 4000 running watts"
   }

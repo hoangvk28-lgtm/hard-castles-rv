@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
       "UL2201 and EPA certification are stated"
     ],
     "cons": [
-      "Running watts are not given in the listing",
+      "Running watts are not given",
       "Gasoline runtime claim is only 11.5 hours"
     ],
     "bestFor": "essentials-only outages and easy moving"
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41GgzJACkBL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DH6QTSH4?tag=hardcastlesrv-20",
-    "description": "The Pulsar GD10KBN is a 10,500 watt dual fuel inverter generator with a wheel kit, electric start and an outlet the listing calls RV Ready 15-50R. The listing says it can run lights, appliances and even central air conditioning systems, shows a digital multimeter with voltage, frequency and hours, and lists overload and short-circuit protection. It does not publish running watts, tank size, runtime or noise.\n\nIt ranks fifth because the missing running watts and runtime make a 24 hour plan impossible to calculate from the page, though at $999 it costs the same as the Westinghouse iGen5000DFc and is $900 below the Westinghouse iGen12000DFc. That is the whole case for it: a large nameplate size at a mid price. Against the iGen12000DFc you give up published fuel, runtime and noise numbers.\n\nChoose it if you want a big unit to feed a 50A inlet and you accept that you must confirm running watts and tank size in the manual. The caveat is the data gap, and you should treat the 10,500 as a peak figure.",
+    "description": "The Pulsar GD10KBN is a 10,500 watt dual fuel inverter generator with a wheel kit, electric start and an outlet the listing calls RV Ready 15-50R. The listing says it can run lights, appliances and even central air conditioning systems, shows a digital multimeter with voltage, frequency and hours, and lists overload and short-circuit protection. It does not publish running watts, tank size, runtime or noise.\n\nIt ranks fifth because the missing running watts and runtime make a 24 hour plan impossible to calculate from the page, though at $999 it costs the same as the Westinghouse iGen5000DFc and is $900 below the Westinghouse iGen12000DFc. That is the whole case for it: a large nameplate size at a mid price. Against the iGen12000DFc you give up published fuel, runtime and noise numbers.\n\nChoose it if you want a big unit to feed a 50A inlet and you accept that you must confirm running watts and tank size in the manual. The caveat is the missing specs, and you should treat the 10,500 as a peak figure.",
     "specs": [
       "10,500W peak, dual fuel",
       "15-50R outlet",

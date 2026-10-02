@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31soCn59teL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B075RFXHYK?tag=hardcastlesrv-20",
-    "description": "The Renogy is a plain 12V 100Ah deep-cycle AGM at $174.99, with a 1100A 5-second maximum discharge and a stated working range of -4 to 140F. It supports parallel banks of up to four units. The listing does not give weight or dimensions in the bullets, so check the spec table before buying.\n\nIt sits $170.01 under the GRNOE pair and $15.00 under the Weize 24M, and unlike the Weize it is a true deep-cycle unit rather than a starter hybrid. Pick this if you camp in cold shoulder seasons and want simple lead-acid charging behavior. Caveat: AGM batteries are heavy for their capacity, and the weight is not listed here.",
+    "description": "The Renogy is a plain 12V 100Ah deep-cycle AGM at $174.99, with a 1100A 5-second maximum discharge and a stated working range of -4 to 140F. It supports parallel banks of up to four units. The listing does not give weight or dimensions, so check the spec table before buying.\n\nIt sits $170.01 under the GRNOE pair and $15.00 under the Weize 24M, and unlike the Weize it is a true deep-cycle unit rather than a starter hybrid. Pick this if you camp in cold shoulder seasons and want simple lead-acid charging behavior. Caveat: AGM batteries are heavy for their capacity, and the weight is not listed here.",
     "specs": [
       "12V 100Ah AGM deep cycle",
       "1100A for 5 seconds",
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
       "Deep-cycle build suits nightly lights and pump use."
     ],
     "cons": [
-      "Weight and dimensions are not listed in the bullets.",
+      "Weight and dimensions are not listed.",
       "AGM stays heavier than lithium for the same amp-hours."
     ],
     "bestFor": "Cold-season campers who want a simple single AGM"
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ErUzfS4yL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FDQRKM25?tag=hardcastlesrv-20",
-    "description": "The UPLUS is a Group 24M dual-purpose AGM at $180.49, listed at 12V 79Ah with 550CCA and 150RC. It is marketed as a marine battery, with vibration-resistant construction and thicker cast plates, which also suits towed trailers. Weight is not listed in the bullets.\n\nIt is $9.50 cheaper than the Weize 24M but offers 11Ah less capacity, and it costs $5.50 more than the Renogy while having 21Ah less. Pick this if you want a Group 24M starter-capable unit and will only run small loads. Caveat: for a pop-up with a fridge or heater fan, 79Ah runs out fast.",
+    "description": "The UPLUS is a Group 24M dual-purpose AGM at $180.49, listed at 12V 79Ah with 550CCA and 150RC. It is marketed as a marine battery, with vibration-resistant construction and thicker cast plates, which also suits towed trailers. Weight is not listed.\n\nIt is $9.50 cheaper than the Weize 24M but offers 11Ah less capacity, and it costs $5.50 more than the Renogy while having 21Ah less. Pick this if you want a Group 24M starter-capable unit and will only run small loads. Caveat: for a pop-up with a fridge or heater fan, 79Ah runs out fast.",
     "specs": [
       "BCI Group 24M, 12V 79Ah",
       "550CCA, 150RC",

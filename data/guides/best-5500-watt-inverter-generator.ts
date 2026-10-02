@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51nt2LhZpUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GFNBRFTC?tag=hardcastlesrv-20",
-    "description": "The Lifan is the only pick here that lists 5500 watts as rated output, with 6900 peak from a 312cc OHV engine. It adds a 120V/240V 23A twist lock outlet, a remote fob with 50 ft range, and a CO-Minder sensor, and it costs $819.99.\n\nIt costs $120.99 more than the Champion 5500, which buys about 1500 more running watts, so a 30A camper can run a 13,500 BTU air conditioner plus a microwave without guessing. Pick this if you want real 5500 continuous watts. The caveat is that weight is not shown in the listing, and the battery cables arrive disconnected, so budget setup time.",
+    "description": "The Lifan is the only pick here that lists 5500 watts as rated output, with 6900 peak from a 312cc OHV engine. It adds a 120V/240V 23A twist lock outlet, a remote fob with 50 ft range, and a CO-Minder sensor, and it costs $819.99.\n\nIt costs $120.99 more than the Champion 5500, which buys about 1500 more running watts, so a 30A camper can run a 13,500 BTU air conditioner plus a microwave without guessing. Pick this if you want real 5500 continuous watts. The caveat is that weight is not shown, and the battery cables arrive disconnected, so budget setup time.",
     "specs": [
       "5500W rated, 6900W peak",
       "312cc OHV engine",
@@ -293,7 +293,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Warranty and support",
-    "explanation": "A three-year warranty plus phone support, as on the Champion 5500, covers early engine and electronics faults that appear after a few trips. A short or unlisted warranty means a cheap unit can be a total loss. Look for the length in years in the bullets, and confirm it is not limited to the engine only."
+    "explanation": "A three-year warranty plus phone support, as on the Champion 5500, covers early engine and electronics faults that appear after a few trips. A short or unlisted warranty means a cheap unit can be a total loss. Look for the length in years in the listing, and confirm it is not limited to the engine only."
   }
 ];
 

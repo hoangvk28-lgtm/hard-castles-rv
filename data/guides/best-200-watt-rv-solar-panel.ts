@@ -181,7 +181,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "You must buy and install your own controller",
-      "No warranty length or panel size in the features"
+      "No warranty length or panel size in the listing"
     ],
     "bestFor": "owners who bring their own controller"
   }

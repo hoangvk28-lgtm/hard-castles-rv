@@ -38,8 +38,8 @@ export const products: GuideProduct[] = [
       "Optional parallel kit doubles output later"
     ],
     "cons": [
-      "Running watts not stated in the listing",
-      "No TT-30 RV outlet is listed in the excerpt"
+      "Running watts not stated",
+      "No TT-30 RV outlet is listed"
     ],
     "bestFor": "Weekend campers who lift the generator alone"
   },
@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41JJT-xrrqL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C3NCKZ5M?tag=hardcastlesrv-20",
-    "description": "The A-iPower pairs an 80cc Yamaha engine with 2500 starting and 2000 running watts, the highest running figure in this group. It claims 52 dB, 3% THD clean power, a CO sensor light and USB ports on the panel.\n\nAt $619.99 it sits $101.74 above the Champion 2500 Ultralight and $250.40 above the WEN 56250i. The extra money buys 100 more running watts than the 1900 watt picks and the named engine. Pick this if you run a small air conditioner on soft start or want the most headroom. Caveat: weight and runtime are not in the excerpt, and the 52 dB distance is not stated.",
+    "description": "The A-iPower pairs an 80cc Yamaha engine with 2500 starting and 2000 running watts, the highest running figure in this group. It claims 52 dB, 3% THD clean power, a CO sensor light and USB ports on the panel.\n\nAt $619.99 it sits $101.74 above the Champion 2500 Ultralight and $250.40 above the WEN 56250i. The extra money buys 100 more running watts than the 1900 watt picks and the named engine. Pick this if you run a small air conditioner on soft start or want the most headroom. Caveat: weight and runtime are not listed, and the 52 dB distance is not stated.",
     "specs": [
       "2500 start, 2000 running watts",
       "Yamaha 80cc engine",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "59 dB(A) is louder than the Champion",
-      "Parallel support is not listed in the excerpt"
+      "Parallel support is not listed"
     ],
     "bestFor": "Budget shoppers who still want CO protection"
   },
@@ -245,7 +245,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Surge watts",
-        "text": "This is a short burst, about a few seconds, used for motor startup. All five advertise 2500, but the Champion 2500 Ultralight does not show its running figure in the excerpt."
+        "text": "This is a short burst, about a few seconds, used for motor startup. All five advertise 2500, but the Champion 2500 Ultralight does not show its running figure."
       }
     ],
     "note": "Size by running watts and treat the 2500 surge as startup help only."
@@ -286,7 +286,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "PowerSmart 2500 gives 7.5 hours at 25% load from 1.06 gallons, which is the clearest published runtime here; the others omit it in the excerpt."
+        "text": "PowerSmart 2500 gives 7.5 hours at 25% load from 1.06 gallons, which is the clearest published runtime here; the others omit it."
       }
     ]
   },
@@ -316,7 +316,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Noise distance and load",
-    "explanation": "A dB number means little without the distance and load it was measured at. 53 dBA at 23 feet is quieter in practice than 59 dB measured at 7 feet. Look for the distance in feet in the bullets."
+    "explanation": "A dB number means little without the distance and load it was measured at. 53 dBA at 23 feet is quieter in practice than 59 dB measured at 7 feet. Look for the distance in feet in the listing."
   },
   {
     "criterion": "Runtime at 25% and 50%",

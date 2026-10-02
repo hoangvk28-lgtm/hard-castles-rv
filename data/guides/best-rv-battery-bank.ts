@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41rltUYpeuL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09FSYCXGS?tag=hardcastlesrv-20",
-    "description": "The Power Queen 12V 200Ah PLUS stores 2,560Wh in roughly 55 lbs and carries a 200A BMS. The listing claims up to 95% usable capacity and lets you connect up to 4 in series (48V) or 4 in parallel (800Ah), which makes it a flexible base for a growing bank.\n\nAt $439.99 it is $143.69 above the Renogy AGM, but the usable energy is far higher. It costs $250.00 less than the Redodo 320Ah, though with 120Ah less capacity. Pick this if you want a bank you can add to later. Caveat: the listing does not give dimensions in the excerpt, so measure space against the actual size.",
+    "description": "The Power Queen 12V 200Ah PLUS stores 2,560Wh in roughly 55 lbs and carries a 200A BMS. The listing claims up to 95% usable capacity and lets you connect up to 4 in series (48V) or 4 in parallel (800Ah), which makes it a flexible base for a growing bank.\n\nAt $439.99 it is $143.69 above the Renogy AGM, but the usable energy is far higher. It costs $250.00 less than the Redodo 320Ah, though with 120Ah less capacity. Pick this if you want a bank you can add to later. Caveat: the listing does not give dimensions, so measure space against the actual size.",
     "specs": [
       "12V 200Ah, 2,560Wh",
       "200A BMS, about 55 lb",
@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
       "Up to 95% usable capacity per the listing"
     ],
     "cons": [
-      "Dimensions are not stated in the listing excerpt",
+      "Dimensions are not stated",
       "$143.69 more than a 200Ah AGM"
     ],
     "bestFor": "A bank you plan to expand"

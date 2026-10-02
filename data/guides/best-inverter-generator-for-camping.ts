@@ -347,7 +347,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Outlet match to RV cord",
-    "explanation": "RV power cords use TT-30 or 50A plugs, and a generator with only household outlets needs an adapter. Adapters work but cap you at 20A per outlet. Look for TT-30R or L5-30R in the bullets, such as on the PowerSmart 3800."
+    "explanation": "RV power cords use TT-30 or 50A plugs, and a generator with only household outlets needs an adapter. Adapters work but cap you at 20A per outlet. Look for TT-30R or L5-30R in the listing, such as on the PowerSmart 3800."
   },
   {
     "criterion": "Weight and carry method",

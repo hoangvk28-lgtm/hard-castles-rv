@@ -97,7 +97,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Title says 100A BMS but a bullet says 120A",
-      "Warranty length is not stated in the listing text"
+      "Warranty length is not stated"
     ],
     "bestFor": "deep daily cycling in a Group 31 tray"
   },
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/414Z1K0814L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DR2SDMKL?tag=hardcastlesrv-20",
-    "description": "The HeyFuture 12V 100Ah is a Group 24 LiFePO4 battery with Bluetooth in the title and a BMS described as dustproof, waterproof and equipped with a low-temperature cut-off. The listing says it can be wired in series or parallel up to four units, reaching 48V and 400Ah, and offers five years of customer service. It describes shock resistance from its trolling motor design, which also suits a bouncing trailer.\n\nAt $159.99 it is $20.00 cheaper than the SUPER EMPOWER in the same Group 24 size and $3.99 more than the Rvpozwer in Group 31. Cost per nominal kilowatt-hour is about $125. What it does not publish in the bullets is weight, cycle count or the exact cold-charging threshold, which is where the SUPER EMPOWER is stronger.\n\nPick this if you want a phone view of battery state and a Group 24 fit without paying the SUPER EMPOWER premium. The caveat is that you should confirm the cold cutoff temperature and weight with the seller, since the excerpted listing leaves both out.",
+    "description": "The HeyFuture 12V 100Ah is a Group 24 LiFePO4 battery with Bluetooth in the title and a BMS described as dustproof, waterproof and equipped with a low-temperature cut-off. The listing says it can be wired in series or parallel up to four units, reaching 48V and 400Ah, and offers five years of customer service. It describes shock resistance from its trolling motor design, which also suits a bouncing trailer.\n\nAt $159.99 it is $20.00 cheaper than the SUPER EMPOWER in the same Group 24 size and $3.99 more than the Rvpozwer in Group 31. Cost per nominal kilowatt-hour is about $125. What it does not publish in the listing is weight, cycle count or the exact cold-charging threshold, which is where the SUPER EMPOWER is stronger.\n\nPick this if you want a phone view of battery state and a Group 24 fit without paying the SUPER EMPOWER premium. The caveat is that you should confirm the cold cutoff temperature and weight with the seller, since the excerpted listing leaves both out.",
     "specs": [
       "Group 24, Bluetooth",
       "1,280Wh nominal",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41-lhsIsWsL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H55NR3HW?tag=hardcastlesrv-20",
-    "description": "The Daakmax pack contains two 12V 35Ah sealed AGM batteries in ABS cases with M6 terminal bolts, aimed at campers, UPS backup and small solar setups. Wired in parallel they make 70Ah at 12V, about 840 watt-hours nominal and roughly 420 usable at a 50 percent limit, which is the same energy as the single Interstate. The listing gives a one-year warranty and describes low self-discharge for storage.\n\nAt $124.99 for the pair, which is $62.50 each, it is the cheapest buy here and $134.96 less than the Interstate. It is the weakest on usable energy per dollar, about $298 per usable kilowatt-hour at a 50 percent limit, but it is the only option that splits into two small batteries you can carry separately. It has no cranking rating and no published weight, size or cold limits in the excerpt.\n\nPick this for a pop-up camper, tent trailer or backup that only needs a few hours of light loads. Skip it for a travel trailer with a fridge and inverter, where the capacity runs out quickly and a one-year warranty is short.",
+    "description": "The Daakmax pack contains two 12V 35Ah sealed AGM batteries in ABS cases with M6 terminal bolts, aimed at campers, UPS backup and small solar setups. Wired in parallel they make 70Ah at 12V, about 840 watt-hours nominal and roughly 420 usable at a 50 percent limit, which is the same energy as the single Interstate. The listing gives a one-year warranty and describes low self-discharge for storage.\n\nAt $124.99 for the pair, which is $62.50 each, it is the cheapest buy here and $134.96 less than the Interstate. It is the weakest on usable energy per dollar, about $298 per usable kilowatt-hour at a 50 percent limit, but it is the only option that splits into two small batteries you can carry separately. It has no cranking rating and no published weight, size or cold limits in the listing.\n\nPick this for a pop-up camper, tent trailer or backup that only needs a few hours of light loads. Skip it for a travel trailer with a fridge and inverter, where the capacity runs out quickly and a one-year warranty is short.",
     "specs": [
       "2 x 35Ah AGM",
       "70Ah when paralleled",

@@ -5,7 +5,7 @@ export const metaDescription = "RV inverters with a built-in automatic transfer 
 export const mainKeyword = "best rv inverter with transfer switch";
 export const introParagraphs = [
   "An inverter with a built-in transfer switch lets your RV outlets pass shore power straight through when you are plugged in, then flip to battery power the moment the pedestal or generator drops. Without one, you either rewire outlets by hand or add a separate transfer switch box. The important details are often buried: how fast the switch moves loads, how many amps it can pass through, and whether there is a hardwired AC input terminal for an RV panel.",
-  "The pool of true transfer-switch inverters is smaller than the general inverter market, so this list has five picks rather than seven. Each one has a documented automatic transfer switch, and we compared switch speed, wiring options, and output from a 1500W budget unit to a 3000W model with app monitoring."
+  "The field of true transfer-switch inverters is smaller than the general inverter market, so this list has five picks rather than seven. Each one has a documented automatic transfer switch, and we compared switch speed, wiring options, and output from a 1500W budget unit to a 3000W model with app monitoring."
 ];
 export const lastUpdated = "2026-10-01";
 export const readTime = "10 min";

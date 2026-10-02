@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31n9qtD9vVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DC16QZP1?tag=hardcastlesrv-20",
-    "description": "The Power Watchdog PWD30W is the 30A version, with WiFi and Bluetooth, IP65 water resistance and a replaceable surge module. It lists wireless fault alerts and compatibility with dogbone adapters.\n\nAt $169.99 it is $80 under the Watchdog PWD50W and $50 above the GEARGO 30A WiFi. Pick this if you have a 30A travel trailer and want the same module design. The caveat is that it caps you at 30A, and cutoff thresholds and joules are not in the bullets.",
+    "description": "The Power Watchdog PWD30W is the 30A version, with WiFi and Bluetooth, IP65 water resistance and a replaceable surge module. It lists wireless fault alerts and compatibility with dogbone adapters.\n\nAt $169.99 it is $80 under the Watchdog PWD50W and $50 above the GEARGO 30A WiFi. Pick this if you have a 30A travel trailer and want the same module design. The caveat is that it caps you at 30A, and cutoff thresholds and joules are not listed.",
     "specs": [
       "30A, WiFi and Bluetooth",
       "IP65, replaceable module",

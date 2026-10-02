@@ -5,7 +5,7 @@ export const metaDescription = "Five drop-in WF-8955 converter sections for LiFe
 export const mainKeyword = "best rv converter for lifepo4 batteries";
 export const introParagraphs = [
   "Many travel trailers do not have a separate converter box at all. The converter lives inside a WFCO WF-8900 series power center, the same panel that holds the breakers and DC fuses, and the part that actually charges the battery is a slide-out main board assembly, usually labeled WF-8955-MBA. If you just moved to LiFePO4, replacing that one section is often the cleanest way to get proper lithium charging without rebuilding the panel.",
-  "So this guide sticks to 55 amp drop-in sections for that panel family. We compared how each one reaches the 14.6V a 12V LiFePO4 battery needs, whether the mode is automatic or locked by a switch, how exactly it fits the WF-8955 footprint, and what warranty backs it. We found five units that genuinely fit the brief; the rest of the market was standalone converters better covered in our other guides."
+  "So this guide sticks to 55 amp drop-in sections for that panel family. We compared how each one reaches the 14.6V a 12V LiFePO4 battery needs, whether the mode is automatic or locked by a switch, how exactly it fits the WF-8955 footprint, and what warranty backs it. Five units genuinely fit the brief; the rest of the market was standalone converters better covered in our other guides."
 ];
 export const lastUpdated = "2026-10-01";
 export const readTime = "10 min";

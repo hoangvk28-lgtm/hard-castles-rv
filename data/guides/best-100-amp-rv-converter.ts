@@ -5,7 +5,7 @@ export const metaDescription = "Six 100 amp RV converter chargers compared on li
 export const mainKeyword = "best 100 amp rv converter";
 export const introParagraphs = [
   "A 100 amp converter is the top of the usual deck-mount range, and the label alone tells you very little. The same \"100A\" can mean a steady rating or a short peak, it can hold full output only when campground voltage is healthy, and it may or may not charge lithium correctly. On a 12 volt system, 100 amps is roughly 1,200 watts of DC, which is a lot of heat for a small box to shed.",
-  "We compared six 100 amp units from $103.90 to $519.99 on what each listing actually publishes: charging profiles for lead-acid and lithium, voltage settings, the low-voltage point where output holds, cooling, protections and cable included. The pool splits into one factory-style replacement for a WFCO 6800 series bay and five lower-cost aftermarket boxes, and the picks below spell out which gaps you accept at each price."
+  "We compared six 100 amp units from $103.90 to $519.99 on what each listing actually publishes: charging profiles for lead-acid and lithium, voltage settings, the low-voltage point where output holds, cooling, protections and cable included. This list splits into one factory-style replacement for a WFCO 6800 series bay and five lower-cost aftermarket boxes, and the picks below spell out which gaps you accept at each price."
 ];
 export const lastUpdated = "2026-10-02";
 export const readTime = "11 min";

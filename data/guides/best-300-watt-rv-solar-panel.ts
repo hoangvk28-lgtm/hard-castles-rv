@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41lSdfSxrIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HBBZBHJN?tag=hardcastlesrv-20",
-    "description": "The Mndstek 18BB is a bare 300W N-type panel at $169.99, or about 57 cents per watt. It uses A+ grade cells with 18 busbars at a listed 24.6 percent conversion, has an anodized aluminum frame described as salt-spray resistant, and a junction box and connectors the listing rates IP68. The maker says every panel gets 100 percent electroluminescence testing and a power measurement before leaving the factory.\n\nIt ranks second because it delivers 300W for $110.00 less than the WUZECK kit and $217.00 less than the Renogy portable, and it is the only bare panel here with testing disclosed. Against the Mndstek 10BB, which sells at the same $169.99, it has the higher-resolution 18-busbar layout but a slightly lower efficiency figure of 24.6 versus 25 percent, so the two are close and the choice is about detail. No controller, weight or dimensions appear in the bullets.\n\nPick this if you already own a controller and want the lowest cost per watt from a rigid N-type panel. The caveat is that missing dimensions and weight, so confirm both before cutting any mounting layout.",
+    "description": "The Mndstek 18BB is a bare 300W N-type panel at $169.99, or about 57 cents per watt. It uses A+ grade cells with 18 busbars at a listed 24.6 percent conversion, has an anodized aluminum frame described as salt-spray resistant, and a junction box and connectors the listing rates IP68. The maker says every panel gets 100 percent electroluminescence testing and a power measurement before leaving the factory.\n\nIt ranks second because it delivers 300W for $110.00 less than the WUZECK kit and $217.00 less than the Renogy portable, and it is the only bare panel here with testing disclosed. Against the Mndstek 10BB, which sells at the same $169.99, it has the higher-resolution 18-busbar layout but a slightly lower efficiency figure of 24.6 versus 25 percent, so the two are close and the choice is about detail. No controller, weight or dimensions appear in the listing.\n\nPick this if you already own a controller and want the lowest cost per watt from a rigid N-type panel. The caveat is that missing dimensions and weight, so confirm both before cutting any mounting layout.",
     "specs": [
       "300W 18BB N-type, 24.6%",
       "IP68 junction box, connectors",
@@ -125,7 +125,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "PWM controller leaves some output unused",
-      "No water rating or cell type in the bullets"
+      "No water rating or cell type in the listing"
     ],
     "bestFor": "budget portable charging of a 12V battery"
   },
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41lWxBfMMvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FF9WS11B?tag=hardcastlesrv-20",
-    "description": "The Mndstek 10BB is a bare 300W panel with half-cut N-type cells, a hidden-busbar design and a listed efficiency of up to 25 percent. It comes with two built-in MC4 junction boxes with pre-installed diodes, and a pair of pre-wired 3.6 foot solar cables with IP68 connectors. The price is $169.99, the same as the 18BB version.\n\nIt ranks fifth because it is the same price as the Mndstek 18BB but discloses less about testing and certification. The half-cut layout is a real advantage in partial shade, because the panel behaves as two halves, and the pre-wired cables save a trip to the parts store. Against the WUZECK kit it costs $110.00 less but has no controller.\n\nPick this if you want a shade-tolerant half-cut design and ready cables on the same budget as the 18BB. The caveat is that no size, weight or warranty appears in the bullets, so get those before you buy a bracket set.",
+    "description": "The Mndstek 10BB is a bare 300W panel with half-cut N-type cells, a hidden-busbar design and a listed efficiency of up to 25 percent. It comes with two built-in MC4 junction boxes with pre-installed diodes, and a pair of pre-wired 3.6 foot solar cables with IP68 connectors. The price is $169.99, the same as the 18BB version.\n\nIt ranks fifth because it is the same price as the Mndstek 18BB but discloses less about testing and certification. The half-cut layout is a real advantage in partial shade, because the panel behaves as two halves, and the pre-wired cables save a trip to the parts store. Against the WUZECK kit it costs $110.00 less but has no controller.\n\nPick this if you want a shade-tolerant half-cut design and ready cables on the same budget as the 18BB. The caveat is that no size, weight or warranty appears in the listing, so get those before you buy a bracket set.",
     "specs": [
       "Half-cut 10BB N-type, 25%",
       "Two MC4 junction boxes",

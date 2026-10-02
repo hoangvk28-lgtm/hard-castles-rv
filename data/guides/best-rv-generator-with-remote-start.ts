@@ -266,7 +266,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Weight and wheels",
-    "explanation": "Weight decides whether one person can load it. Lifan lists 68 lb with wheels, while Westinghouse weights are not listed in the facts provided. Check listed weight."
+    "explanation": "Weight decides whether one person can load it. Lifan lists 68 lb with wheels, while Westinghouse weights are not listed. Check listed weight."
   }
 ];
 

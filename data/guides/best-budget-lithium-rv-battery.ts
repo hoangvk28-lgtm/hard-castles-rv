@@ -373,7 +373,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Warranty Length",
-    "explanation": "Budget lithium warranties range from 12 months to five years, a bigger spread than any spec difference. A longer warranty on a cheap battery is a strong signal the seller expects it to last. Read the warranty line in the bullets before ordering."
+    "explanation": "Budget lithium warranties range from 12 months to five years, a bigger spread than any spec difference. A longer warranty on a cheap battery is a strong signal the seller expects it to last. Read the warranty line in the listing before ordering."
   },
   {
     "criterion": "Cold-Weather Charging Limits",

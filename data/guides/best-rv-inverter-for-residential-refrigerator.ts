@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Peaks near 250A at full load on 12V",
-      "Idle draw is not listed in the excerpt"
+      "Idle draw is not listed"
     ],
     "bestFor": "12V coach with a full-size fridge"
   },

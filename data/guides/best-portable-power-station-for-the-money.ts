@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
       "Two AC outlets plus a 60W USB-C port"
     ],
     "cons": [
-      "Warranty length is not stated in the listing",
+      "Warranty length is not stated",
       "1000W limit rules out microwaves and air conditioners"
     ],
     "bestFor": "one-battery weekend boondocking"

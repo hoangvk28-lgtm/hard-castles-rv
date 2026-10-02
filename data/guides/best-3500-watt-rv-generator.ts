@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41RTwnbwRFL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CPT83MTV?tag=hardcastlesrv-20",
-    "description": "The Champion 4500 Dual Fuel lists 4,500 starting watts and 3,500 running watts on gasoline, 3,150 running watts on propane, 61 dBA and up to 14 hours of runtime. It has electric start, an EZ Start Dial, an Intelligauge that shows voltage, frequency and hours, and CO Shield carbon monoxide shutoff. An optional parallel kit is sold separately and the listing includes a three-year warranty with lifetime technical support.\n\nAt $902.62 it is $455.11 above the WEN GN400i and $166.38 below the Generac iQ5200. It adds propane, a published noise level that the WEN does not list, but it loses 350 watts on propane (3,150 versus 3,500), which drops it below the 3,500 mark on that fuel. The listing does not state weight or the RV outlet type in the bullets we reviewed.\n\nPick this if you want a quiet inverter that can run on a propane tank with electric start and accept paying double the WEN's price for it. The caveat is that 3,500 watts holds only on gasoline, and the outlet list is not in the feature bullets, so confirm a TT-30R is on the panel.",
+    "description": "The Champion 4500 Dual Fuel lists 4,500 starting watts and 3,500 running watts on gasoline, 3,150 running watts on propane, 61 dBA and up to 14 hours of runtime. It has electric start, an EZ Start Dial, an Intelligauge that shows voltage, frequency and hours, and CO Shield carbon monoxide shutoff. An optional parallel kit is sold separately and the listing includes a three-year warranty with lifetime technical support.\n\nAt $902.62 it is $455.11 above the WEN GN400i and $166.38 below the Generac iQ5200. It adds propane, a published noise level that the WEN does not list, but it loses 350 watts on propane (3,150 versus 3,500), which drops it below the 3,500 mark on that fuel. The listing does not state weight or the RV outlet type.\n\nPick this if you want a quiet inverter that can run on a propane tank with electric start and accept paying double the WEN's price for it. The caveat is that 3,500 watts holds only on gasoline, and the outlet list is not in the feature bullets, so confirm a TT-30R is on the panel.",
     "specs": [
       "3,500 running watts on gas",
       "3,150 on propane",
@@ -129,7 +129,7 @@ export const products: GuideProduct[] = [
     "cons": [
       "Costs $455.11 more than the WEN GN400i",
       "Propane rating drops to 3,150 running watts",
-      "Weight and outlet types are not in the bullets"
+      "Weight and outlet types are not listed"
     ],
     "bestFor": "quiet dual-fuel use with electric start"
   },

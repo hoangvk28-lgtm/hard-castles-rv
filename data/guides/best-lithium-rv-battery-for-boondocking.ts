@@ -316,7 +316,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "BMS continuous amps",
-    "explanation": "A 200A BMS supports roughly 2400W at 12V, while 250A reaches 3000W. A coffee maker plus microwave may trip a smaller BMS. Find the continuous amp number in the bullets."
+    "explanation": "A 200A BMS supports roughly 2400W at 12V, while 250A reaches 3000W. A coffee maker plus microwave may trip a smaller BMS. Find the continuous amp number in the listing."
   },
   {
     "criterion": "Low temperature protection",

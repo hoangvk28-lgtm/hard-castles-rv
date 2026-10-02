@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "At 2200W full load it pulls about 183A at 12V",
-      "Idle draw and efficiency are not listed in the excerpt"
+      "Idle draw and efficiency are not listed"
     ],
     "bestFor": "Permanent dry-camping install with a microwave"
   },

@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41HC-PiUUYL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GK1S5J49?tag=hardcastlesrv-20",
-    "description": "The VUFUMSY 55A converts 120V AC to 12V DC and lets you press Switch A to select lead-acid or LiFePO4 output modes. The listing describes three charging modes, multi-stage charging and protections against short circuit and overvoltage, with a heat-dissipating casing.\n\nAt $67.99 it is the cheapest full size pick, $22.00 under the WAVLINK 55A and $37.01 under the PowerMax 15A. Pick this if you want 55A with a lithium switch for the least money. The caveat is limited brand and warranty details in the facts provided.",
+    "description": "The VUFUMSY 55A converts 120V AC to 12V DC and lets you press Switch A to select lead-acid or LiFePO4 output modes. The listing describes three charging modes, multi-stage charging and protections against short circuit and overvoltage, with a heat-dissipating casing.\n\nAt $67.99 it is the cheapest full size pick, $22.00 under the WAVLINK 55A and $37.01 under the PowerMax 15A. Pick this if you want 55A with a lithium switch for the least money. The caveat is limited brand and warranty details.",
     "specs": [
       "55A, 120V AC to 12V DC",
       "Switch selects lead or LiFePO4",
@@ -119,7 +119,7 @@ export const products: GuideProduct[] = [
       "Casing is designed to shed heat"
     ],
     "cons": [
-      "Warranty terms are not listed in the facts",
+      "Warranty terms are not listed",
       "Newer brand with less service history"
     ],
     "bestFor": "budget lithium upgrade"

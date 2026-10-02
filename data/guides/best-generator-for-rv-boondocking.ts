@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Cannot start a rooftop AC alone",
-      "Weight and noise number are not shown in the bullets"
+      "Weight and noise number are not shown"
     ],
     "bestFor": "Fridge, lights and charging off-grid"
   },
@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "1 gallon tank needs frequent refills",
-      "Outlet layout is not listed in the bullets"
+      "Outlet layout is not listed"
     ],
     "bestFor": "AC use while dry camping"
   },

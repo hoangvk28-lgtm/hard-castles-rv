@@ -347,7 +347,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Warranty length",
-    "explanation": "A three-year warranty on the GEARGO models means a failed unit is replaced instead of buying twice. Without a stated length the saving shrinks. Look for the years in the bullets."
+    "explanation": "A three-year warranty on the GEARGO models means a failed unit is replaced instead of buying twice. Without a stated length the saving shrinks. Look for the years in the listing."
   },
   {
     "criterion": "Certification",

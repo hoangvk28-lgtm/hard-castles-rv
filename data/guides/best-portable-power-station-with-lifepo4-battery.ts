@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31+D1tNXreL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D7PPG25F?tag=hardcastlesrv-20",
-    "description": "The Jackery Explorer 1000 v2 stores 1,070Wh in an LFP battery rated to keep over 70% capacity after 4,000 cycles. It outputs 1,500W (3,000W surge) through three pure sine AC ports, and recharges in 1.7 hours by default or one hour with the app's emergency mode.\n\nIt costs $50.00 more than the BLUETTI for 82Wh less capacity and 300W less output. In return you get quiet 30 dB overnight charging and Jackery's app. Pick this if you want a quiet unit for a camper bedroom; the caveat is that it lists no solar input limit in the bullets we saw.",
+    "description": "The Jackery Explorer 1000 v2 stores 1,070Wh in an LFP battery rated to keep over 70% capacity after 4,000 cycles. It outputs 1,500W (3,000W surge) through three pure sine AC ports, and recharges in 1.7 hours by default or one hour with the app's emergency mode.\n\nIt costs $50.00 more than the BLUETTI for 82Wh less capacity and 300W less output. In return you get quiet 30 dB overnight charging and Jackery's app. Pick this if you want a quiet unit for a camper bedroom; the caveat is that it lists no solar input limit.",
     "specs": [
       "1,070Wh LFP, 1500W",
       "4,000 cycles to 70%",
@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs $50.00 more than the larger BLUETTI",
-      "Warranty length is not stated in the listing"
+      "Warranty length is not stated"
     ],
     "bestFor": "quiet overnight charging"
   },
@@ -308,7 +308,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Cycle count and end capacity",
-    "explanation": "A cycle rating counts full charge and discharge rounds before capacity falls to a stated percent. 4,000 cycles to 70% on the Jackery is different from 3500+ cycles with no end figure on the DaranEner. Look for both numbers in the bullets, not just a marketing phrase like long life."
+    "explanation": "A cycle rating counts full charge and discharge rounds before capacity falls to a stated percent. 4,000 cycles to 70% on the Jackery is different from 3500+ cycles with no end figure on the DaranEner. Look for both numbers in the listing, not just a marketing phrase like long life."
   },
   {
     "criterion": "Low temperature charging limit",

@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41PRLL3a88L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CJ9T8L9B?tag=hardcastlesrv-20",
-    "description": "The ALLPOWERS S2000 PRO holds 1452Wh, close to the 1500Wh target, with a 2400W pure sine inverter and 4000W surge. It lists UPS switchover under 15 ms, 1000W solar input and a 0 to 80% AC recharge in about an hour.\n\nAt $549 it is $30 less than the FOSSIBOT F2400 and $110.99 less than the VTOMAN Jump 1800. You get the closest capacity to 1500Wh and the strongest solar input listed. Pick this if you want a true 1500Wh class unit for a small trailer. Caveat: weight and TT-30 outlet availability are not in the excerpt.",
+    "description": "The ALLPOWERS S2000 PRO holds 1452Wh, close to the 1500Wh target, with a 2400W pure sine inverter and 4000W surge. It lists UPS switchover under 15 ms, 1000W solar input and a 0 to 80% AC recharge in about an hour.\n\nAt $549 it is $30 less than the FOSSIBOT F2400 and $110.99 less than the VTOMAN Jump 1800. You get the closest capacity to 1500Wh and the strongest solar input listed. Pick this if you want a true 1500Wh class unit for a small trailer. Caveat: weight and TT-30 outlet availability are not listed.",
     "specs": [
       "1452Wh, 2400W output",
       "4000W surge, 1000W solar",
@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
       "2400W inverter has the output to run a microwave"
     ],
     "cons": [
-      "Weight not listed in the excerpt",
+      "Weight not listed",
       "No TT-30 RV outlet is confirmed in the listing"
     ],
     "bestFor": "1500Wh class RV backup with solar"
@@ -293,7 +293,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Weight and handle design",
-    "explanation": "A 1500Wh station can exceed 30 pounds, which matters if one person loads it. Weight is not listed for these four in the excerpt. Check the spec table before you commit."
+    "explanation": "A 1500Wh station can exceed 30 pounds, which matters if one person loads it. Weight is not listed for these four. Check the spec table before you commit."
   }
 ];
 

@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Weighs 67 pounds each, 134 pounds for a pair",
-      "Warranty length is not stated in the excerpt we reviewed"
+      "Warranty length is not stated"
     ],
     "bestFor": "GC2 trays where amp-hours per dollar matters most"
   },
@@ -69,7 +69,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "About 12 inches tall, may not clear a standard tray lid",
-      "Weight and warranty are not stated in the excerpt"
+      "Weight and warranty are not stated"
     ],
     "bestFor": "budget pairs where the tray has headroom"
   },

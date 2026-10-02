@@ -281,7 +281,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Faults detected, not just joules",
-    "explanation": "Joules measure how much surge energy a device can absorb, but wiring faults like open ground, reverse polarity and miswired pedestals do damage without any spike. A unit that cuts power on those faults protects the rig from bad pedestals. Look for the fault list in the bullets, which Progressive publishes and Southwire does not."
+    "explanation": "Joules measure how much surge energy a device can absorb, but wiring faults like open ground, reverse polarity and miswired pedestals do damage without any spike. A unit that cuts power on those faults protects the rig from bad pedestals. Look for the fault list in the listing, which Progressive publishes and Southwire does not."
   },
   {
     "criterion": "Reset delay protects the A/C",

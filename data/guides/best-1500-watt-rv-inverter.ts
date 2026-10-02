@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "Remote screen tracks battery level and output"
     ],
     "cons": [
-      "Warranty length is not shown in the listing",
+      "Warranty length is not shown",
       "No hardwire terminal is described for permanent wiring"
     ],
     "bestFor": "buyers who want a documented pure sine kit"
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41m8HSF2vAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DDWL4YFP?tag=hardcastlesrv-20",
-    "description": "The ZETAWALE 1500W is a pure sine inverter with 1500W continuous and 3000W peak output. It has four AC outlets, USB and Type-C ports, heavy-duty AC terminal blocks for high-demand appliances, a 14.76ft wired remote with an LCD for battery voltage, AC output voltage and load wattage, and protection against overload, over-voltage, low voltage, over-temperature and short circuit.\n\nIt ranks second because the terminal blocks open the door to a permanent install, something the LANDERPOW's plug-in design does not describe. It costs the same $139.99 as the LANDERPOW 1500W and $31 more than the AeternaSol 1500W. The excerpt we reviewed lists no cable gauge or efficiency figure, so the LANDERPOW is easier to size.\n\nChoose it if you plan to hardwire the unit to an outlet circuit. The caveat is that cable and efficiency are unstated, and hardwiring should be done by a qualified installer.",
+    "description": "The ZETAWALE 1500W is a pure sine inverter with 1500W continuous and 3000W peak output. It has four AC outlets, USB and Type-C ports, heavy-duty AC terminal blocks for high-demand appliances, a 14.76ft wired remote with an LCD for battery voltage, AC output voltage and load wattage, and protection against overload, over-voltage, low voltage, over-temperature and short circuit.\n\nIt ranks second because the terminal blocks open the door to a permanent install, something the LANDERPOW's plug-in design does not describe. It costs the same $139.99 as the LANDERPOW 1500W and $31 more than the AeternaSol 1500W. The listing shows no cable gauge or efficiency figure, so the LANDERPOW is easier to size.\n\nChoose it if you plan to hardwire the unit to an outlet circuit. The caveat is that cable and efficiency are unstated, and hardwiring should be done by a qualified installer.",
     "specs": [
       "1500W continuous, 3000W peak",
       "4 outlets plus terminal blocks",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51if-nrOW7L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GL1ZP45S?tag=hardcastlesrv-20",
-    "description": "The EGSCATEE 1500W is a modified sine wave inverter with 1500W continuous and 3000W peak output, an LCD display and five layers of protection. It works with LiFePO4, AGM, gel and lead-acid 12V batteries. The listing is candid that modified sine suits chargers, TVs, fans, lights, laptops and small tools, and it adds a note about devices it is not recommended for.\n\nIt ranks fifth at $99.99, which is $9 below the AeternaSol 1500W and $40 above the Cantonape 1500W. Its honest compatibility wording is its strength, but you give up pure sine, which is what protects CPAP machines and motors.\n\nPick it for simple devices where you want clear limits. The caveat is waveform, and there is no remote mentioned in the excerpt.",
+    "description": "The EGSCATEE 1500W is a modified sine wave inverter with 1500W continuous and 3000W peak output, an LCD display and five layers of protection. It works with LiFePO4, AGM, gel and lead-acid 12V batteries. The listing is candid that modified sine suits chargers, TVs, fans, lights, laptops and small tools, and it adds a note about devices it is not recommended for.\n\nIt ranks fifth at $99.99, which is $9 below the AeternaSol 1500W and $40 above the Cantonape 1500W. Its honest compatibility wording is its strength, but you give up pure sine, which is what protects CPAP machines and motors.\n\nPick it for simple devices where you want clear limits. The caveat is waveform, and there is no remote mentioned.",
     "specs": [
       "1500W, 3000W peak",
       "Modified sine, LCD",

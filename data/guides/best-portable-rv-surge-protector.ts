@@ -80,7 +80,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/412ycC0+gKL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0791RW8M2?tag=hardcastlesrv-20",
-    "description": "The Power Watchdog PWD30 is a 30 amp unit with 3,000 joules of protection and Bluetooth, so you can read voltage, amperage and wattage on your phone. It adds LED park power diagnostics, wireless fault alerts and customizable alert thresholds, and is described as heavy duty.\n\nAt $139.99 it costs $8.01 less than the Progressive EMS-PT30X and $40.00 more than the GEARGO. The extra spend buys live data and alerts, handy if you sleep through a brownout. Pick this if you want to watch power from the couch. The caveat is that cutoff voltages and weather rating are not listed in the facts we have.",
+    "description": "The Power Watchdog PWD30 is a 30 amp unit with 3,000 joules of protection and Bluetooth, so you can read voltage, amperage and wattage on your phone. It adds LED park power diagnostics, wireless fault alerts and customizable alert thresholds, and is described as heavy duty.\n\nAt $139.99 it costs $8.01 less than the Progressive EMS-PT30X and $40.00 more than the GEARGO. The extra spend buys live data and alerts, handy if you sleep through a brownout. Pick this if you want to watch power from the couch. The caveat is that cutoff voltages and weather rating are not listed.",
     "specs": [
       "30A, 3,000 joules",
       "Bluetooth app monitoring",
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
       "Costs $8.01 less than the Progressive 30A"
     ],
     "cons": [
-      "Weather rating is not listed in the facts",
+      "Weather rating is not listed",
       "Needs your phone nearby for readings"
     ],
     "bestFor": "monitoring from inside the RV"
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31zq5+JZeaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GSZLGGMP?tag=hardcastlesrv-20",
-    "description": "The GEARGO 30 amp unit lists 16,000 joules, an LED voltage display, an IP68 protective cover and automatic power cutoff and reset. It comes with a 3-year warranty, longer than most rivals mention.\n\nAt $99.99 it costs $48.01 less than the Progressive EMS-PT30X and $40.00 less than the Power Watchdog PWD30. The joule rating is much higher, but the fault list is shorter in the facts provided. Pick this if you want strong surge capacity on a budget. The caveat is no app and unstated fault coverage.",
+    "description": "The GEARGO 30 amp unit lists 16,000 joules, an LED voltage display, an IP68 protective cover and automatic power cutoff and reset. It comes with a 3-year warranty, longer than most rivals mention.\n\nAt $99.99 it costs $48.01 less than the Progressive EMS-PT30X and $40.00 less than the Power Watchdog PWD30. The joule rating is much higher, but the fault list is shorter. Pick this if you want strong surge capacity on a budget. The caveat is no app and unstated fault coverage.",
     "specs": [
       "30A, 16,000 joules",
       "IP68 protective cover",

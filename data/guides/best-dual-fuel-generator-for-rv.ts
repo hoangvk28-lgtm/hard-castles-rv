@@ -249,7 +249,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "RV outlet and amp rating",
-    "explanation": "A TT-30R receptacle takes a standard 30A RV plug without adapters. An adapter cannot add real capacity, so output above 3,600W on 120V cannot flow through one 30A circuit anyway. Look for TT-30R or L5-30R named in the bullets."
+    "explanation": "A TT-30R receptacle takes a standard 30A RV plug without adapters. An adapter cannot add real capacity, so output above 3,600W on 120V cannot flow through one 30A circuit anyway. Look for TT-30R or L5-30R named in the listing."
   },
   {
     "criterion": "Runtime and tank data",

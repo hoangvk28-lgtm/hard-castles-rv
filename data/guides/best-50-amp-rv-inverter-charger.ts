@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31trQyXdK+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DZVZ1ZPY?tag=hardcastlesrv-20",
-    "description": "The Go Power Advanced 3000W is a pure sine wave inverter, battery charger and transfer switch in one unit, with a dual-leg 50A shore power transfer switch. The listing describes high-frequency design, improved AC pass-through, over-the-air firmware updates and a 3-year support plan. It does not state the charger amps, surge rating or efficiency in the bullets we reviewed.\n\nIt ranks second because it names the dual-leg 50A switch outright, which the Xantrex describes only as a 50A relay, but it costs $96.79 more than the Xantrex and publishes no charger amperage. It is $424.11 below the IC Series and $403.90 below the GP-IC3000 package, and it gives up their documented surge and charger figures to get the newer firmware-updatable design.\n\nChoose it for a 50-amp coach where dual-leg pass-through and firmware updates matter more than a published charger rating. The caveat is the missing charger amps and surge, so ask the seller or read the manual for charge current before pairing it with a large lithium bank.",
+    "description": "The Go Power Advanced 3000W is a pure sine wave inverter, battery charger and transfer switch in one unit, with a dual-leg 50A shore power transfer switch. The listing describes high-frequency design, improved AC pass-through, over-the-air firmware updates and a 3-year support plan. It does not state the charger amps, surge rating or efficiency.\n\nIt ranks second because it names the dual-leg 50A switch outright, which the Xantrex describes only as a 50A relay, but it costs $96.79 more than the Xantrex and publishes no charger amperage. It is $424.11 below the IC Series and $403.90 below the GP-IC3000 package, and it gives up their documented surge and charger figures to get the newer firmware-updatable design.\n\nChoose it for a 50-amp coach where dual-leg pass-through and firmware updates matter more than a published charger rating. The caveat is the missing charger amps and surge, so ask the seller or read the manual for charge current before pairing it with a large lithium bank.",
     "specs": [
       "3000W pure sine wave",
       "Dual-leg 50A transfer",
@@ -278,7 +278,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "The Xantrex XC Pro describes a wide DC input range and adjustable low-voltage shutdown, and its listing says it charges drained batteries from 0 VDC. The Go Power listings do not state lithium profiles in the bullets."
+        "text": "The Xantrex XC Pro describes a wide DC input range and adjustable low-voltage shutdown, and its listing says it charges drained batteries from 0 VDC. The Go Power listings do not state lithium profiles."
       }
     ]
   },
@@ -320,7 +320,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Idle draw, neutral-ground and thermal derating",
-    "explanation": "An inverter charger sitting on shore power still draws some battery power, and the number is rarely in the bullets. Neutral and ground switching also matters when you switch between shore, generator and inverter, and heat can lower the real output. Look for no-load draw and bonding behavior in the manual, and ask the seller if the listing is silent."
+    "explanation": "An inverter charger sitting on shore power still draws some battery power, and the number is rarely in the listing. Neutral and ground switching also matters when you switch between shore, generator and inverter, and heat can lower the real output. Look for no-load draw and bonding behavior in the manual, and ask the seller if the listing is silent."
   }
 ];
 
@@ -343,7 +343,7 @@ export const faq = [
   },
   {
     "q": "Do these work with lithium batteries?",
-    "a": "They can, but check the charge profile. The Xantrex listing mentions a wide DC input range and an adjustable low-voltage shutdown, while the Go Power listings do not state lithium profiles in the bullets, so confirm with the manual."
+    "a": "They can, but check the charge profile. The Xantrex listing mentions a wide DC input range and an adjustable low-voltage shutdown, while the Go Power listings do not state lithium profiles, so confirm with the manual."
   },
   {
     "q": "What maintenance does an inverter charger need?",

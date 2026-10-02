@@ -39,8 +39,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `${SITE_URL}${guide.heroImage}`
     : undefined;
 
+  const rich = guideDataLoaders[slug] ? await guideDataLoaders[slug]() : undefined;
   const base = buildMetadata({
-    title: guide.metaTitle ?? guide.title,
+    title: rich?.metaTitle ?? guide.metaTitle ?? guide.title,
     description: guide.metaDescription ?? guide.description,
     path: `/water-plumbing/${slug}`,
     image: heroImage,

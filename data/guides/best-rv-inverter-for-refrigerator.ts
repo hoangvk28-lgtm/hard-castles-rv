@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
       "Eight protections guard against overload and low voltage"
     ],
     "cons": [
-      "Idle draw is not listed in the excerpt",
+      "Idle draw is not listed",
       "Larger than a fridge needs on its own"
     ],
     "bestFor": "Fridge plus extras at lowest cost"

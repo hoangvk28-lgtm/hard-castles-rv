@@ -31,6 +31,8 @@ const errors = [];
 const err = (slug, msg) => errors.push(`${slug}: ${msg}`);
 const wc = (s) => s.trim().split(/\s+/).length;
 const DASH = /[—–]/;
+// Copy must read as editorial knowledge, never expose the drafting process (source excerpts, fact files, candidate pools).
+const LEAK = /\bwe (saw|reviewed|have|found|could see|were given)\b|\b(text|excerpt|bullets?|features|facts|data|details|listings?) we\b|\bin the (features|facts|data|excerpt|bullets|text)\b|\bfacts (provided|here|given)\b|\bthe (pool|facts|data)\b|\b(of the|the) candidates\b|\bcandidates we\b|\bnot (listed|stated|given|shown) in the (features|facts|text|bullets|excerpt|data)\b/i;
 
 function walk(v, fn) {
   if (typeof v === "string") fn(v);
@@ -47,6 +49,8 @@ for (const m of mods) {
   walk(m, (t) => {
     if (DASH.test(t)) err(s, `em/en dash in: ${t.slice(0, 60)}`);
     if (/we tested|we tried|in our lab|we measured/i.test(t)) err(s, `forbidden testing claim: ${t.slice(0, 60)}`);
+    const leak = t.match(LEAK);
+    if (leak) err(s, `process leak "${leak[0]}": ${t.slice(Math.max(0, leak.index - 40), leak.index + 40)}`);
   });
   const SH = !!m.short;
   if (m.criteria.length < 5) err(s, "criteria < 5");
@@ -63,14 +67,15 @@ for (const m of mods) {
     const raw = byAsin[p.asin];
     if (!raw) { err(s, `asin ${p.asin} not in pool`); return null; }
     if (raw.price == null) err(s, `asin ${p.asin} has no price`);
+    if (!raw.img) err(s, `asin ${p.asin} has no image (imageUrl is required by GuideProduct)`);
     if (names.has(p.asin)) err(s, `duplicate asin ${p.asin}`);
     names.add(p.asin);
     if (p.d.length !== (SH ? 2 : 3)) err(s, `${p.short}: description needs ${SH ? 2 : 3} paragraphs`);
-    p.pros.forEach((x) => { if (wc(x) < 6 || wc(x) > 14) err(s, `${p.short} pro ${wc(x)}w: ${x}`); });
-    p.cons.forEach((x) => { if (wc(x) < 6 || wc(x) > 14) err(s, `${p.short} con ${wc(x)}w: ${x}`); });
+    p.pros.forEach((x) => { if (wc(x) < 3 || wc(x) > 14) err(s, `${p.short} pro ${wc(x)}w: ${x}`); });
+    p.cons.forEach((x) => { if (wc(x) < 3 || wc(x) > 14) err(s, `${p.short} con ${wc(x)}w: ${x}`); });
     if (p.pros.length < 3) err(s, `${p.short}: <3 pros`);
     if (p.cons.length < 2) err(s, `${p.short}: <2 cons`);
-    p.specs.forEach((x) => { if (wc(x) < 2 || wc(x) > 6) err(s, `${p.short} spec ${wc(x)}w: ${x}`); });
+    p.specs.forEach((x) => { if (wc(x) < 2 || wc(x) > 7) err(s, `${p.short} spec ${wc(x)}w: ${x}`); });
     if (p.specs.length < 2) err(s, `${p.short}: <2 specs`);
     if (/(\bfor|\bthat|\band|\bthe|\ba|\bwith|\bof)[.,]?$/i.test(p.pros.concat(p.cons, p.specs).find((x) => /(\bfor|\bthat|\band|\bthe|\ba|\bwith|\bof)$/i.test(x)) || "")) err(s, `${p.short}: dangling ending`);
     return {

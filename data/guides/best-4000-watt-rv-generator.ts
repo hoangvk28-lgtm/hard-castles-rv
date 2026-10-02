@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Ja7YiNicL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D3WW1CSQ?tag=hardcastlesrv-20",
-    "description": "The WEN DF480iX is a 224cc dual-fuel inverter generator that lists 4,000 rated watts on gasoline with a 4,800 watt surge, and 4,000 rated watts on propane with a 4,320 watt surge. It has a TT-30R RV receptacle, four three-prong 120V receptacles, a 12V DC outlet, two 5V USB ports, wheels, a telescoping handle and the WEN Watchdog CO sensor. It is the only pick here that holds 4,000 watts on both fuels.\n\nAt $647 it is $12.01 above the WEN 56477i ($634.99), which has the same output on gasoline only, and the extra dollars buy propane operation. It is $157.01 above the Mutaomay 4000 ($489.99) and $317.01 above the Oxseryn 4000 ($329.99). In exchange you get a native TT-30R and a CO shutdown sensor that the Oxseryn listing does not mention. The listing compares its noise to a normal conversation without giving a decibel figure.\n\nPick this if you want 4,000 sustained watts on gasoline or a propane tank and a proper RV plug. The caveat is that weight and dimensions are not stated in the feature bullets, and as with any 4,000 watt unit, only 3,600 of them can pass through the TT-30 plug.",
+    "description": "The WEN DF480iX is a 224cc dual-fuel inverter generator that lists 4,000 rated watts on gasoline with a 4,800 watt surge, and 4,000 rated watts on propane with a 4,320 watt surge. It has a TT-30R RV receptacle, four three-prong 120V receptacles, a 12V DC outlet, two 5V USB ports, wheels, a telescoping handle and the WEN Watchdog CO sensor. It is the only pick here that holds 4,000 watts on both fuels.\n\nAt $647 it is $12.01 above the WEN 56477i ($634.99), which has the same output on gasoline only, and the extra dollars buy propane operation. It is $157.01 above the Mutaomay 4000 ($489.99) and $317.01 above the Oxseryn 4000 ($329.99). In exchange you get a native TT-30R and a CO shutdown sensor that the Oxseryn listing does not mention. The listing compares its noise to a normal conversation without giving a decibel figure.\n\nPick this if you want 4,000 sustained watts on gasoline or a propane tank and a proper RV plug. The caveat is that weight and dimensions are not stated, and as with any 4,000 watt unit, only 3,600 of them can pass through the TT-30 plug.",
     "specs": [
       "4,000 rated watts, both fuels",
       "TT-30R plus four 120V outlets",
@@ -85,7 +85,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/411V01Gtb1L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H5B29WJ9?tag=hardcastlesrv-20",
-    "description": "The Mutaomay lists 5,000 peak and 4,000 running watts, less than 2 percent total harmonic distortion and a noise level under 64.5 dB at 23 feet. It weighs 57.2 pounds and measures 21 by 13.2 by 20.8 inches. The panel has one 30A TT-30R outlet, two 120V 20A duplex outlets (5-20R) and a 12V 5A cigarette lighter port, and an Eco Mode adjusts engine speed to load.\n\nAt $489.99 it is $157.01 below the WEN DF480iX and $145 below the WEN 56477i, with the same 4,000 sustained watts. It costs $160 more than the Oxseryn ($329.99) and offers lower stated noise (64.5 versus 70 dBA), a lower stated distortion and a native TT-30R. It is $60 below the maXpeedingrods 5KW ($549.99), which lists the same running watts with fewer published details.\n\nPick this if you want a documented weight, noise and distortion figure and a native TT-30R without paying the WEN premium. The caveat is a lesser-known brand, no stated warranty length in the bullets, and gasoline-only operation.",
+    "description": "The Mutaomay lists 5,000 peak and 4,000 running watts, less than 2 percent total harmonic distortion and a noise level under 64.5 dB at 23 feet. It weighs 57.2 pounds and measures 21 by 13.2 by 20.8 inches. The panel has one 30A TT-30R outlet, two 120V 20A duplex outlets (5-20R) and a 12V 5A cigarette lighter port, and an Eco Mode adjusts engine speed to load.\n\nAt $489.99 it is $157.01 below the WEN DF480iX and $145 below the WEN 56477i, with the same 4,000 sustained watts. It costs $160 more than the Oxseryn ($329.99) and offers lower stated noise (64.5 versus 70 dBA), a lower stated distortion and a native TT-30R. It is $60 below the maXpeedingrods 5KW ($549.99), which lists the same running watts with fewer published details.\n\nPick this if you want a documented weight, noise and distortion figure and a native TT-30R without paying the WEN premium. The caveat is a lesser-known brand, no stated warranty length in the listing, and gasoline-only operation.",
     "specs": [
       "4,000 running, 5,000 peak",
       "57.2 lb, 64.5 dB",
@@ -98,7 +98,7 @@ export const products: GuideProduct[] = [
       "Priced $145 below the WEN 56477i"
     ],
     "cons": [
-      "Lesser-known brand with no warranty stated in the bullets",
+      "Lesser-known brand with no warranty stated",
       "Gasoline only with no propane option",
       "No stated runtime in the feature bullets"
     ],

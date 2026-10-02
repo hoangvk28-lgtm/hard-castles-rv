@@ -282,7 +282,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "An IP rating listed in the bullets, plus a mounting bracket."
+        "text": "An IP rating listed, plus a mounting bracket."
       },
       {
         "label": "In this comparison",

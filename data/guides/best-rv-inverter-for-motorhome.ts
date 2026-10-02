@@ -120,7 +120,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "No transfer switch or charger, so keep your converter",
-      "Surge rating is not listed in the excerpt"
+      "Surge rating is not listed"
     ],
     "bestFor": "Budget microwave backup"
   },

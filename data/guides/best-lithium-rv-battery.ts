@@ -392,7 +392,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Warranty Length and Support",
-    "explanation": "Most listings promise a 10-year life, but the warranty is the only part of that promise you can enforce. Five years is common among established brands, while some budget batteries carry only one year. Read the warranty line in the bullets and look for a named support channel, not just a lifespan claim."
+    "explanation": "Most listings promise a 10-year life, but the warranty is the only part of that promise you can enforce. Five years is common among established brands, while some budget batteries carry only one year. Read the warranty line in the listing and look for a named support channel, not just a lifespan claim."
   },
   {
     "criterion": "Built-In Monitoring",

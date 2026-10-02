@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Runtime per tank is not clearly listed",
-      "Weight is not given in the listing details"
+      "Weight is not given"
     ],
     "bestFor": "Buyers who want honest running watts"
   },

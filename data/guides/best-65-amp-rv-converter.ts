@@ -125,7 +125,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "No warranty term is published in the listing",
-      "Stage voltages are not stated in the listing"
+      "Stage voltages are not stated"
     ],
     "bestFor": "budget swaps in lightly used trailers"
   },
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41BaiT3DpYL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CPDPCNM1?tag=hardcastlesrv-20",
-    "description": "The GYHMK 9865-AD is a 65 amp deck-mount replacement for the 9800 series that says it filters its DC output so it does not interfere with television or radio signals. An electronic current limiter shuts off power on overload or short circuit, and the unit uses automatic three-stage charging with three rated output modes. The price is $129.\n\nIt ranks fifth because it costs $46.01 more than the ATRACYPART and $54.51 more than the CRAPOZ with no added specs. Its one distinct claim is the clean, filtered output, which matters if you hear interference on a radio or TV when the converter runs. No other listing makes that claim in the text.\n\nChoose it only if electrical interference is a problem in your rig. The caveat is that the listing publishes no voltages and no warranty, so the premium buys a claim rather than a published number.",
+    "description": "The GYHMK 9865-AD is a 65 amp deck-mount replacement for the 9800 series that says it filters its DC output so it does not interfere with television or radio signals. An electronic current limiter shuts off power on overload or short circuit, and the unit uses automatic three-stage charging with three rated output modes. The price is $129.\n\nIt ranks fifth because it costs $46.01 more than the ATRACYPART and $54.51 more than the CRAPOZ with no added specs. Its one distinct claim is the clean, filtered output, which matters if you hear interference on a radio or TV when the converter runs. No other listing makes that claim.\n\nChoose it only if electrical interference is a problem in your rig. The caveat is that the listing publishes no voltages and no warranty, so the premium buys a claim rather than a published number.",
     "specs": [
       "65A, 9865-AD",
       "Filtered DC output",

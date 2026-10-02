@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31hWBJ9YLXL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B075RGX1WR?tag=hardcastlesrv-20",
-    "description": "The Renogy 12V 200Ah is a sealed AGM battery made with thick absorbent glass mat separators and valve-regulated construction, so it needs no watering. Its listing describes quinary alloy plates and treated plate grids for low internal resistance, a monthly self-discharge below 3 percent at 77°F, which it says is five times lower than flooded batteries, and stable performance below 32°F. It stores 2,400Wh nominal.\n\nIt ranks first because capacity is what you actually pay for. At $296.30 it costs $107.39 more than the VEVOR 100Ah but holds twice the amp-hours, so at a 50 percent limit its estimated cost is about $247 per usable kilowatt-hour against about $315 for the VEVOR. It has no cranking rating, unlike the Weize and Interstate dual-purpose batteries, so it is a pure house battery.\n\nChoose it when you want a single large AGM house battery for a trailer with a fridge and an inverter. The caveat is weight and size: the excerpt we reviewed does not list dimensions, and a 200Ah AGM is a heavy, large case, so measure the tray before buying.",
+    "description": "The Renogy 12V 200Ah is a sealed AGM battery made with thick absorbent glass mat separators and valve-regulated construction, so it needs no watering. Its listing describes quinary alloy plates and treated plate grids for low internal resistance, a monthly self-discharge below 3 percent at 77°F, which it says is five times lower than flooded batteries, and stable performance below 32°F. It stores 2,400Wh nominal.\n\nIt ranks first because capacity is what you actually pay for. At $296.30 it costs $107.39 more than the VEVOR 100Ah but holds twice the amp-hours, so at a 50 percent limit its estimated cost is about $247 per usable kilowatt-hour against about $315 for the VEVOR. It has no cranking rating, unlike the Weize and Interstate dual-purpose batteries, so it is a pure house battery.\n\nChoose it when you want a single large AGM house battery for a trailer with a fridge and an inverter. The caveat is weight and size: no dimensions are listed, and a 200Ah AGM is a heavy, large case, so measure the tray before buying.",
     "specs": [
       "12V 200Ah, 2,400Wh",
       "Self-discharge under 3 percent monthly",
@@ -324,7 +324,7 @@ export const howToChoose: HowToChooseSection[] = [
         [
           "Open space, no group limit",
           "Renogy 200Ah AGM",
-          "Check dimensions first, none stated in the excerpt"
+          "Check dimensions first, none stated"
         ],
         [
           "13.0 by 6.7 by 8.4 inch space",

@@ -335,7 +335,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Inverter vs conventional output",
-    "explanation": "An inverter generator produces stable voltage with low harmonic distortion, usually listed as THD under 3 percent, while a conventional generator's output can swing more. This matters for the RV converter, laptops and TV electronics. Look for a THD figure in the bullets, and use a surge protector if the listing publishes none."
+    "explanation": "An inverter generator produces stable voltage with low harmonic distortion, usually listed as THD under 3 percent, while a conventional generator's output can swing more. This matters for the RV converter, laptops and TV electronics. Look for a THD figure in the listing, and use a surge protector if the listing publishes none."
   },
   {
     "criterion": "Roof AC start surge",

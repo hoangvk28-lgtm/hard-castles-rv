@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs $10.00 more than TowerTop, but adds 24V battery support",
-      "Lithium support is not clearly stated in the excerpt"
+      "Lithium support is not clearly stated"
     ],
     "bestFor": "Refilling a deeply discharged house bank quickly"
   },
@@ -312,7 +312,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Battery chemistry",
-    "explanation": "Lead-acid, AGM, gel and lithium need different charge voltages, and a wrong profile can undercharge or damage a bank. Many converters assume lead-acid. Look for the exact chemistry names in the bullets, and avoid assuming lithium works unless it says so."
+    "explanation": "Lead-acid, AGM, gel and lithium need different charge voltages, and a wrong profile can undercharge or damage a bank. Many converters assume lead-acid. Look for the exact chemistry names in the listing, and avoid assuming lithium works unless it says so."
   },
   {
     "criterion": "Converter versus maintainer",
@@ -320,7 +320,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Charge stages",
-    "explanation": "Multi-stage charging, like 3, 4 or 8 stages, moves from bulk to absorption to float to avoid overcharging. More stages is not always better, but float mode matters for a stored RV. Look for the named stages in the bullets."
+    "explanation": "Multi-stage charging, like 3, 4 or 8 stages, moves from bulk to absorption to float to avoid overcharging. More stages is not always better, but float mode matters for a stored RV. Look for the named stages in the listing."
   },
   {
     "criterion": "Mounting and temperature",

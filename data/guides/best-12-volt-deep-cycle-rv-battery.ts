@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41FZ7hxQb5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FBRPC85J?tag=hardcastlesrv-20",
-    "description": "The yeagulch 2-pack contains two 12V 100Ah LiFePO4 batteries in the Group 31 size, each weighing 21.6 pounds with a 100A battery management system. The listing gives the cycle curve in three steps: 4,000 cycles at 100 percent depth of discharge, 6,000 at 80 percent and 15,000 at 60 percent. It also claims about 95 percent usable capacity even at a 100A draw, thanks to a flat discharge curve, against about 50 percent for lead-acid.\n\nAt $286.59 for the pair, each battery costs about $143.30, which is $11.70 less than the HeyFuture, $31.70 less than the SUPER EMPOWER and $66.69 less than the MARSENERGY. On the listing's 80 percent claim, 6,000 cycles of roughly 1,024Wh each is about 6,144 kilowatt-hours delivered, or around 2.3 cents per kilowatt-hour, an estimate based on the stated cycle count. It lists no warranty length and no cold-charging threshold in the text we saw.\n\nPick this when you want two batteries for a 200Ah bank at the lowest cost per cycle in this guide. The caveat is that the missing warranty and cold-limit details should be confirmed with the seller before you buy.",
+    "description": "The yeagulch 2-pack contains two 12V 100Ah LiFePO4 batteries in the Group 31 size, each weighing 21.6 pounds with a 100A battery management system. The listing gives the cycle curve in three steps: 4,000 cycles at 100 percent depth of discharge, 6,000 at 80 percent and 15,000 at 60 percent. It also claims about 95 percent usable capacity even at a 100A draw, thanks to a flat discharge curve, against about 50 percent for lead-acid.\n\nAt $286.59 for the pair, each battery costs about $143.30, which is $11.70 less than the HeyFuture, $31.70 less than the SUPER EMPOWER and $66.69 less than the MARSENERGY. On the listing's 80 percent claim, 6,000 cycles of roughly 1,024Wh each is about 6,144 kilowatt-hours delivered, or around 2.3 cents per kilowatt-hour, an estimate based on the stated cycle count. It lists no warranty length and no cold-charging threshold.\n\nPick this when you want two batteries for a 200Ah bank at the lowest cost per cycle in this guide. The caveat is that the missing warranty and cold-limit details should be confirmed with the seller before you buy.",
     "specs": [
       "2 x 100Ah, Group 31",
       "21.6 lb each, 100A BMS",
@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "Parallel pair makes 2,560Wh at 12V"
     ],
     "cons": [
-      "Warranty length is not stated in the excerpt",
+      "Warranty length is not stated",
       "No cold-charging cutoff temperature is listed"
     ],
     "bestFor": "a 200Ah bank at the lowest cost per cycle"

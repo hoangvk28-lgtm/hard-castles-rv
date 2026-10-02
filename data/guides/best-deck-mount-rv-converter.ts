@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/413koWQDmdL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CKYJC81P?tag=hardcastlesrv-20",
-    "description": "The sixcow WF-9855 is a 55A deck mount converter with a 120V AC input at 11A, listed to replace any WF-9800 series unit including IOTA-DLS-55 and Atwood ACO-32 models. The cooling fan runs only when needed, and an electronic current limiter shuts power off during overload or short circuit conditions.\n\nAt $58.99 it is the cheapest pick in the guide, $1.00 below Xmnbl, which has the same 55A rating. The only separating details are Xmnbl's written 5 year warranty and stated 13.6VDC output, neither of which this listing offers in the text we have, so the dollar saved buys less paper protection.\n\nPick this if you want the lowest price for a 55A swap and a fan that stays off at idle. The caveat is that the full three stage voltage figures are cut off in the listing, so check them against your battery chemistry before ordering, and ask the seller about warranty length.",
+    "description": "The sixcow WF-9855 is a 55A deck mount converter with a 120V AC input at 11A, listed to replace any WF-9800 series unit including IOTA-DLS-55 and Atwood ACO-32 models. The cooling fan runs only when needed, and an electronic current limiter shuts power off during overload or short circuit conditions.\n\nAt $58.99 it is the cheapest pick in the guide, $1.00 below Xmnbl, which has the same 55A rating. The only separating details are Xmnbl's written 5 year warranty and stated 13.6VDC output, neither of which this listing offers, so the dollar saved buys less paper protection.\n\nPick this if you want the lowest price for a 55A swap and a fan that stays off at idle. The caveat is that the full three stage voltage figures are cut off in the listing, so check them against your battery chemistry before ordering, and ask the seller about warranty length.",
     "specs": [
       "55A deck mount",
       "Fits WF-9800 series",
@@ -68,7 +68,7 @@ export const products: GuideProduct[] = [
       "Replaces IOTA-DLS-55 and Atwood ACO-32 models"
     ],
     "cons": [
-      "Warranty length is not stated in the listing",
+      "Warranty length is not stated",
       "Three stage voltages not clearly given"
     ],
     "bestFor": "Cheapest 55A swap"

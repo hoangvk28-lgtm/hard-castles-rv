@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "58 dBA stated at quarter load and 22 feet"
     ],
     "cons": [
-      "Weight is not stated in the listing excerpt",
+      "Weight is not stated",
       "No electric start, unlike the 56455i"
     ],
     "bestFor": "30A RVs wanting documented quiet and CO protection"
@@ -69,7 +69,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Propane cuts running watts to 3200W",
-      "Weight, runtime and warranty are not in the excerpt"
+      "Weight, runtime and warranty are not listed"
     ],
     "bestFor": "backup power and propane-fueled campers"
   },
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/412Q0BCn8yL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DNL6MSW2?tag=hardcastlesrv-20",
-    "description": "The Genkins lists 4500 peak and 3800 rated watts from a 174cc four-stroke OHV engine, total harmonic distortion at or below 3 percent, a 1.9-gallon tank for up to 8 hours at half load, 63 dB at 23 feet, a weight of 63 pounds, EPA compliance, low-oil shutdown, overload protection, and a two-year warranty.\n\nIt ranks fifth. It is $377.99, $351.01 less than the WEN 56450iX and $32.59 more than the AMERISUN, and it is the only budget pick that states weight, noise and runtime together. Its 3800W running rating is 200W above the 3600W a 30A outlet can pass, so the extra is not usable through an RV inlet. It lists no TT-30R outlet or CO sensor in the excerpt.\n\nPick it if the lightest stated weight at a budget price matters and you will use an adapter. The caveat is no named RV outlet or CO shutoff, and 63 dB is the loudest stated figure here.",
+    "description": "The Genkins lists 4500 peak and 3800 rated watts from a 174cc four-stroke OHV engine, total harmonic distortion at or below 3 percent, a 1.9-gallon tank for up to 8 hours at half load, 63 dB at 23 feet, a weight of 63 pounds, EPA compliance, low-oil shutdown, overload protection, and a two-year warranty.\n\nIt ranks fifth. It is $377.99, $351.01 less than the WEN 56450iX and $32.59 more than the AMERISUN, and it is the only budget pick that states weight, noise and runtime together. Its 3800W running rating is 200W above the 3600W a 30A outlet can pass, so the extra is not usable through an RV inlet. It lists no TT-30R outlet or CO sensor.\n\nPick it if the lightest stated weight at a budget price matters and you will use an adapter. The caveat is no named RV outlet or CO shutoff, and 63 dB is the loudest stated figure here.",
     "specs": [
       "3800W rated, 4500W peak",
       "63 lb, 1.9 gal tank",

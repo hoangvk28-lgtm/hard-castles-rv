@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41hvxfW-XbL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B076Y9J512?tag=hardcastlesrv-20",
-    "description": "The AIMS 2500 is a 2500W pure sine inverter charger with 7500W surge for 20 seconds, a transfer switch, a charge current dial and auto generator start. A direct-connect AC terminal block makes it a hardwire unit at $719.\n\nIt costs $404.01 more than Renogy PUH 2000, and that money buys a built-in battery charger and bigger surge. No noise figure is listed in the excerpt. Pick this if you want inverter, charger and transfer switch in one box. Caveat: quiet is unverified, so ask before mounting near sleeping areas.",
+    "description": "The AIMS 2500 is a 2500W pure sine inverter charger with 7500W surge for 20 seconds, a transfer switch, a charge current dial and auto generator start. A direct-connect AC terminal block makes it a hardwire unit at $719.\n\nIt costs $404.01 more than Renogy PUH 2000, and that money buys a built-in battery charger and bigger surge. No noise figure is listed. Pick this if you want inverter, charger and transfer switch in one box. Caveat: quiet is unverified, so ask before mounting near sleeping areas.",
     "specs": [
       "2500W, 7500W surge",
       "Inverter charger, transfer switch",
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
       "Charge current dial limits load on a small generator"
     ],
     "cons": [
-      "No noise figure is listed in the features",
+      "No noise figure is listed",
       "Costs $404.01 more than Renogy PUH 2000"
     ],
     "bestFor": "Full-time RVers wanting inverter plus charger in one unit"
@@ -285,7 +285,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Transfer switch and charger",
-    "explanation": "A transfer switch moves outlets between shore power and the inverter, and an inverter charger also recharges the battery from shore. This saves a separate converter but adds cost. Check for transfer switch, charge current and auto generator start in the bullets."
+    "explanation": "A transfer switch moves outlets between shore power and the inverter, and an inverter charger also recharges the battery from shore. This saves a separate converter but adds cost. Check for transfer switch, charge current and auto generator start in the listing."
   },
   {
     "criterion": "Mounting and ventilation",

@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41I7ffB3CnL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H6SV7GY5?tag=hardcastlesrv-20",
-    "description": "The PohuStues 30A lists 18,000J and an auto shutoff when voltage drops below 104V or rises above 132V, reconnecting when power is safe. A bright LED meter shows live voltage and fault codes E1 to E4, and a pre plug scan checks the pedestal for problems such as open ground before you connect.\n\nIt costs $79.99, which is $90.00 under the Power Watchdog PWD30W. It is $3.00 above Edovaf and $2.23 below Festicreamy, and it is the only pick that writes down both cutoff voltages along with a 3 year warranty, which is why it ranks above the KIRFEIHT at the same price.\n\nPick this if you want documented thresholds and an IP67 sealed lid at a low price. The caveat is that the facts here show a NEMA TT-30P plug and the app, but not whether the surge module can be replaced, and there is no WiFi link.",
+    "description": "The PohuStues 30A lists 18,000J and an auto shutoff when voltage drops below 104V or rises above 132V, reconnecting when power is safe. A bright LED meter shows live voltage and fault codes E1 to E4, and a pre plug scan checks the pedestal for problems such as open ground before you connect.\n\nIt costs $79.99, which is $90.00 under the Power Watchdog PWD30W. It is $3.00 above Edovaf and $2.23 below Festicreamy, and it is the only pick that writes down both cutoff voltages along with a 3 year warranty, which is why it ranks above the KIRFEIHT at the same price.\n\nPick this if you want documented thresholds and an IP67 sealed lid at a low price. The caveat is that the listing shows a NEMA TT-30P plug and the app, but not whether the surge module can be replaced, and there is no WiFi link.",
     "specs": [
       "30A, 18,000J",
       "Cuts below 104V or above 132V",
@@ -342,7 +342,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Written cutoff thresholds",
-    "explanation": "A cutoff threshold is the voltage at which the unit disconnects your RV to protect the appliances. PohuStues writes 104V low and 132V high, while the other listings only say auto shutoff. Look for both numbers and a reconnect delay in the bullets or the manual."
+    "explanation": "A cutoff threshold is the voltage at which the unit disconnects your RV to protect the appliances. PohuStues writes 104V low and 132V high, while the other listings only say auto shutoff. Look for both numbers and a reconnect delay in the listing or the manual."
   },
   {
     "criterion": "Joule rating in context",

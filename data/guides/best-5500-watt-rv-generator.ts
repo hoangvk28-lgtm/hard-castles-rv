@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51pfC+YAU3L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DLPTRVV9?tag=hardcastlesrv-20",
-    "description": "The Champion 6875-Watt dual fuel generator is $899 and lists 6,875 starting and 5,500 running watts on gasoline, or 6,250 and 5,000 on propane. It includes Volt Guard overload protection, an Intelligauge for voltage and hours, a CO Shield auto shutoff and a 3-year warranty.\n\nIt is the only pick with 5,500 true running watts, and it costs $119 less than the GENMAX GM5500i. It is also $129.05 more than the DuroMax XP5500EH. Pick this if you need 5,500 watts that you can count on for an air conditioner. The caveat is that weight and noise are not listed in the data we have.",
+    "description": "The Champion 6875-Watt dual fuel generator is $899 and lists 6,875 starting and 5,500 running watts on gasoline, or 6,250 and 5,000 on propane. It includes Volt Guard overload protection, an Intelligauge for voltage and hours, a CO Shield auto shutoff and a 3-year warranty.\n\nIt is the only pick with 5,500 true running watts, and it costs $119 less than the GENMAX GM5500i. It is also $129.05 more than the DuroMax XP5500EH. Pick this if you need 5,500 watts that you can count on for an air conditioner. The caveat is that weight and noise are not listed.",
     "specs": [
       "5,500W running on gas",
       "5,000W running on propane",
@@ -80,7 +80,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41wBL-gr+NL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GXVPFBQP?tag=hardcastlesrv-20",
-    "description": "The ComJoy 5500W inverter generator is $599.99 with 5,500 peak and 5,000 running watts from a 223cc engine. It lists an L5-30R 30A RV outlet, an L14-30R 120/240V outlet, a 3.8 gallon tank with up to 8 hours at 50% load, and under 3% THD.\n\nIt is $299.01 cheaper than the Champion 6875W and $170 below the DuroMax XP5500EH, with 500 fewer running watts than the Champion. Pick this if you want a 30A RV outlet at the lowest price. The caveat is that weight, noise and warranty are not in the data we have.",
+    "description": "The ComJoy 5500W inverter generator is $599.99 with 5,500 peak and 5,000 running watts from a 223cc engine. It lists an L5-30R 30A RV outlet, an L14-30R 120/240V outlet, a 3.8 gallon tank with up to 8 hours at 50% load, and under 3% THD.\n\nIt is $299.01 cheaper than the Champion 6875W and $170 below the DuroMax XP5500EH, with 500 fewer running watts than the Champion. Pick this if you want a 30A RV outlet at the lowest price. The caveat is that weight, noise and warranty are not listed.",
     "specs": [
       "5,000W running, 5,500W peak",
       "L5-30R 30A RV outlet",

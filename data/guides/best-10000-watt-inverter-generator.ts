@@ -4,7 +4,7 @@ export const metaTitle = "Best 10000 Watt Inverter Generator in 2026";
 export const metaDescription = "Four 10000 class inverter generators compared on running watts, RV outlets and fuel type, so you know what the 10000 label really delivers.";
 export const mainKeyword = "best 10000 watt inverter generator";
 export const introParagraphs = [
-  "A 10000 watt label on an inverter generator can mean very different things, so this guide starts with the number that matters, which is running watts. Westinghouse lists 7600 running and 10000 peak, and GENMAX lists 7800 running and 10500 peak, while the Champion and Pulsar listings give a headline figure without a running figure in the bullets. For an RV owner that gap decides whether a 50A rig with two air conditioners stays online. These are the 10000 class models the listing data supports."
+  "A 10000 watt label on an inverter generator can mean very different things, so this guide starts with the number that matters, which is running watts. Westinghouse lists 7600 running and 10000 peak, and GENMAX lists 7800 running and 10500 peak, while the Champion and Pulsar listings give a headline figure without a running figure. For an RV owner that gap decides whether a 50A rig with two air conditioners stays online. These are the 10000 class models the listing data supports."
 ];
 export const lastUpdated = "2026-10-02";
 export const readTime = "10 min";
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
       "Includes a CO sensor and an ATS ready outlet"
     ],
     "cons": [
-      "Runtime, noise and weight are not stated in the bullets",
+      "Runtime, noise and weight are not stated",
       "Costs $40.99 more than Westinghouse for 200 extra running watts"
     ],
     "bestFor": "Buyers who want natural gas or LPG options"
@@ -80,7 +80,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51zTxmm-27L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GRWY7T8Y?tag=hardcastlesrv-20",
-    "description": "The Champion 10,000 watt tri fuel unit runs on natural gas, propane or gasoline and ships with a 25 ft natural gas hose and a 6.6 ft propane hose. It lists under 3% THD, electric start with the battery included and a 3 year warranty. Running watts are not stated in the bullets, which is the key unknown.\n\nAt $1370 it is the priciest here, $221 over the Westinghouse 10000 and $180.01 over the GENMAX 10500. Pick this if you plan to run from a house natural gas line at a stationary site. The caveat is that you are paying for fuel flexibility and the hose kit, not for a documented higher running figure.",
+    "description": "The Champion 10,000 watt tri fuel unit runs on natural gas, propane or gasoline and ships with a 25 ft natural gas hose and a 6.6 ft propane hose. It lists under 3% THD, electric start with the battery included and a 3 year warranty. Running watts are not stated, which is the key unknown.\n\nAt $1370 it is the priciest here, $221 over the Westinghouse 10000 and $180.01 over the GENMAX 10500. Pick this if you plan to run from a house natural gas line at a stationary site. The caveat is that you are paying for fuel flexibility and the hose kit, not for a documented higher running figure.",
     "specs": [
       "10,000W, three fuel types",
       "25 ft natural gas hose",
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41GgzJACkBL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DH6QTSH4?tag=hardcastlesrv-20",
-    "description": "The Pulsar GD10KBN is a 10500W dual fuel inverter generator with electric start, a wheel kit and a 15-50R outlet listed for RV use. A digital multimeter shows voltage, frequency, total hours and hours until recommended maintenance. Running watts and warranty length are not listed in the bullets.\n\nIt is the cheapest at $999, which is $150 below the Westinghouse 10000 and $190.99 below the GENMAX 10500. Pick this if budget is the constraint and you will confirm the running figure with the seller first. The caveat is that without a running number, the 10500 headline could be a peak figure well above what it holds continuously.",
+    "description": "The Pulsar GD10KBN is a 10500W dual fuel inverter generator with electric start, a wheel kit and a 15-50R outlet listed for RV use. A digital multimeter shows voltage, frequency, total hours and hours until recommended maintenance. Running watts and warranty length are not listed.\n\nIt is the cheapest at $999, which is $150 below the Westinghouse 10000 and $190.99 below the GENMAX 10500. Pick this if budget is the constraint and you will confirm the running figure with the seller first. The caveat is that without a running number, the 10500 headline could be a peak figure well above what it holds continuously.",
     "specs": [
       "10500W, gas or propane",
       "Wheel kit, electric start",
@@ -119,7 +119,7 @@ export const products: GuideProduct[] = [
       "Wheel kit and electric start come included"
     ],
     "cons": [
-      "Running watts and warranty are not in the bullets",
+      "Running watts and warranty are not listed",
       "No natural gas option, unlike the two tri fuel units"
     ],
     "bestFor": "Budget buyers who will verify running watts"
@@ -255,7 +255,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "The Westinghouse 10000 and GENMAX 10500 state 7600 and 7800 running watts with 50A capable outlets. The Champion 10000 Tri and Pulsar GD10KBN do not state a running figure in the bullets."
+        "text": "The Westinghouse 10000 and GENMAX 10500 state 7600 and 7800 running watts with 50A capable outlets. The Champion 10000 Tri and Pulsar GD10KBN do not state a running figure."
       }
     ]
   },
@@ -281,7 +281,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "RV outlet on the panel",
-    "explanation": "A 14-50R outlet feeds a 50A coach directly, and a TT-30R feeds a 30A rig. A missing outlet means an adapter, which adds a failure point and can limit output. Read the outlet list in the bullets and match it to your shore cord before checking watts."
+    "explanation": "A 14-50R outlet feeds a 50A coach directly, and a TT-30R feeds a 30A rig. A missing outlet means an adapter, which adds a failure point and can limit output. Read the outlet list in the listing and match it to your shore cord before checking watts."
   },
   {
     "criterion": "Fuel type and storage",
@@ -304,7 +304,7 @@ export const faq = [
   },
   {
     "q": "Why do some 10000 watt listings not state running watts?",
-    "a": "Sellers often lead with the peak figure because it is bigger. The Champion 10000 Tri and Pulsar GD10KBN listings omit running watts in the bullets, so confirm it before you rely on them."
+    "a": "Sellers often lead with the peak figure because it is bigger. The Champion 10000 Tri and Pulsar GD10KBN listings omit running watts, so confirm it before you rely on them."
   },
   {
     "q": "Is tri fuel worth the extra money?",

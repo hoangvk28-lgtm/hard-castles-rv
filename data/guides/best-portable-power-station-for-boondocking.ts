@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Ft8DZeyvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H5BL8YRJ?tag=hardcastlesrv-20",
-    "description": "The Lipower 2400W holds 2,150Wh, slightly more than the Anker SOLIX C2000, and delivers 2,400W continuous with 4,000W surge. Its 10ms UPS switchover is handy if you also plug it into shore power. The listing says it fully recharges from a wall outlet in roughly 1.5 hours.\n\nIt costs $520.00 less than the Anker SOLIX C2000, but includes no solar panel and no listed expansion battery. It sits $390.99 above the Jackery Explorer 300, and the difference buys about seven times the capacity. Pick this if you want large capacity on a tighter budget. The caveat is that weight and warranty are not listed in the facts we have.",
+    "description": "The Lipower 2400W holds 2,150Wh, slightly more than the Anker SOLIX C2000, and delivers 2,400W continuous with 4,000W surge. Its 10ms UPS switchover is handy if you also plug it into shore power. The listing says it fully recharges from a wall outlet in roughly 1.5 hours.\n\nIt costs $520.00 less than the Anker SOLIX C2000, but includes no solar panel and no listed expansion battery. It sits $390.99 above the Jackery Explorer 300, and the difference buys about seven times the capacity. Pick this if you want large capacity on a tighter budget. The caveat is that weight and warranty are not listed.",
     "specs": [
       "2,150Wh capacity",
       "2,400W rated, 4,000W surge",
@@ -120,7 +120,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "288Wh runs a fridge only a few hours",
-      "Warranty term is not listed in the facts"
+      "Warranty term is not listed"
     ],
     "bestFor": "mini fridge and fan loads"
   },

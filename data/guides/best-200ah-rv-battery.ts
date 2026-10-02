@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41R4CrmVBbL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GT1361HJ?tag=hardcastlesrv-20",
-    "description": "The ECOBOSS 12V 200Ah comes with the most complete operating data of the group: a 200A BMS that supports 200A continuous discharge and a 100A maximum charge, a charging range of 32°F to 113°F that pauses below 32°F and resumes at 41°F, and a discharge range of minus 4°F to 149°F. It carries an IP65 rating, claims 15,000 plus cycles and expands as 4S4P to 51.2V 800Ah.\n\nAt $298.99 it is $29.00 more than the E-LekTech and $17.60 less than the yeagulch, giving about $117 per nominal kilowatt-hour. Against the Rvpozwer at $305.99 it saves $7.00 and publishes stronger thermal numbers. The listing gives no weight or dimensions in the text we saw, which is the main gap against the yeagulch and E-LekTech.\n\nPick it when you need a clear picture of current and temperature limits for a 2,000W inverter and an outdoor-ish bay. The caveat is that weight and size are not stated, so confirm that it fits before you order.",
+    "description": "The ECOBOSS 12V 200Ah comes with the most complete operating data of the group: a 200A BMS that supports 200A continuous discharge and a 100A maximum charge, a charging range of 32°F to 113°F that pauses below 32°F and resumes at 41°F, and a discharge range of minus 4°F to 149°F. It carries an IP65 rating, claims 15,000 plus cycles and expands as 4S4P to 51.2V 800Ah.\n\nAt $298.99 it is $29.00 more than the E-LekTech and $17.60 less than the yeagulch, giving about $117 per nominal kilowatt-hour. Against the Rvpozwer at $305.99 it saves $7.00 and publishes stronger thermal numbers. The listing gives no weight or dimensions, which is the main gap against the yeagulch and E-LekTech.\n\nPick it when you need a clear picture of current and temperature limits for a 2,000W inverter and an outdoor-ish bay. The caveat is that weight and size are not stated, so confirm that it fits before you order.",
     "specs": [
       "2,560Wh, 200A BMS",
       "100A max charge, IP65",
@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "Costs $17.60 less than the yeagulch"
     ],
     "cons": [
-      "Weight and dimensions are not in the excerpt",
+      "Weight and dimensions are not listed",
       "Charging stops at 32°F with no heater"
     ],
     "bestFor": "large-inverter RVs that need documented limits"
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
       "Expandable to 800Ah with four in parallel"
     ],
     "cons": [
-      "Weight is not published in the excerpt",
+      "Weight is not published",
       "Warranty length is described but not stated"
     ],
     "bestFor": "200A capability without the top-tier price"
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31hWBJ9YLXL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B075RGX1WR?tag=hardcastlesrv-20",
-    "description": "The Renogy 12V 200Ah AGM lists reference capacities of 200Ah at the 20-hour rate, 190.5Ah at 10 hours, 172.3Ah at 5 hours and 152.9Ah at 3 hours, so the usable amp-hours fall as the load rises. At 12 volts, 2,400Wh nominal becomes about 1,835Wh at the 3-hour rate, and a common 50 percent limit keeps real use near 1,200Wh before heavy-load losses. It is sealed, maintenance free and installs upright.\n\nAt $296.30 it is $26.31 more than the E-LekTech yet delivers roughly half the usable energy, about $247 per usable kilowatt-hour at 50 percent, against about $105 to $124 per nominal lithium kilowatt-hour. The listing gives no weight in the text we saw, so the lead-acid penalty must be inferred. Its advantage is that it charges in freezing weather.\n\nPick it as a cold-bay battery or to see why the lithium numbers matter. The caveat is that 200Ah of AGM is a slow-discharge figure, not a promise at a 1,500W inverter load.",
+    "description": "The Renogy 12V 200Ah AGM lists reference capacities of 200Ah at the 20-hour rate, 190.5Ah at 10 hours, 172.3Ah at 5 hours and 152.9Ah at 3 hours, so the usable amp-hours fall as the load rises. At 12 volts, 2,400Wh nominal becomes about 1,835Wh at the 3-hour rate, and a common 50 percent limit keeps real use near 1,200Wh before heavy-load losses. It is sealed, maintenance free and installs upright.\n\nAt $296.30 it is $26.31 more than the E-LekTech yet delivers roughly half the usable energy, about $247 per usable kilowatt-hour at 50 percent, against about $105 to $124 per nominal lithium kilowatt-hour. The listing gives no weight, so the lead-acid penalty must be inferred. Its advantage is that it charges in freezing weather.\n\nPick it as a cold-bay battery or to see why the lithium numbers matter. The caveat is that 200Ah of AGM is a slow-discharge figure, not a promise at a 1,500W inverter load.",
     "specs": [
       "200Ah at 20-hour rate",
       "152.9Ah at 3-hour rate",

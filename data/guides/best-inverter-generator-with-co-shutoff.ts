@@ -320,7 +320,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Outlet that fits your RV",
-    "explanation": "A TT-30R outlet lets a 30A RV cord plug in directly, while household outlets require an adapter and cap you at 20A per receptacle. Without the right outlet you cannot power the whole coach. Look for TT-30R or a 50A outlet in the bullets."
+    "explanation": "A TT-30R outlet lets a 30A RV cord plug in directly, while household outlets require an adapter and cap you at 20A per receptacle. Without the right outlet you cannot power the whole coach. Look for TT-30R or a 50A outlet in the listing."
   },
   {
     "criterion": "Warranty and service",

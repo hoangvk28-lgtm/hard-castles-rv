@@ -134,7 +134,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51QvAmMKeVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B075SZMFP2?tag=hardcastlesrv-20",
-    "description": "The DOKIO 200W weighs 9.7 lb and folds to 20 x 27 x 1.1 inches, with a standalone PWM controller and a 9.84 foot cable. The listing warns that some power stations cap input at 100 to 150W, so check yours before assuming 200W arrives.\n\nAt $134.77 it is the cheapest pick, $45.00 under the DOKIO 300W and $20.22 under the Renogy 100W. It trades the DOKIO 300W's power for about 5.5 lb less weight. Pick this if you want the lightest 200W setup. The caveat is basic build detail, since no glass or IP rating is listed in the facts we have.",
+    "description": "The DOKIO 200W weighs 9.7 lb and folds to 20 x 27 x 1.1 inches, with a standalone PWM controller and a 9.84 foot cable. The listing warns that some power stations cap input at 100 to 150W, so check yours before assuming 200W arrives.\n\nAt $134.77 it is the cheapest pick, $45.00 under the DOKIO 300W and $20.22 under the Renogy 100W. It trades the DOKIO 300W's power for about 5.5 lb less weight. Pick this if you want the lightest 200W setup. The caveat is basic build detail, since no glass or IP rating is listed.",
     "specs": [
       "200W, 9.7 lb",
       "20 x 27 x 1.1 in",

@@ -4,7 +4,7 @@ export const metaTitle = "Best RV Battery Monitor For Boondocking in 2026";
 export const metaDescription = "Three battery monitors for boondocking RVs, from a 300A shunt unit to cheap Bluetooth voltage checkers, with runtime logic and honest limits.";
 export const mainKeyword = "best rv battery monitor for boondocking";
 export const introParagraphs = [
-  "Boondocking turns your battery into the only fuel gauge you have. If a rig pulls 40 amps through an inverter overnight, a voltage-only reading will tell you everything is fine until the bank suddenly is not. This short list separates the one shunt-style monitor in the data from two cheap Bluetooth voltage checkers, so you know exactly what each can and cannot tell you at 2 a.m. in the desert."
+  "Boondocking turns your battery into the only fuel gauge you have. If a rig pulls 40 amps through an inverter overnight, a voltage-only reading will tell you everything is fine until the bank suddenly is not. This short list separates the one shunt-style monitor from two cheap Bluetooth voltage checkers, so you know exactly what each can and cannot tell you at 2 a.m. in the desert."
 ];
 export const lastUpdated = "2026-10-02";
 export const readTime = "10 min";
@@ -114,7 +114,7 @@ export const howWeEvaluated = [
   },
   {
     "title": "Price for what it measures",
-    "description": "We weighed price against the data each unit actually produces."
+    "description": "Price was weighed against the information each unit actually provides."
   }
 ];
 

@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Only works with a 24V battery bank, not 12V",
-      "Weight and dimensions are not stated"
+      "Weight and dimensions are not stated in the listing"
     ],
     "bestFor": "Shore power plus inverter in one bay"
   },

@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
       "Waterproof design suits an outdoor pedestal"
     ],
     "cons": [
-      "Cutoff voltages are not stated",
+      "Cutoff voltages are not stated in the listing",
       "Costs $18.11 more than the Kohree 18000J"
     ],
     "bestFor": "metered sites where you watch usage"

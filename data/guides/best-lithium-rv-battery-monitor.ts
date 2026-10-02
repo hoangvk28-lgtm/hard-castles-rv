@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
       "About 1mA draw will not drain a parked bank"
     ],
     "cons": [
-      "Lithium support is not stated",
+      "Lithium support is not stated in the listing",
       "Estimates charge from voltage, no shunt"
     ],
     "bestFor": "Owners watching a chassis battery plus a house bank"

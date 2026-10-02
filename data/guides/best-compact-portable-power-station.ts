@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs $60.00 more than the Daran 300W",
-      "Weight is not listed"
+      "Weight is not listed in the listing"
     ],
     "bestFor": "Laptop and USB-C charging"
   },

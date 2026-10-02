@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
       "Parallel cord pairs two units to 18,000W"
     ],
     "cons": [
-      "Weight is not listed",
+      "Weight is not listed in the listing",
       "Costs $85.00 more than the non-CARB version"
     ],
     "bestFor": "Dual fuel buyers in or near California"
@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Not CARB compliant, so not for California use",
-      "Weight is not listed"
+      "Weight is not listed in the listing"
     ],
     "bestFor": "Outside California on a tighter budget"
   },

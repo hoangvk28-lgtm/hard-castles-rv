@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
       "Hardwire terminal block suits breaker panel installs"
     ],
     "cons": [
-      "Remote cable length is not stated",
+      "Remote cable length is not stated in the listing",
       "Included 1.97 ft cables are short"
     ],
     "bestFor": "Hardwired installs with remote and ATS"

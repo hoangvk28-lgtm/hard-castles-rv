@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Listing gives no decibel figure, only a conversation comparison",
-      "Weight is not stated",
+      "Weight is not stated in the feature bullets",
       "Costs $248 more than the Westinghouse 4650"
     ],
     "bestFor": "one-air-conditioner trailers wanting equal output on either fuel"
@@ -158,7 +158,7 @@ export const products: GuideProduct[] = [
     "cons": [
       "Small 1.1-gallon tank gives about 5 hours at half load",
       "Gasoline only with no propane connection",
-      "30A port shape is not stated"
+      "30A port shape is not stated in the listing"
     ],
     "bestFor": "lightweight weekend trips with moderate loads"
   },
@@ -186,7 +186,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Has an L5-30R twist-lock, so a TT-30R adapter is likely needed",
-      "Weight, noise and CO shutdown are not stated",
+      "Weight, noise and CO shutdown are not stated in the listing",
       "Two-year warranty is shorter than the Westinghouse's"
     ],
     "bestFor": "lowest-cost entry into dual-fuel inverter power"

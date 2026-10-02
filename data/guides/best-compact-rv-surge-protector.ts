@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
       "IP65 housing resists rain and dust"
     ],
     "cons": [
-      "Joule rating is not listed",
+      "Joule rating is not listed in the listing",
       "Costs $190.00 more than the GEARGO 30A"
     ],
     "bestFor": "50A rigs wanting monitoring and a swappable module"

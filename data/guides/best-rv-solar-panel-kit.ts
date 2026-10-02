@@ -68,7 +68,7 @@ export const products: GuideProduct[] = [
       "Costs $62.50 less than ExpertPower 400W"
     ],
     "cons": [
-      "Battery cable gauge is not stated",
+      "Battery cable gauge is not stated in the listing",
       "21% efficiency sits below the 2x200 kit's 24% N-type cells"
     ],
     "bestFor": "first-time installers who want one box"

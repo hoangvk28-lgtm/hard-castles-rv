@@ -68,7 +68,7 @@ export const products: GuideProduct[] = [
       "More than 5,000 cycles claimed from A-grade cells"
     ],
     "cons": [
-      "Warranty length is not stated",
+      "Warranty length is not stated in the listing",
       "Same 100A limit as the others, about 2,560W"
     ],
     "bestFor": "budget 24V banks that want phone monitoring"
@@ -181,7 +181,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Most expensive pick here at $1,199.99 per battery",
-      "Heater draw is not stated"
+      "Heater draw is not stated in the listing"
     ],
     "bestFor": "big 24V systems that charge in the cold"
   }

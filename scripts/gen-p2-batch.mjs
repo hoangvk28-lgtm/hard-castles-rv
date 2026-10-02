@@ -52,14 +52,14 @@ for (const m of mods) {
     const leak = t.match(LEAK);
     if (leak) err(s, `process leak "${leak[0]}": ${t.slice(Math.max(0, leak.index - 40), leak.index + 40)}`);
   });
-  const SH = !!m.short;
-  if (m.criteria.length < 5) err(s, "criteria < 5");
-  m.criteria.forEach((c) => { if (c.explanation.split(/(?<=[.!?])\s+/).length < 3) err(s, `criterion too short: ${c.criterion}`); });
-  if (m.faq.length < (SH ? 4 : 5) || m.faq.length > 6) err(s, `faq count ${m.faq.length}`);
+  const SH = !!m.short; const LT = m.short === "lite";
+  if (m.criteria.length < (LT ? 4 : 5)) err(s, "criteria too few");
+  m.criteria.forEach((c) => { if (c.explanation.split(/(?<=[.!?])\s+/).length < (LT ? 2 : 3)) err(s, `criterion too short: ${c.criterion}`); });
+  if (m.faq.length < (LT ? 3 : SH ? 4 : 5) || m.faq.length > 6) err(s, `faq count ${m.faq.length}`);
   if (m.howToChoose.length !== 6) err(s, `howToChoose sections ${m.howToChoose.length} != 6`);
   if (m.products.length < (Number(process.env.MINP) || 5)) err(s, "products too few");
   if (m.intro.length < (SH ? 1 : 2)) err(s, "intro too short");
-  if (m.howWeEvaluated.length < 4) err(s, "howWeEvaluated < 4");
+  if (m.howWeEvaluated.length < (LT ? 3 : 4)) err(s, "howWeEvaluated < 4");
 
   const shorts = m.products.map((p) => p.short);
   const names = new Set();
@@ -70,7 +70,7 @@ for (const m of mods) {
     if (!raw.img) err(s, `asin ${p.asin} has no image (imageUrl is required by GuideProduct)`);
     if (names.has(p.asin)) err(s, `duplicate asin ${p.asin}`);
     names.add(p.asin);
-    if (p.d.length !== (SH ? 2 : 3)) err(s, `${p.short}: description needs ${SH ? 2 : 3} paragraphs`);
+    if (p.d.length !== (LT ? 1 : SH ? 2 : 3)) err(s, `${p.short}: description paragraph count`);
     p.pros.forEach((x) => { if (wc(x) < 2 || wc(x) > 14) err(s, `${p.short} pro ${wc(x)}w: ${x}`); });
     p.cons.forEach((x) => { if (wc(x) < 2 || wc(x) > 14) err(s, `${p.short} con ${wc(x)}w: ${x}`); });
     if (p.pros.length < 3) err(s, `${p.short}: <3 pros`);

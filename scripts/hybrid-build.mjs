@@ -38,8 +38,8 @@ for (const slug of slugs) {
   const products = prose.products.map((pp) => {
     const f = byAsin[pp.asin];
     if (!f) throw new Error(`${slug}: asin ${pp.asin} not in facts`);
-    const name = f.title.split(/[,|(]/)[0].trim().slice(0, 110);
-    return { asin: pp.asin, short: pp.short, name, badge: pp.badge, d: pp.d, specs: pp.specs && pp.specs.length ? pp.specs : specsFor(f), pros: pp.pros, cons: pp.cons, bestFor: pp.bestFor, price: f.price };
+    const name = f.title.split(/[,|(]| [–—-] /)[0].trim().slice(0, 110);
+    return { asin: pp.asin, short: pp.short, name, badge: pp.badge, d: Array.isArray(pp.d) ? pp.d : String(pp.d).split(/\n\s*\n/).map((x) => x.trim()).filter(Boolean), specs: pp.specs && pp.specs.length ? pp.specs : specsFor(f), pros: pp.pros, cons: pp.cons, bestFor: pp.bestFor, price: f.price };
   });
   const n = products.length;
   const kwTitle = titleCase(facts.keyword.replace(/^best /, ""));

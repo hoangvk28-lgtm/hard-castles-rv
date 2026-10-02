@@ -32,3 +32,8 @@ Every table row and every card text must contain at least one pick's "short" nam
 ## Never expose the drafting process (hard fail in gen-p2-batch.mjs)
 Write as an editor who knows the product category. The reader must never learn that you worked from a fact sheet. Forbidden phrasing includes: "we saw", "we reviewed", "we have", "we found", "the text/excerpt/bullets/features/facts/data we...", "in the features/facts/excerpt/data", "facts provided", "the pool", "candidates", "not listed in the features".
 When a spec is missing, say it plainly as a buyer tip: "The listing does not state the gauge range, so confirm it before buying" or "No NSF or CSA mark is named on the listing". Never "not stated in the text we saw".
+
+## Depth bar (from pilot review)
+- Each of the 3 "d" paragraphs must be 2-3 full sentences (not 1). The positioning paragraph names the neighbouring pick(s) and the concrete mechanism that separates them.
+- Pros must be real product facts; a price-only pro ("Lowest price here") is allowed at most once per guide.
+- Angle: derive each slug's angle from its keyword (feature, use case, vehicle, stage count, etc.) and make intro, criteria, howToChoose and FAQ specific to it. Siblings in the same cluster must not share intro sentences, criteria labels, or FAQ questions word for word.

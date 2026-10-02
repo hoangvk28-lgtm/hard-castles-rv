@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs $233.00 more than third party swaps",
-      "Charge voltages are not shown in the listing"
+      "Charge voltages are not shown"
     ],
     "bestFor": "Genuine upgrade for most trailers"
   },

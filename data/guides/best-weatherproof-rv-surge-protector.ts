@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs $50.00 more than a basic 50A unit",
-      "Exact cutoff voltages are not stated in the listing"
+      "Exact cutoff voltages are not stated"
     ],
     "bestFor": "Wet climates and storm season stays"
   },
@@ -134,7 +134,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41mZGZOSiEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GDF44K4L?tag=hardcastlesrv-20",
-    "description": "The PlugSaf 30A lists 22,000J, an LED display of voltage, current and power, and auto shutoff for over voltage, under voltage and over temperature. It resets after conditions recover, and its oversized waterproof cover is described as roomy enough for the plug. The listing says ETL and FCC certified.\n\nAt $29.99 it is $21.56 under the Progressive SSP-30XL, the cheapest pick here. The cover is called waterproof but no IP rating is given. Pick this if you have a 30A trailer and want protection plus a readout cheaply. The caveat is that cutoff voltages and warranty are not stated in the listing.",
+    "description": "The PlugSaf 30A lists 22,000J, an LED display of voltage, current and power, and auto shutoff for over voltage, under voltage and over temperature. It resets after conditions recover, and its oversized waterproof cover is described as roomy enough for the plug. The listing says ETL and FCC certified.\n\nAt $29.99 it is $21.56 under the Progressive SSP-30XL, the cheapest pick here. The cover is called waterproof but no IP rating is given. Pick this if you have a 30A trailer and want protection plus a readout cheaply. The caveat is that cutoff voltages and warranty are not stated.",
     "specs": [
       "30A, 22,000J",
       "Auto shutoff and reset",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Waterproof cover has no stated IP rating",
-      "Warranty length is not listed in the listing"
+      "Warranty length is not listed"
     ],
     "bestFor": "30A trailers on a tight budget"
   }

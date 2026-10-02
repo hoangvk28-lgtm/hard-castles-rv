@@ -181,7 +181,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Costs $1,799.99 and is the heaviest system",
-      "Battery weight is not stated in the listing"
+      "Battery weight is not stated"
     ],
     "bestFor": "full-time boondocking and heavy AC use"
   }

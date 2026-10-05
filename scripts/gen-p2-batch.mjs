@@ -32,7 +32,7 @@ const err = (slug, msg) => errors.push(`${slug}: ${msg}`);
 const wc = (s) => s.trim().split(/\s+/).length;
 const DASH = /[—–]/;
 // Copy must read as editorial knowledge, never expose the drafting process (source excerpts, fact files, candidate pools).
-const LEAK = /\bwe (saw|reviewed|have|found|could see|were given)\b|\b(text|excerpt|bullets?|features|facts|data|details|listings?) we\b|\bin the (features|facts|data|excerpt|bullets|text)\b|\bfacts (provided|here|given)\b|\bthe (pool|facts)\b|\bthe data\b(?! (sheet|plate|label|tag))|\b(of the|the) candidates\b|\bcandidates we\b|\bnot (listed|stated|given|shown) in the (features|facts|text|bullets|excerpt|data)\b/i;
+const LEAK = /\bwe (saw|reviewed|have|found|could see|were given)\b|\b(text|excerpt|bullets?|features|facts|data|details|listings?) we\b|\bin the (features|facts|data|excerpt|bullets|text)\b|\bfacts (provided|here|given)\b|\bthe (pool|facts)\b|\bthe data\b(?! (sheet|plate|label|tag|plan|plans|cap|allowance))|\b(of the|the) candidates\b|\bcandidates we\b|\bnot (listed|stated|given|shown) in the (features|facts|text|bullets|excerpt|data)\b/i;
 
 function walk(v, fn) {
   if (typeof v === "string") fn(v);

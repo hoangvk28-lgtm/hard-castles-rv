@@ -16,7 +16,6 @@ import { createResolver, guideHref, publicAsset, toPickView } from "@/lib/homepa
 import { homepageEditorial as cfg } from "@/data/homepage-editorial";
 import { buildMetadata } from "@/lib/seo";
 
-export const revalidate = 86400;
 
 const OG_IMAGE = publicAsset("images/brand/og.jpg");
 

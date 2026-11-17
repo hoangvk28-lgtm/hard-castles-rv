@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_OPTIONS=--max-old-space-size=5120 next dev --webpack --disable-source-maps",
-    "build": "NODE_OPTIONS=--max-old-space-size=4096 next build",
-    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "redirects": "node scripts/gen-cloudflare-redirects.mjs",
+    "preview": "npm run build && wrangler dev --env-file .env.cloudflare",
+    "deploy": "npm run build && wrangler deploy --env-file .env.cloudflare",
     "lint": "eslint",
     "seed:products": "npx tsx scripts/seed-products.ts",
     "seed:guides": "npx tsx scripts/seed-guides.ts",
@@ -43,6 +45,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.48.0"
   }
 }

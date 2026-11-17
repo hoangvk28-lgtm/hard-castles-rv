@@ -8,3 +8,7 @@ design/
 # raw article batches
 /HardcastlesRV-*/
 .work/
+
+# Next.js static export output and wrangler local state
+/out/
+.wrangler/

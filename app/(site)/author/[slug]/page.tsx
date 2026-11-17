@@ -10,7 +10,6 @@ import { buildMetadata, SITE_URL } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
 import { canonicalGuideHref } from "@/lib/migrated-silos";
 
-export const revalidate = 604800;
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -35,11 +34,14 @@ export default async function AuthorPage({ params }: Props) {
   if (!author) notFound();
 
   const allGuides = await getPublicGuides();
-  const authorGuides = allGuides.filter(
+  const byThisAuthor = allGuides.filter(
     (g) =>
       g.author?.toLowerCase() === author.name.toLowerCase() ||
       g.author?.toLowerCase().includes("deskfinds")
   );
+  // Rendering the full byline (1,600+ guides) produced a 2.6 MB static page of
+  // links that all now 301 to RV Gear Lab. Show a recent sample instead.
+  const authorGuides = byThisAuthor.slice(0, 24);
 
   const jsonLd = author.isPerson
     ? {
@@ -218,7 +220,7 @@ export default async function AuthorPage({ params }: Props) {
           <section>
             <h2 className="text-xl font-bold text-ink mb-6">
               Published Guides
-              <span className="ml-2 text-sm font-normal text-ink-muted">({authorGuides.length})</span>
+              <span className="ml-2 text-sm font-normal text-ink-muted">({byThisAuthor.length})</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {authorGuides.map((guide) => (

@@ -1,0 +1,18 @@
+# Cloudflare response headers. These replace next.config.ts's headers(), which
+# does nothing in a static export (output: "export") because no Next.js server
+# runs at request time.
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googletagmanager.com *.google-analytics.com *.clarity.ms; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' *.google-analytics.com *.supabase.co *.clarity.ms; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';
+  Cross-Origin-Opener-Policy: same-origin-allow-popups
+
+# Next.js fingerprints every filename under /_next/static, so these can be
+# cached indefinitely. Without this they would inherit Cloudflare's short
+# default TTL and be revalidated on nearly every visit.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable

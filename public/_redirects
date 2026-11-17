@@ -1,0 +1,114 @@
+# Cloudflare redirect map. GENERATED FILE - do not edit by hand.
+# Regenerate with: node scripts/gen-cloudflare-redirects.mjs [path-to-rvgearlab-checkout]
+#
+# Every buying guide and informational article that used to live on this site
+# now lives on rvgearlab.com. Cloudflare applies the FIRST matching rule, so
+# the per-slug rules below must stay ahead of the wildcards.
+
+# Articles whose silo changed on RV Gear Lab (33), plus 8 that
+# RV Gear Lab never published and are sent to their closest equivalent.
+/camping-travel/best-12v-car-coffee-warmers https://www.rvgearlab.com/camp-kitchen/best-12v-car-coffee-warmers 301
+/guide/best-12v-car-coffee-warmers https://www.rvgearlab.com/camp-kitchen/best-12v-car-coffee-warmers 301
+/water-plumbing/best-35-ft-rv-sewer-hose https://www.rvgearlab.com/water-plumbing/best-rv-sewer-hose 301
+/guide/best-35-ft-rv-sewer-hose https://www.rvgearlab.com/water-plumbing/best-rv-sewer-hose 301
+/water-plumbing/best-40-ft-rv-sewer-hose https://www.rvgearlab.com/water-plumbing/best-rv-sewer-hose 301
+/guide/best-40-ft-rv-sewer-hose https://www.rvgearlab.com/water-plumbing/best-rv-sewer-hose 301
+/camping-travel/best-camping-chairs https://www.rvgearlab.com/camp-furniture/best-camping-chairs 301
+/guide/best-camping-chairs https://www.rvgearlab.com/camp-furniture/best-camping-chairs 301
+/camping-travel/best-camping-chairs-400-lb-capacity https://www.rvgearlab.com/camp-furniture/best-camping-chairs-400-lb-capacity 301
+/guide/best-camping-chairs-400-lb-capacity https://www.rvgearlab.com/camp-furniture/best-camping-chairs-400-lb-capacity 301
+/camping-travel/best-camping-chairs-600-lb-capacity https://www.rvgearlab.com/camp-furniture/best-camping-chairs-600-lb-capacity 301
+/guide/best-camping-chairs-600-lb-capacity https://www.rvgearlab.com/camp-furniture/best-camping-chairs-600-lb-capacity 301
+/camping-travel/best-camping-chairs-with-lumbar-support https://www.rvgearlab.com/camp-furniture/best-camping-chairs-with-lumbar-support 301
+/guide/best-camping-chairs-with-lumbar-support https://www.rvgearlab.com/camp-furniture/best-camping-chairs-with-lumbar-support 301
+/rv-care/best-clear-rv-roof-coating https://www.rvgearlab.com/rv-care/best-rv-roof-coating 301
+/guide/best-clear-rv-roof-coating https://www.rvgearlab.com/rv-care/best-rv-roof-coating 301
+/rv-care/best-eternabond-tape-for-fiberglass-rv-roof https://www.rvgearlab.com/rv-care/best-eternabond-tape-for-tpo-rv-roof 301
+/guide/best-eternabond-tape-for-fiberglass-rv-roof https://www.rvgearlab.com/rv-care/best-eternabond-tape-for-tpo-rv-roof 301
+/camping-travel/best-extra-wide-zero-gravity-chair https://www.rvgearlab.com/camp-furniture/best-extra-wide-zero-gravity-chair 301
+/guide/best-extra-wide-zero-gravity-chair https://www.rvgearlab.com/camp-furniture/best-extra-wide-zero-gravity-chair 301
+/camping-travel/best-hammock-camping-chairs https://www.rvgearlab.com/camp-furniture/best-hammock-camping-chairs 301
+/guide/best-hammock-camping-chairs https://www.rvgearlab.com/camp-furniture/best-hammock-camping-chairs 301
+/towing-leveling/best-lightweight-weight-distribution-hitch https://www.rvgearlab.com/towing-leveling/best-weight-distribution-hitch 301
+/guide/best-lightweight-weight-distribution-hitch https://www.rvgearlab.com/towing-leveling/best-weight-distribution-hitch 301
+/camping-travel/best-mesh-camping-chairs https://www.rvgearlab.com/camp-furniture/best-mesh-camping-chairs 301
+/guide/best-mesh-camping-chairs https://www.rvgearlab.com/camp-furniture/best-mesh-camping-chairs 301
+/camping-travel/best-mini-portable-generator-for-camping https://www.rvgearlab.com/camp-power/best-mini-portable-generator-for-camping 301
+/guide/best-mini-portable-generator-for-camping https://www.rvgearlab.com/camp-power/best-mini-portable-generator-for-camping 301
+/camping-travel/best-padded-camping-chairs https://www.rvgearlab.com/camp-furniture/best-padded-camping-chairs 301
+/guide/best-padded-camping-chairs https://www.rvgearlab.com/camp-furniture/best-padded-camping-chairs 301
+/camping-travel/best-portable-generator-for-camping https://www.rvgearlab.com/camp-power/best-portable-generator-for-camping 301
+/guide/best-portable-generator-for-camping https://www.rvgearlab.com/camp-power/best-portable-generator-for-camping 301
+/camping-travel/best-portable-generator-for-camping-picks https://www.rvgearlab.com/camp-power/best-portable-generator-for-camping-picks 301
+/guide/best-portable-generator-for-camping-picks https://www.rvgearlab.com/camp-power/best-portable-generator-for-camping-picks 301
+/camping-travel/best-portable-generator-quiet-box-for-camping https://www.rvgearlab.com/camp-power/best-portable-generator-quiet-box-for-camping 301
+/guide/best-portable-generator-quiet-box-for-camping https://www.rvgearlab.com/camp-power/best-portable-generator-quiet-box-for-camping 301
+/camping-travel/best-portable-power-station-for-camping https://www.rvgearlab.com/camp-power/best-portable-power-station-for-camping 301
+/guide/best-portable-power-station-for-camping https://www.rvgearlab.com/camp-power/best-portable-power-station-for-camping 301
+/camping-travel/best-portable-power-station-for-cpap-camping https://www.rvgearlab.com/camp-power/best-portable-power-station-for-cpap-camping 301
+/guide/best-portable-power-station-for-cpap-camping https://www.rvgearlab.com/camp-power/best-portable-power-station-for-cpap-camping 301
+/camping-travel/best-portable-power-stations-for-camping https://www.rvgearlab.com/camp-power/best-portable-power-stations-for-camping 301
+/guide/best-portable-power-stations-for-camping https://www.rvgearlab.com/camp-power/best-portable-power-stations-for-camping 301
+/camping-travel/best-portable-quiet-generator-for-camping https://www.rvgearlab.com/camp-power/best-portable-quiet-generator-for-camping 301
+/guide/best-portable-quiet-generator-for-camping https://www.rvgearlab.com/camp-power/best-portable-quiet-generator-for-camping 301
+/camping-travel/best-portable-solar-generator-for-camping https://www.rvgearlab.com/camp-power/best-portable-solar-generator-for-camping 301
+/guide/best-portable-solar-generator-for-camping https://www.rvgearlab.com/camp-power/best-portable-solar-generator-for-camping 301
+/camping-travel/best-power-banks-for-camping https://www.rvgearlab.com/camp-power/best-power-banks-for-camping 301
+/guide/best-power-banks-for-camping https://www.rvgearlab.com/camp-power/best-power-banks-for-camping 301
+/camping-travel/best-projectors-for-camping https://www.rvgearlab.com/campsite-gear/best-projectors-for-camping 301
+/guide/best-projectors-for-camping https://www.rvgearlab.com/campsite-gear/best-projectors-for-camping 301
+/camping-travel/best-quiet-generators-for-camping https://www.rvgearlab.com/camp-power/best-quiet-generators-for-camping 301
+/guide/best-quiet-generators-for-camping https://www.rvgearlab.com/camp-power/best-quiet-generators-for-camping 301
+/camping-travel/best-quiet-portable-generator-for-camping https://www.rvgearlab.com/camp-power/best-quiet-portable-generator-for-camping 301
+/guide/best-quiet-portable-generator-for-camping https://www.rvgearlab.com/camp-power/best-quiet-portable-generator-for-camping 301
+/camping-travel/best-quietest-portable-generator-for-camping https://www.rvgearlab.com/camp-power/best-quietest-portable-generator-for-camping 301
+/guide/best-quietest-portable-generator-for-camping https://www.rvgearlab.com/camp-power/best-quietest-portable-generator-for-camping 301
+/towing-leveling/best-rv-leveler-for-triple-axle-trailer https://www.rvgearlab.com/towing-leveling/best-leveling-blocks-for-triple-axle-rv 301
+/guide/best-rv-leveler-for-triple-axle-trailer https://www.rvgearlab.com/towing-leveling/best-leveling-blocks-for-triple-axle-rv 301
+/rv-care/best-rv-wash-and-wax-for-aluminum-siding https://www.rvgearlab.com/rv-care/best-rv-wash-and-wax 301
+/guide/best-rv-wash-and-wax-for-aluminum-siding https://www.rvgearlab.com/rv-care/best-rv-wash-and-wax 301
+/camping-travel/best-small-portable-generator-for-camping https://www.rvgearlab.com/camp-power/best-small-portable-generator-for-camping 301
+/guide/best-small-portable-generator-for-camping https://www.rvgearlab.com/camp-power/best-small-portable-generator-for-camping 301
+/camping-travel/best-solar-generator-for-camping https://www.rvgearlab.com/camp-power/best-solar-generator-for-camping 301
+/guide/best-solar-generator-for-camping https://www.rvgearlab.com/camp-power/best-solar-generator-for-camping 301
+/camping-travel/best-solar-generator-kit-for-camping https://www.rvgearlab.com/camp-power/best-solar-generator-kit-for-camping 301
+/guide/best-solar-generator-kit-for-camping https://www.rvgearlab.com/camp-power/best-solar-generator-kit-for-camping 301
+/camping-travel/best-solar-generators-for-camping https://www.rvgearlab.com/camp-power/best-solar-generators-for-camping 301
+/guide/best-solar-generators-for-camping https://www.rvgearlab.com/camp-power/best-solar-generators-for-camping 301
+/camping-travel/best-solar-quiet-generator-for-camping https://www.rvgearlab.com/camp-power/best-solar-quiet-generator-for-camping 301
+/guide/best-solar-quiet-generator-for-camping https://www.rvgearlab.com/camp-power/best-solar-quiet-generator-for-camping 301
+/water-plumbing/best-stainless-steel-rv-accumulator-tank https://www.rvgearlab.com/water-plumbing/best-rv-water-pump-accumulator-tank 301
+/guide/best-stainless-steel-rv-accumulator-tank https://www.rvgearlab.com/water-plumbing/best-rv-water-pump-accumulator-tank 301
+/camping-travel/best-swivel-camping-chairs https://www.rvgearlab.com/camp-furniture/best-swivel-camping-chairs 301
+/guide/best-swivel-camping-chairs https://www.rvgearlab.com/camp-furniture/best-swivel-camping-chairs 301
+/camping-travel/best-tripod-camping-stools https://www.rvgearlab.com/camp-furniture/best-tripod-camping-stools 301
+/guide/best-tripod-camping-stools https://www.rvgearlab.com/camp-furniture/best-tripod-camping-stools 301
+/camping-travel/best-zero-gravity-chair-for-camping https://www.rvgearlab.com/camp-furniture/best-zero-gravity-chair-for-camping 301
+/guide/best-zero-gravity-chair-for-camping https://www.rvgearlab.com/camp-furniture/best-zero-gravity-chair-for-camping 301
+/camping-travel/best-zero-gravity-chair-with-locking-mechanism https://www.rvgearlab.com/camp-furniture/best-zero-gravity-chair-with-locking-mechanism 301
+/guide/best-zero-gravity-chair-with-locking-mechanism https://www.rvgearlab.com/camp-furniture/best-zero-gravity-chair-with-locking-mechanism 301
+/camping-travel/best-zero-gravity-chair-with-lumbar-support https://www.rvgearlab.com/camp-furniture/best-zero-gravity-chair-with-lumbar-support 301
+/guide/best-zero-gravity-chair-with-lumbar-support https://www.rvgearlab.com/camp-furniture/best-zero-gravity-chair-with-lumbar-support 301
+
+# Keep this site's own silo hub pages reachable at their canonical path.
+/power-electrical/ /power-electrical 301
+/water-plumbing/ /water-plumbing 301
+/towing-leveling/ /towing-leveling 301
+/rv-care/ /rv-care 301
+/interior-comfort/ /interior-comfort 301
+/camping-travel/ /camping-travel 301
+
+# The guide index moved too; there is no per-article index here any more.
+/guide https://www.rvgearlab.com/guide 301
+/guide/all https://www.rvgearlab.com/guide 301
+
+# Everything else in a shared silo kept its slug and its silo (1597 articles).
+/power-electrical/* https://www.rvgearlab.com/power-electrical/:splat 301
+/water-plumbing/* https://www.rvgearlab.com/water-plumbing/:splat 301
+/towing-leveling/* https://www.rvgearlab.com/towing-leveling/:splat 301
+/rv-care/* https://www.rvgearlab.com/rv-care/:splat 301
+/interior-comfort/* https://www.rvgearlab.com/interior-comfort/:splat 301
+/camping-travel/* https://www.rvgearlab.com/camping-travel/:splat 301
+
+# Legacy /guide/<slug> form. RV Gear Lab redirects it to the article's silo.
+/guide/* https://www.rvgearlab.com/guide/:splat 301

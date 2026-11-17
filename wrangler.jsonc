@@ -1,0 +1,21 @@
+{
+  // Cloudflare Workers deployment for hardcastlesrv.com.
+  //
+  // The site is a Next.js static export (next.config.ts sets output: "export"),
+  // so there is no Worker code at all: Cloudflare serves the prerendered HTML in
+  // ./out directly from its static asset hosting, and applies public/_redirects
+  // and public/_headers, which Next copies into ./out at build time.
+  //
+  // Deploy:  npm run build && npx wrangler deploy
+  // Preview: npm run build && npx wrangler dev
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hardcastlesrv",
+  "compatibility_date": "2026-05-01",
+  "assets": {
+    "directory": "./out",
+    // Serve /about from about.html, matching next.config's trailingSlash: false,
+    // and fall back to the exported 404 page for anything unmatched.
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
